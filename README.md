@@ -1,3 +1,5 @@
+fill this in later, normal pret readme continues
+
 # Pokémon FireRed and LeafGreen
 
 [![Build Status][travis-badge]][travis]
