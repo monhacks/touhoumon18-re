@@ -419,6 +419,8 @@ static const u32 sBattleTerrainAnimTilemap_Cave[] = INCBIN_U32("graphics/battle_
 static const u32 sBattleTerrainPalette_Building[] = INCBIN_U32("graphics/battle_terrain/building/terrain.gbapal.lz");
 static const u32 sBattleTerrainTiles_Building[] = INCBIN_U32("graphics/battle_terrain/building/terrain.4bpp.lz");
 static const u32 sBattleTerrainTilemap_Building[] = INCBIN_U32("graphics/battle_terrain/building/terrain.bin.lz");
+static const u32 sBattleTerrainTiles_Building2[] = INCBIN_U32("graphics/battle_terrain/building/terrain2.4bpp.lz");
+static const u32 sBattleTerrainTilemap_Building2[] = INCBIN_U32("graphics/battle_terrain/building/terrain2.bin.lz");
 static const u32 sBattleTerrainAnimTiles_Building[] = INCBIN_U32("graphics/battle_terrain/building/anim.4bpp.lz");
 static const u32 sBattleTerrainAnimTilemap_Building[] = INCBIN_U32("graphics/battle_terrain/building/anim.bin.lz");
 
@@ -511,32 +513,32 @@ static const struct BattleBackground sBattleTerrainTable[] = {
     },
     [BATTLE_TERRAIN_PLAIN] =
     {
-        .tileset = sBattleTerrainTiles_Building,
-        .tilemap = sBattleTerrainTilemap_Building,
+        .tileset = sBattleTerrainTiles_Building2,
+        .tilemap = sBattleTerrainTilemap_Building2,
         .entryTileset = sBattleTerrainAnimTiles_Building,
         .entryTilemap = sBattleTerrainAnimTilemap_Building,
         .palette = sBattleTerrainPalette_Plain
     },
     [BATTLE_TERRAIN_LINK] =
     {
-        .tileset = sBattleTerrainTiles_Building,
-        .tilemap = sBattleTerrainTilemap_Building,
+        .tileset = sBattleTerrainTiles_Building2,
+        .tilemap = sBattleTerrainTilemap_Building2,
         .entryTileset = sBattleTerrainAnimTiles_Building,
         .entryTilemap = sBattleTerrainAnimTilemap_Building,
         .palette = sBattleTerrainPalette_Link
     },
     [BATTLE_TERRAIN_GYM] =
     {
-        .tileset = sBattleTerrainTiles_Building,
-        .tilemap = sBattleTerrainTilemap_Building,
+        .tileset = sBattleTerrainTiles_Building2,
+        .tilemap = sBattleTerrainTilemap_Building2,
         .entryTileset = sBattleTerrainAnimTiles_Building,
         .entryTilemap = sBattleTerrainAnimTilemap_Building,
         .palette = sBattleTerrainPalette_Gym
     },
     [BATTLE_TERRAIN_LEADER] =
     {
-        .tileset = sBattleTerrainTiles_Building,
-        .tilemap = sBattleTerrainTilemap_Building,
+        .tileset = sBattleTerrainTiles_Building2,
+        .tilemap = sBattleTerrainTilemap_Building2,
         .entryTileset = sBattleTerrainAnimTiles_Building,
         .entryTilemap = sBattleTerrainAnimTilemap_Building,
         .palette = sBattleTerrainPalette_Leader

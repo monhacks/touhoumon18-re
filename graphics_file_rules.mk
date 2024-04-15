@@ -524,6 +524,9 @@ $(INTROGFXDIR)/scene_3/gengar_anim.4bpp: %.4bpp: %.png
 $(BATTLETERRAINGFXDIR)/building/terrain.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 77 -Wnum_tiles
 
+$(BATTLETERRAINGFXDIR)/building/terrain2.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 77 -Wnum_tiles
+
 $(BATTLETERRAINGFXDIR)/cave/anim.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 106 -Wnum_tiles
 
