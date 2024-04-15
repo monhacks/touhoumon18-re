@@ -10,8 +10,10 @@
 #include "new_game.h"
 #include "random.h"
 #include "save.h"
+#include "event_data.h"
 #include "main_menu.h"
 #include "clear_save_data_screen.h"
+#include "reset_rtc_screen.h"
 #include "berry_fix_program.h"
 #include "decompress.h"
 #include "constants/songs.h"
@@ -63,6 +65,8 @@ static void Task_FlameSpawner(u8 taskId);
 static void SpriteCallback_TitleScreenLeaf(struct Sprite *sprite);
 static void Task_LeafSpawner(u8 taskId);
 #endif
+static void CB2_GoToResetRtcScreen(void);
+static void CB2_FadeOutTransitionToResetRtcScreen(void);
 static void TitleScreen_srand(u8 taskId, u8 field, u16 seed);
 static u16 TitleScreen_rand(u8 taskId, u8 field);
 static u32 CreateBlankSprite(void);
@@ -607,6 +611,7 @@ static void SetTitleScreenScene_FadeIn(s16 *data)
 }
 
 #define KEYSTROKE_DELSAVE (B_BUTTON | SELECT_BUTTON | DPAD_UP)
+#define KEYSTROKE_RESET_RTC (B_BUTTON | SELECT_BUTTON | DPAD_LEFT)
 #define KEYSTROKE_BERRY_FIX (B_BUTTON | SELECT_BUTTON)
 
 static void SetTitleScreenScene_Run(s16 *data)
@@ -631,6 +636,12 @@ static void SetTitleScreenScene_Run(s16 *data)
             DestroyTask(FindTaskIdByFunc(Task_TitleScreenMain));
             SetMainCallback2(CB2_FadeOutTransitionToSaveClearScreen);
         }
+        else if (JOY_HELD(KEYSTROKE_RESET_RTC) == KEYSTROKE_RESET_RTC && CanResetRTC() == TRUE)
+        {
+            DeactivateSlashSprite(tSlashSpriteId);
+            DestroyTask(FindTaskIdByFunc(Task_TitleScreenMain));
+            SetMainCallback2(CB2_FadeOutTransitionToResetRtcScreen);
+        }
         else if (JOY_HELD(KEYSTROKE_BERRY_FIX) == KEYSTROKE_BERRY_FIX)
         {
             DeactivateSlashSprite(tSlashSpriteId);
@@ -646,6 +657,15 @@ static void SetTitleScreenScene_Run(s16 *data)
             SetTitleScreenScene(data, TITLESCREENSCENE_RESTART);
         }
         break;
+    }
+}
+
+static void CB2_FadeOutTransitionToResetRtcScreen(void)
+{
+    if (!UpdatePaletteFade())
+    {
+        m4aMPlayAllStop();
+        SetMainCallback2(CB2_InitResetRtcScreen);
     }
 }
 
@@ -724,7 +744,8 @@ static void SetTitleScreenScene_Cry(s16 *data)
     case 2:
         if (!gPaletteFade.active)
         {
-            SeedRngAndSetTrainerId();
+            //this is done in the intro now
+            /*SeedRngAndSetTrainerId();
             SetSaveBlocksPointers();
             ResetMenuAndMonGlobals();
             Save_ResetSaveCounters();
@@ -732,7 +753,7 @@ static void SetTitleScreenScene_Cry(s16 *data)
             if (gSaveFileStatus == SAVE_STATUS_EMPTY || gSaveFileStatus == SAVE_STATUS_INVALID)
                 Sav2_ClearSetDefault();
             SetPokemonCryStereo(gSaveBlock2Ptr->optionsSound);
-            InitHeap(gHeap, HEAP_SIZE);
+            InitHeap(gHeap, HEAP_SIZE);*/
             SetMainCallback2(CB2_InitMainMenu);
             DestroyTask(FindTaskIdByFunc(Task_TitleScreenMain));
         }

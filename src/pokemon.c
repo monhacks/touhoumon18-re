@@ -3,6 +3,7 @@
 #include "global.h"
 #include "gflib.h"
 #include "random.h"
+#include "rtc.h"
 #include "text.h"
 #include "data.h"
 #include "battle.h"
@@ -78,6 +79,7 @@ static void GiveBoxMonInitialMoveset(struct BoxPokemon *boxMon);
 static u16 GiveMoveToBoxMon(struct BoxPokemon *boxMon, u16 move);
 static u8 GetLevelFromMonExp(struct Pokemon *mon);
 static u16 CalculateBoxMonChecksum(struct BoxPokemon *boxMon);
+static u32 GetValidPokerusMonIndex(struct Pokemon *party);
 
 #include "data/battle_moves.h"
 
@@ -5046,20 +5048,15 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem)
                 if (friendship >= 220)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
                 break;
-            // FR/LG removed the time of day evolutions due to having no RTC.
             case EVO_FRIENDSHIP_DAY:
-                /*
                 RtcCalcLocalTime();
                 if (gLocalTime.hours >= 12 && gLocalTime.hours < 24 && friendship >= 220)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
-                */
                 break;
             case EVO_FRIENDSHIP_NIGHT:
-                /*
                 RtcCalcLocalTime();
                 if (gLocalTime.hours >= 0 && gLocalTime.hours < 12 && friendship >= 220)
                     targetSpecies = gEvolutionTable[species][i].targetSpecies;
-                */
                 break;
             case EVO_LEVEL:
                 if (gEvolutionTable[species][i].param <= level)
@@ -5593,14 +5590,58 @@ u16 GetMonEVCount(struct Pokemon *mon)
     return count;
 }
 
-// This function was stubbed from RS, but it is stubbed badly.
-// This variable is likely the u8 passed to SetMonData in RSE.
-// The pointer reference causes agbcc to reserve it on the stack before even checking
-// whether it's used.
+//credit to ax6 for the below
+static u32 GetValidPokerusMonIndex(struct Pokemon *party)
+{
+    // 8 is the lowest power of 2 that fits the entire party; using 7 as a placeholder index for "not valid"
+    u8 indexes[8] = {7, 7, 7, 7, 7, 7, 7, 7};
+    u32 p;
+    u8 *next = indexes;
+    for (p = 0; p < PARTY_SIZE; p++)
+    {
+        if (GetMonData(party + p, MON_DATA_SPECIES, NULL) && !GetMonData(party + p, MON_DATA_IS_EGG, NULL))
+        {
+            *(next ++) = p;
+        }
+    }
+    do
+    {
+        p = indexes[Random() >> 13]; // shift down a 16-bit value by 13 to get a 3-bit value
+    }
+    while (p == 7);
+
+    return p;
+}
+
 void RandomlyGivePartyPokerus(struct Pokemon *party)
 {
-    u8 foo;
-    &foo;
+    u16 rnd = Random();
+    if (rnd == 0x4000 || rnd == 0x8000 || rnd == 0xC000)
+    {
+        u32 monIndex = GetValidPokerusMonIndex(party);
+
+        if (!(CheckPartyHasHadPokerus(party, gBitTable[monIndex])))
+        {
+            u8 rnd2;
+
+            do
+            {
+                rnd2 = Random();
+            }
+            while ((rnd2 & 0x7) == 0); //TODO: this is bad, optimise
+
+            if (rnd2 & 0xF0)
+            {
+                rnd2 &= 0x7;
+            }
+
+            rnd2 |= (rnd2 << 4);
+            rnd2 &= 0xF3;
+            rnd2++;
+
+            SetMonData(&party[monIndex], MON_DATA_POKERUS, &rnd2);
+        }
+    }
 }
 
 u8 CheckPartyPokerus(struct Pokemon *party, u8 selection)
@@ -5659,18 +5700,65 @@ u8 CheckPartyHasHadPokerus(struct Pokemon *party, u8 selection)
     return retVal;
 }
 
-// These two functions are stubbed from RS, but they're stubbed badly.
-// See note on RandomlyGivePartyPokerus above.
-static void UpdatePartyPokerusTime(void)
+void UpdatePartyPokerusTime(u16 days)
 {
-    u8 foo;
-    &foo;
+    u32 i;
+    for (i = 0; i < PARTY_SIZE; i++)
+    {
+        if (GetMonData(&gPlayerParty[i], MON_DATA_SPECIES, NULL) != 0)
+        {
+            u8 pokerus = GetMonData(&gPlayerParty[i], MON_DATA_POKERUS, NULL);
+            if (pokerus & 0xF)
+            {
+                if ((pokerus & 0xF) < days || days > 4)
+                {
+                    pokerus &= 0xF0;
+                }
+                else
+                {
+                    pokerus -= days;
+                }
+
+                if (pokerus == 0)
+                {
+                    pokerus = 0x10;
+                }
+
+                SetMonData(&gPlayerParty[i], MON_DATA_POKERUS, &pokerus);
+            }
+        }
+    }
 }
 
 void PartySpreadPokerus(struct Pokemon *party)
 {
-    u8 foo;
-    &foo;
+    if ((Random() % 3) == 0)
+    {
+        u32 i;
+        for (i = 0; i < PARTY_SIZE; i++)
+        {
+            if (GetMonData(&party[i], MON_DATA_SPECIES, 0))
+            {
+                u8 pokerus = GetMonData(&party[i], MON_DATA_POKERUS, 0);
+                u8 curPokerus = pokerus;
+                if (pokerus != 0)
+                {
+                    if (pokerus & 0xF)
+                    {
+                        if (i != 0 && !(GetMonData(&party[i - 1], MON_DATA_POKERUS, 0) & 0xF0))
+                        {
+                            SetMonData(&party[i - 1], MON_DATA_POKERUS, &curPokerus);
+                        }
+                        if (i != (PARTY_SIZE - 1) && !(GetMonData(&party[i + 1], MON_DATA_POKERUS, 0) & 0xF0))
+                        {
+                            SetMonData(&party[i + 1], MON_DATA_POKERUS, &curPokerus);
+                            i++;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 static void SetMonExpWithMaxLevelCheck(struct Pokemon *mon, int species, u8 unused, u32 data)
