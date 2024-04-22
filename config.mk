@@ -3,7 +3,7 @@
 GAME_VERSION  ?= FIRERED
 GAME_REVISION ?= 0
 GAME_LANGUAGE ?= ENGLISH
-MODERN        ?= 0
+MODERN        ?= 0 # for the love of (insert touhou deity name) do not set this to 1 please i beg you
 COMPARE       ?= 0
 
 # For gbafix

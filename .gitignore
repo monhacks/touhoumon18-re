@@ -52,6 +52,7 @@ src/data/region_map/porymap_config.json
 tags
 tools/agbcc
 tools/binutils
+tools/*.exe
 types_*.taghl
 !.github/calcrom/calcrom.pl
 !sound/programmable_wave_samples/*.pcm
@@ -61,3 +62,4 @@ prefabs.json
 .vscode/*.*
 *.js
 *.sym
+libpng-1.6.37/

@@ -68,8 +68,8 @@ endif
 
 SHELL := /bin/bash -o pipefail
 
-ROM := poke$(BUILD_NAME).gba
-OBJ_DIR := build/$(BUILD_NAME)
+ROM := touhoumonRE.gba
+OBJ_DIR := build/touhoumonRE
 
 ELF = $(ROM:.gba=.elf)
 MAP = $(ROM:.gba=.map)
