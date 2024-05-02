@@ -61,7 +61,7 @@ FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene::
 	message FourIsland_IcefallCave_Back_Text_LoreleiWellDeepFreezeYou
 	waitmessage
 	waitse
-	playmoncry SPECIES_LAPRAS, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_TEWI, CRY_MODE_ENCOUNTER
 	waitbuttonpress
 	waitmoncry
 	applymovement LOCALID_ROCKET1, FourIsland_IcefallCave_Back_Movement_Rocket1ReactToThreat

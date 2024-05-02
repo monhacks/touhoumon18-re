@@ -29,9 +29,9 @@ enum TitleScreenScene
 };
 
 #if   defined(FIRERED)
-#define TITLE_SPECIES SPECIES_CHARIZARD
+#define TITLE_SPECIES SPECIES_REISEN
 #elif defined(LEAFGREEN)
-#define TITLE_SPECIES SPECIES_VENUSAUR
+#define TITLE_SPECIES SPECIES_CHIBI_ALICE
 #endif
 
 static EWRAM_DATA u8 sTitleScreenTimerTaskId = 0;

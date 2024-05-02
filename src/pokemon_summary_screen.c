@@ -2113,7 +2113,7 @@ static void BufferMonInfo(void)
     else
         StringCopy(sMonSummaryScreen->summary.genderSymbolStrBuf, gString_Dummy);
 
-    if (dexNum == SPECIES_NIDORAN_M || dexNum == SPECIES_NIDORAN_F)
+    if (dexNum == SPECIES_HOURAI || dexNum == SPECIES_SHANGHAI)
         if (StringCompare(sMonSummaryScreen->summary.nicknameStrBuf, gSpeciesNames[dexNum]) == 0)
             StringCopy(sMonSummaryScreen->summary.genderSymbolStrBuf, gString_Dummy);
 

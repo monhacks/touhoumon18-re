@@ -2328,7 +2328,7 @@ static const struct PokedudeBattlePartyInfo sParties_Battle[] =
     {
         .side = B_SIDE_PLAYER,
         .level = 15,
-        .species = SPECIES_RATTATA,
+        .species = SPECIES_CHIBI_NAZRIN,
         .moves = { MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_HYPER_FANG, MOVE_QUICK_ATTACK },
         .nature = NATURE_LONELY,
         .gender = MALE,
@@ -2336,7 +2336,7 @@ static const struct PokedudeBattlePartyInfo sParties_Battle[] =
     {
         .side = B_SIDE_OPPONENT,
         .level = 18,
-        .species = SPECIES_PIDGEY,
+        .species = SPECIES_MEDICINE,
         .moves = { MOVE_TACKLE, MOVE_SAND_ATTACK, MOVE_GUST, MOVE_QUICK_ATTACK },
         .nature = NATURE_NAUGHTY,
         .gender = MALE,
@@ -2349,7 +2349,7 @@ static const struct PokedudeBattlePartyInfo sParties_Status[] =
     {
         .side = B_SIDE_PLAYER,
         .level = 15,
-        .species = SPECIES_RATTATA,
+        .species = SPECIES_CHIBI_NAZRIN,
         .moves = { MOVE_TACKLE, MOVE_TAIL_WHIP, MOVE_HYPER_FANG, MOVE_QUICK_ATTACK },
         .nature = NATURE_LONELY,
         .gender = MALE,
@@ -2357,7 +2357,7 @@ static const struct PokedudeBattlePartyInfo sParties_Status[] =
     {
         .side = B_SIDE_OPPONENT,
         .level = 14,
-        .species = SPECIES_ODDISH,
+        .species = SPECIES_CHIBI_KEINE,
         .moves = { MOVE_ABSORB, MOVE_SWEET_SCENT, MOVE_POISON_POWDER },
         .nature = NATURE_RASH,
         .gender = MALE,
@@ -2370,7 +2370,7 @@ static const struct PokedudeBattlePartyInfo sParties_Matchups[] =
     {
         .side = B_SIDE_PLAYER,
         .level = 15,
-        .species = SPECIES_POLIWAG,
+        .species = SPECIES_CHIBI_HATATE,
         .moves = { MOVE_WATER_GUN, MOVE_HYPNOSIS, MOVE_BUBBLE },
         .nature = NATURE_RASH,
         .gender = MALE,
@@ -2378,7 +2378,7 @@ static const struct PokedudeBattlePartyInfo sParties_Matchups[] =
     {
         .side = B_SIDE_PLAYER,
         .level = 15,
-        .species = SPECIES_BUTTERFREE,
+        .species = SPECIES_MOMIJI,
         .moves = { MOVE_CONFUSION, MOVE_POISON_POWDER, MOVE_STUN_SPORE, MOVE_SLEEP_POWDER },
         .nature = NATURE_RASH,
         .gender = MALE,
@@ -2386,7 +2386,7 @@ static const struct PokedudeBattlePartyInfo sParties_Matchups[] =
     {
         .side = B_SIDE_OPPONENT,
         .level = 14,
-        .species = SPECIES_ODDISH,
+        .species = SPECIES_CHIBI_KEINE,
         .moves = { MOVE_ABSORB, MOVE_SWEET_SCENT, MOVE_POISON_POWDER },
         .nature = NATURE_RASH,
         .gender = MALE,
@@ -2399,7 +2399,7 @@ static const struct PokedudeBattlePartyInfo sParties_Catching[] =
     {
         .side = B_SIDE_PLAYER,
         .level = 15,
-        .species = SPECIES_BUTTERFREE,
+        .species = SPECIES_MOMIJI,
         .moves = { MOVE_CONFUSION, MOVE_POISON_POWDER, MOVE_SLEEP_POWDER, MOVE_STUN_SPORE },
         .nature = NATURE_RASH,
         .gender = MALE,
@@ -2407,7 +2407,7 @@ static const struct PokedudeBattlePartyInfo sParties_Catching[] =
     {
         .side = B_SIDE_OPPONENT,
         .level = 11,
-        .species = SPECIES_JIGGLYPUFF,
+        .species = SPECIES_CHIBI_MYSTIA,
         .moves = { MOVE_SING, MOVE_DEFENSE_CURL, MOVE_POUND },
         .nature = NATURE_CAREFUL,
         .gender = MALE,

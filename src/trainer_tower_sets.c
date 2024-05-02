@@ -28,7 +28,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 			.speechAfter = {EC_WORD_TCH, EC_WORD_TCH, EC_WORD_YOU_RE, EC_WORD_TOO_STRONG, 0xFFFF, 0xFFFF},
 			.mons = {
 				{
-					.species = SPECIES_RATICATE,
+					.species = SPECIES_NAZRIN,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_SHOCK_WAVE, MOVE_HYPER_FANG, MOVE_SCARY_FACE, MOVE_ENDEAVOR},
 					.hpEV = 110,
@@ -50,7 +50,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAGMAR,
+					.species = SPECIES_CHIBI_SHOU,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_FIRE_PUNCH, MOVE_SUNNY_DAY, MOVE_SMOG, MOVE_STRENGTH},
 					.hpEV = 100,
@@ -72,7 +72,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAGCARGO,
+					.species = SPECIES_SUPPORT_MYSTIA,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_FLAMETHROWER, MOVE_AMNESIA, MOVE_BODY_SLAM, MOVE_HARDEN},
 					.hpEV = 110,
@@ -94,7 +94,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PRIMEAPE,
+					.species = SPECIES_KAGUYA,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_OVERHEAT, MOVE_SEISMIC_TOSS, MOVE_SWAGGER, MOVE_KARATE_CHOP},
 					.hpEV = 100,
@@ -116,7 +116,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GOLBAT,
+					.species = SPECIES_MINORIKO,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_GIGA_DRAIN, MOVE_CONFUSE_RAY, MOVE_SLUDGE_BOMB, MOVE_MEAN_LOOK},
 					.hpEV = 0,
@@ -138,7 +138,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SLOWBRO,
+					.species = SPECIES_CHIBI_EIRIN,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_SUNNY_DAY, MOVE_YAWN, MOVE_FLAMETHROWER, MOVE_CONFUSION},
 					.hpEV = 100,
@@ -183,7 +183,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 			.speechAfter = {EC_WORD_I, EC_WORD_WILL, EC_WORD_STOP, EC_WORD_BEING, EC_WORD_A, EC_MOVE2(THIEF)},
 			.mons = {
 				{
-					.species = SPECIES_MEOWTH,
+					.species = SPECIES_CHIBI_CHEN,
 					.heldItem = ITEM_LIECHI_BERRY,
 					.moves = {MOVE_SWAGGER, MOVE_SUBSTITUTE, MOVE_FAKE_OUT, MOVE_SLASH},
 					.hpEV = 200,
@@ -205,7 +205,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_FLAREON,
+					.species = SPECIES_SUWAKO,
 					.heldItem = ITEM_PETAYA_BERRY,
 					.moves = {MOVE_FLAMETHROWER, MOVE_BITE, MOVE_SAND_ATTACK, MOVE_FIRE_SPIN},
 					.hpEV = 110,
@@ -227,7 +227,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PORYGON,
+					.species = SPECIES_GYOKUTO,
 					.heldItem = ITEM_PETAYA_BERRY,
 					.moves = {MOVE_TRI_ATTACK, MOVE_RECYCLE, MOVE_PSYBEAM, MOVE_CONVERSION_2},
 					.hpEV = 100,
@@ -249,7 +249,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CHANSEY,
+					.species = SPECIES_ICHIRIN,
 					.heldItem = ITEM_LUCKY_PUNCH,
 					.moves = {MOVE_FLAMETHROWER, MOVE_LIGHT_SCREEN, MOVE_BODY_SLAM, MOVE_MINIMIZE},
 					.hpEV = 255,
@@ -271,7 +271,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_FARFETCHD,
+					.species = SPECIES_RAN,
 					.heldItem = ITEM_STICK,
 					.moves = {MOVE_KNOCK_OFF, MOVE_SWORDS_DANCE, MOVE_FLY, MOVE_SAND_ATTACK},
 					.hpEV = 100,
@@ -293,7 +293,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MR_MIME,
+					.species = SPECIES_CHIBI_AYA,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_SUBSTITUTE, MOVE_SHOCK_WAVE, MOVE_LIGHT_SCREEN, MOVE_BRICK_BREAK},
 					.hpEV = 255,
@@ -338,7 +338,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 			.speechAfter = {EC_WORD_THIS, EC_WORD_IS, EC_WORD_A, EC_WORD_DREAM, EC_WORD_NOTHING, EC_WORD_MORE},
 			.mons = {
 				{
-					.species = SPECIES_CHANSEY,
+					.species = SPECIES_ICHIRIN,
 					.heldItem = ITEM_ORAN_BERRY,
 					.moves = {MOVE_LIGHT_SCREEN, MOVE_EGG_BOMB, MOVE_MINIMIZE, MOVE_SECRET_POWER},
 					.hpEV = 255,
@@ -360,7 +360,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CLEFABLE,
+					.species = SPECIES_YUKARI,
 					.heldItem = ITEM_ORAN_BERRY,
 					.moves = {MOVE_METRONOME, MOVE_REFLECT, MOVE_SING, MOVE_POUND},
 					.hpEV = 110,
@@ -382,7 +382,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TOGETIC,
+					.species = SPECIES_ALICE_98,
 					.heldItem = ITEM_ORAN_BERRY,
 					.moves = {MOVE_METRONOME, MOVE_REFLECT, MOVE_SWEET_KISS, MOVE_PECK},
 					.hpEV = 255,
@@ -404,7 +404,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TOGETIC,
+					.species = SPECIES_ALICE_98,
 					.heldItem = ITEM_ORAN_BERRY,
 					.moves = {MOVE_METRONOME, MOVE_HIDDEN_POWER, MOVE_ATTRACT, MOVE_LIGHT_SCREEN},
 					.hpEV = 255,
@@ -426,7 +426,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CHANSEY,
+					.species = SPECIES_ICHIRIN,
 					.heldItem = ITEM_ORAN_BERRY,
 					.moves = {MOVE_FLAMETHROWER, MOVE_SOFT_BOILED, MOVE_LIGHT_SCREEN, MOVE_SECRET_POWER},
 					.hpEV = 255,
@@ -448,7 +448,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_Unused = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CLEFABLE,
+					.species = SPECIES_YUKARI,
 					.heldItem = ITEM_ORAN_BERRY,
 					.moves = {MOVE_REFLECT, MOVE_FLAMETHROWER, MOVE_SING, MOVE_BODY_SLAM},
 					.hpEV = 110,
@@ -493,7 +493,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 			.speechAfter = {EC_WORD_I_AM, EC_WORD_DISAPPOINTED, EC_WORD_BUT, EC_WORD_YOU, EC_WORD_WIN, EC_WORD_ELLIPSIS},
 			.mons = {
 				{
-					.species = SPECIES_RAPIDASH,
+					.species = SPECIES_CHIBI_SATORI,
 					.heldItem = ITEM_WHITE_HERB,
 					.moves = {MOVE_BOUNCE, MOVE_OVERHEAT, MOVE_HYPNOSIS, MOVE_RETURN},
 					.hpEV = 100,
@@ -515,7 +515,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NINETALES,
+					.species = SPECIES_SUIKA,
 					.heldItem = ITEM_CHARCOAL,
 					.moves = {MOVE_CONFUSE_RAY, MOVE_WILL_O_WISP, MOVE_HEAT_WAVE, MOVE_DIG},
 					.hpEV = 110,
@@ -537,7 +537,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MISDREAVUS,
+					.species = SPECIES_RIKAKO,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_GRUDGE, MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_THUNDERBOLT},
 					.hpEV = 200,
@@ -559,7 +559,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ALAKAZAM,
+					.species = SPECIES_PATCHOULI,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_LIGHT_SCREEN, MOVE_RECOVER, MOVE_PSYCHIC, MOVE_THUNDER_PUNCH},
 					.hpEV = 0,
@@ -581,7 +581,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_BLISSEY,
+					.species = SPECIES_DEFENSE_KAGUYA,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_LIGHT_SCREEN, MOVE_ATTRACT, MOVE_RETURN, MOVE_PSYCHIC},
 					.hpEV = 255,
@@ -603,7 +603,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CROBAT,
+					.species = SPECIES_CHIBI_MEIRA,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_TOXIC, MOVE_FLY, MOVE_CONFUSE_RAY, MOVE_SHADOW_BALL},
 					.hpEV = 100,
@@ -636,7 +636,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 			.speechAfter = {EC_WORD_HOW, EC_WORD_COULD, EC_WORD_I, EC_WORD_LOSE, EC_WORD_THIS, EC_WORD_QUES},
 			.mons = {
 				{
-					.species = SPECIES_HOUNDOOM,
+					.species = SPECIES_ATTACK_TENSHI,
 					.heldItem = ITEM_CHARCOAL,
 					.moves = {MOVE_TAUNT, MOVE_FLAMETHROWER, MOVE_WILL_O_WISP, MOVE_CRUNCH},
 					.hpEV = 255,
@@ -658,7 +658,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_AERODACTYL,
+					.species = SPECIES_CHIBI_BYAKUREN,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_ROAR, MOVE_FIRE_BLAST, MOVE_HYPER_BEAM, MOVE_AERIAL_ACE},
 					.hpEV = 255,
@@ -680,7 +680,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ARCANINE,
+					.species = SPECIES_MOKOU,
 					.heldItem = ITEM_CHARCOAL,
 					.moves = {MOVE_HEAT_WAVE, MOVE_EXTREME_SPEED, MOVE_ROAR, MOVE_DIG},
 					.hpEV = 210,
@@ -702,7 +702,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_WEEZING,
+					.species = SPECIES_CHIBI_UTSUHO,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_EXPLOSION, MOVE_SMOKESCREEN, MOVE_SLUDGE_BOMB, MOVE_THUNDERBOLT},
 					.hpEV = 100,
@@ -724,7 +724,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CHARIZARD,
+					.species = SPECIES_REISEN,
 					.heldItem = ITEM_WHITE_HERB,
 					.moves = {MOVE_OVERHEAT, MOVE_OUTRAGE, MOVE_DRAGON_RAGE, MOVE_SMOKESCREEN},
 					.hpEV = 100,
@@ -746,7 +746,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GENGAR,
+					.species = SPECIES_CHIBI_MEILING,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_HYPNOSIS, MOVE_DREAM_EATER, MOVE_SHADOW_BALL, MOVE_THUNDERBOLT},
 					.hpEV = 55,
@@ -790,7 +790,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 			.speechAfter = {EC_WORD_WHO, EC_WORD_ARE, EC_WORD_YOU, EC_WORD_QUES, 0xFFFF, 0xFFFF},
 			.mons = {
 				{
-					.species = SPECIES_TAUROS,
+					.species = SPECIES_CHIBI_WRIGGLE,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_FLAMETHROWER, MOVE_REST, MOVE_SHOCK_WAVE, MOVE_DOUBLE_TEAM},
 					.hpEV = 255,
@@ -812,7 +812,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_KANGASKHAN,
+					.species = SPECIES_SUNNY_MILK,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_FLAMETHROWER, MOVE_DIZZY_PUNCH, MOVE_REST, MOVE_FAKE_OUT},
 					.hpEV = 0,
@@ -834,7 +834,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_FEAROW,
+					.species = SPECIES_TOKIKO,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_DRILL_PECK, MOVE_TRI_ATTACK, MOVE_DOUBLE_EDGE, MOVE_REST},
 					.hpEV = 100,
@@ -856,7 +856,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TOGETIC,
+					.species = SPECIES_ALICE_98,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_FLAMETHROWER, MOVE_LIGHT_SCREEN, MOVE_REST, MOVE_ANCIENT_POWER},
 					.hpEV = 0,
@@ -878,7 +878,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PIDGEOT,
+					.species = SPECIES_KOAKUMA,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_STEEL_WING, MOVE_FLY, MOVE_MIRROR_MOVE, MOVE_REST},
 					.hpEV = 100,
@@ -900,7 +900,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_URSARING,
+					.species = SPECIES_ATTACK_RUMIA,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_REST, MOVE_SNORE, MOVE_DIG, MOVE_SLASH},
 					.hpEV = 255,
@@ -933,7 +933,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 			.speechAfter = {EC_WORD_WAIT, EC_WORD_ELLIPSIS, EC_WORD_WHO, EC_WORD_ARE, EC_WORD_YOU, EC_WORD_QUES},
 			.mons = {
 				{
-					.species = SPECIES_LICKITUNG,
+					.species = SPECIES_CHIBI_RIN,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_FLAMETHROWER, MOVE_EARTHQUAKE, MOVE_REST, MOVE_SLEEP_TALK},
 					.hpEV = 0,
@@ -955,7 +955,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NOCTOWL,
+					.species = SPECIES_YUMEMI,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_HYPNOSIS, MOVE_DREAM_EATER, MOVE_REFLECT, MOVE_AERIAL_ACE},
 					.hpEV = 255,
@@ -977,7 +977,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_FURRET,
+					.species = SPECIES_CHIYURI,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_FLAMETHROWER, MOVE_AMNESIA, MOVE_SHOCK_WAVE, MOVE_SLASH},
 					.hpEV = 255,
@@ -999,7 +999,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RATICATE,
+					.species = SPECIES_NAZRIN,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_SUPER_FANG, MOVE_QUICK_ATTACK, MOVE_SWAGGER, MOVE_ENDEAVOR},
 					.hpEV = 255,
@@ -1021,7 +1021,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_WIGGLYTUFF,
+					.species = SPECIES_MYSTIA,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_SUNNY_DAY, MOVE_FLAMETHROWER, MOVE_ATTRACT, MOVE_BODY_SLAM},
 					.hpEV = 255,
@@ -1043,7 +1043,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PORYGON2,
+					.species = SPECIES_ATTACK_KOISHI,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_THUNDERBOLT, MOVE_CONVERSION_2, MOVE_TRI_ATTACK, MOVE_RECOVER},
 					.hpEV = 255,
@@ -1087,7 +1087,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 			.speechAfter = {EC_WORD_ALL, EC_WORD_I, EC_WORD_DO, EC_WORD_IS, EC_WORD_LOSE, EC_WORD_ELLIPSIS},
 			.mons = {
 				{
-					.species = SPECIES_SNEASEL,
+					.species = SPECIES_TECHNICAL_SAKUYA,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_SHADOW_BALL, MOVE_SUNNY_DAY, MOVE_TAUNT, MOVE_AERIAL_ACE},
 					.hpEV = 200,
@@ -1109,7 +1109,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ALAKAZAM,
+					.species = SPECIES_PATCHOULI,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_FIRE_PUNCH, MOVE_RECOVER, MOVE_PSYCHIC, MOVE_SUNNY_DAY},
 					.hpEV = 255,
@@ -1131,7 +1131,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HITMONTOP,
+					.species = SPECIES_DEFENSE_ICHIRIN,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_MEGA_KICK, MOVE_ENDEAVOR, MOVE_DIG, MOVE_SUNNY_DAY},
 					.hpEV = 100,
@@ -1153,7 +1153,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GIRAFARIG,
+					.species = SPECIES_YUKI,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_LIGHT_SCREEN, MOVE_SUNNY_DAY, MOVE_SHADOW_BALL, MOVE_PSYBEAM},
 					.hpEV = 255,
@@ -1175,7 +1175,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_XATU,
+					.species = SPECIES_KANA,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_SUNNY_DAY, MOVE_DRILL_PECK, MOVE_CONFUSE_RAY, MOVE_PSYCHIC},
 					.hpEV = 110,
@@ -1197,7 +1197,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MR_MIME,
+					.species = SPECIES_CHIBI_AYA,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_REFLECT, MOVE_SUNNY_DAY, MOVE_PSYCHIC, MOVE_SHOCK_WAVE},
 					.hpEV = 110,
@@ -1230,7 +1230,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 			.speechAfter = {EC_WORD_HAHAHA, EC_WORD_ELLIPSIS, EC_WORD_WE_RE, EC_WORD_TOTALLY, EC_WORD_USELESS, EC_WORD_ELLIPSIS},
 			.mons = {
 				{
-					.species = SPECIES_HYPNO,
+					.species = SPECIES_SAKUYA,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_FIRE_PUNCH, MOVE_HYPNOSIS, MOVE_PSYCHIC, MOVE_NIGHTMARE},
 					.hpEV = 0,
@@ -1252,7 +1252,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HITMONCHAN,
+					.species = SPECIES_KANAKO,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_FIRE_PUNCH, MOVE_THUNDER_PUNCH, MOVE_ICE_PUNCH, MOVE_DETECT},
 					.hpEV = 0,
@@ -1274,7 +1274,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MACHAMP,
+					.species = SPECIES_CHIBI_TENSHI,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_FLAMETHROWER, MOVE_BRICK_BREAK, MOVE_SCARY_FACE, MOVE_DIG},
 					.hpEV = 255,
@@ -1296,7 +1296,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HOUNDOOM,
+					.species = SPECIES_ATTACK_TENSHI,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_ROAR, MOVE_FLAMETHROWER, MOVE_BITE, MOVE_PROTECT},
 					.hpEV = 0,
@@ -1318,7 +1318,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PRIMEAPE,
+					.species = SPECIES_KAGUYA,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_OVERHEAT, MOVE_SWAGGER, MOVE_SEISMIC_TOSS, MOVE_DOUBLE_TEAM},
 					.hpEV = 100,
@@ -1340,7 +1340,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HERACROSS,
+					.species = SPECIES_TECHNICAL_REISEN,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_MEGAHORN, MOVE_EARTHQUAKE, MOVE_COUNTER, MOVE_LEER},
 					.hpEV = 110,
@@ -1384,7 +1384,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 			.speechAfter = {EC_WORD_DARN, EC_WORD_EXCL, EC_WORD_I, EC_WORD_DON_T, EC_WORD_GET, EC_WORD_IT},
 			.mons = {
 				{
-					.species = SPECIES_MAGBY,
+					.species = SPECIES_DEFENSE_KANAKO,
 					.heldItem = ITEM_LAX_INCENSE,
 					.moves = {MOVE_SMOKESCREEN, MOVE_CONFUSE_RAY, MOVE_FLAMETHROWER, MOVE_SCREECH},
 					.hpEV = 210,
@@ -1406,7 +1406,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_CLEFFA,
+					.species = SPECIES_CHIBI_LOUISE,
 					.heldItem = ITEM_LAX_INCENSE,
 					.moves = {MOVE_ATTRACT, MOVE_CHARM, MOVE_SECRET_POWER, MOVE_FLASH},
 					.hpEV = 210,
@@ -1428,7 +1428,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_IGGLYBUFF,
+					.species = SPECIES_LOUISE,
 					.heldItem = ITEM_LAX_INCENSE,
 					.moves = {MOVE_SING, MOVE_HIDDEN_POWER, MOVE_CHARM, MOVE_DOUBLE_TEAM},
 					.hpEV = 210,
@@ -1450,7 +1450,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SMOOCHUM,
+					.species = SPECIES_TECHNICAL_ICHIRIN,
 					.heldItem = ITEM_LAX_INCENSE,
 					.moves = {MOVE_FAKE_TEARS, MOVE_PSYCHIC, MOVE_MEAN_LOOK, MOVE_SING},
 					.hpEV = 210,
@@ -1472,7 +1472,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TOGEPI,
+					.species = SPECIES_CHIBI_ALICE_98,
 					.heldItem = ITEM_LAX_INCENSE,
 					.moves = {MOVE_SWEET_KISS, MOVE_YAWN, MOVE_ANCIENT_POWER, MOVE_DOUBLE_TEAM},
 					.hpEV = 210,
@@ -1494,7 +1494,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_PICHU,
+					.species = SPECIES_SARA,
 					.heldItem = ITEM_LAX_INCENSE,
 					.moves = {MOVE_THUNDER_WAVE, MOVE_SHOCK_WAVE, MOVE_SWEET_KISS, MOVE_FLASH},
 					.hpEV = 210,
@@ -1527,7 +1527,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 			.speechAfter = {EC_WORD_I_AM, EC_WORD_BEAT, EC_WORD_I, EC_WORD_NEED, EC_WORD_A, EC_WORD_NAP},
 			.mons = {
 				{
-					.species = SPECIES_CLEFFA,
+					.species = SPECIES_CHIBI_LOUISE,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_SWEET_KISS, MOVE_FRUSTRATION, MOVE_SING, MOVE_ATTRACT},
 					.hpEV = 210,
@@ -1549,7 +1549,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_MAGBY,
+					.species = SPECIES_DEFENSE_KANAKO,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_FRUSTRATION, MOVE_CONFUSE_RAY, MOVE_FLAMETHROWER, MOVE_TOXIC},
 					.hpEV = 90,
@@ -1571,7 +1571,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_TOGEPI,
+					.species = SPECIES_CHIBI_ALICE_98,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_FRUSTRATION, MOVE_DOUBLE_TEAM, MOVE_TOXIC, MOVE_SWEET_KISS},
 					.hpEV = 210,
@@ -1593,7 +1593,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_SMOOCHUM,
+					.species = SPECIES_TECHNICAL_ICHIRIN,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_MEAN_LOOK, MOVE_PERISH_SONG, MOVE_TOXIC, MOVE_FLASH},
 					.hpEV = 90,
@@ -1615,7 +1615,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_IGGLYBUFF,
+					.species = SPECIES_LOUISE,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_DOUBLE_TEAM, MOVE_SWEET_KISS, MOVE_SEISMIC_TOSS, MOVE_FLASH},
 					.hpEV = 210,
@@ -1637,7 +1637,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_PICHU,
+					.species = SPECIES_SARA,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_TAIL_WHIP, MOVE_FRUSTRATION, MOVE_ATTRACT, MOVE_THUNDER_WAVE},
 					.hpEV = 90,
@@ -1670,7 +1670,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 			.speechAfter = {EC_WORD_I_AM, EC_WORD_GOING, EC_WORD_TO, EC_WORD_WIN, EC_WORD_NEXT, EC_WORD_TIME},
 			.mons = {
 				{
-					.species = SPECIES_PICHU,
+					.species = SPECIES_SARA,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_THUNDER_WAVE, MOVE_FRUSTRATION, MOVE_THUNDERBOLT, MOVE_ATTRACT},
 					.hpEV = 90,
@@ -1692,7 +1692,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_TOGEPI,
+					.species = SPECIES_CHIBI_ALICE_98,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_ATTRACT, MOVE_FRUSTRATION, MOVE_TOXIC, MOVE_SUBSTITUTE},
 					.hpEV = 210,
@@ -1714,7 +1714,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_CLEFFA,
+					.species = SPECIES_CHIBI_LOUISE,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_ENCORE, MOVE_TOXIC, MOVE_DOUBLE_TEAM, MOVE_FLASH},
 					.hpEV = 210,
@@ -1736,7 +1736,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_IGGLYBUFF,
+					.species = SPECIES_LOUISE,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_ATTRACT, MOVE_SUBSTITUTE, MOVE_SING, MOVE_PERISH_SONG},
 					.hpEV = 210,
@@ -1758,7 +1758,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_SMOOCHUM,
+					.species = SPECIES_TECHNICAL_ICHIRIN,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_SWEET_KISS, MOVE_PERISH_SONG, MOVE_TOXIC, MOVE_ATTRACT},
 					.hpEV = 110,
@@ -1780,7 +1780,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_1 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_MAGBY,
+					.species = SPECIES_DEFENSE_KANAKO,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_LEER, MOVE_FRUSTRATION, MOVE_SUBSTITUTE, MOVE_FLAMETHROWER},
 					.hpEV = 90,
@@ -1823,7 +1823,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			.speechAfter = {EC_WORD_OH_YEAH, EC_WORD_EXCL, EC_WORD_THAT_S, EC_WORD_PRETTY, EC_WORD_EXCELLENT, EC_WORD_EXCL},
 			.mons = {
 				{
-					.species = SPECIES_PINSIR,
+					.species = SPECIES_SHOU,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_GUILLOTINE, MOVE_BRICK_BREAK, MOVE_DIG, MOVE_REVENGE},
 					.hpEV = 100,
@@ -1845,7 +1845,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CHARIZARD,
+					.species = SPECIES_REISEN,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_DRAGON_CLAW, MOVE_METAL_CLAW, MOVE_AERIAL_ACE, MOVE_OUTRAGE},
 					.hpEV = 200,
@@ -1867,7 +1867,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RHYDON,
+					.species = SPECIES_CHIBI_ICHIRIN,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_MEGAHORN, MOVE_HORN_DRILL, MOVE_CRUSH_CLAW, MOVE_BRICK_BREAK},
 					.hpEV = 100,
@@ -1889,7 +1889,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ARCANINE,
+					.species = SPECIES_MOKOU,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_EXTREME_SPEED, MOVE_IRON_TAIL, MOVE_AERIAL_ACE, MOVE_DIG},
 					.hpEV = 110,
@@ -1911,7 +1911,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GOLEM,
+					.species = SPECIES_CHIBI_KOGASA,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_DOUBLE_EDGE, MOVE_ROLLOUT, MOVE_BRICK_BREAK, MOVE_DIG},
 					.hpEV = 100,
@@ -1933,7 +1933,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HOUNDOOM,
+					.species = SPECIES_ATTACK_TENSHI,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_CRUNCH, MOVE_REVERSAL, MOVE_DOUBLE_EDGE, MOVE_COUNTER},
 					.hpEV = 200,
@@ -1966,7 +1966,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			.speechAfter = {EC_WORD_YOU, EC_WORD_ANGER, EC_WORD_ME, EC_WORD_BUT, EC_WORD_YOU_RE, EC_WORD_TOUGH},
 			.mons = {
 				{
-					.species = SPECIES_SANDSLASH,
+					.species = SPECIES_RUMIA,
 					.heldItem = ITEM_SILK_SCARF,
 					.moves = {MOVE_CRUSH_CLAW, MOVE_DIG, MOVE_DOUBLE_EDGE, MOVE_AERIAL_ACE},
 					.hpEV = 255,
@@ -1988,7 +1988,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_DRAGONAIR,
+					.species = SPECIES_TOYOHIME,
 					.heldItem = ITEM_SILK_SCARF,
 					.moves = {MOVE_OUTRAGE, MOVE_IRON_TAIL, MOVE_DOUBLE_EDGE, MOVE_SLAM},
 					.hpEV = 0,
@@ -2010,7 +2010,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RAPIDASH,
+					.species = SPECIES_CHIBI_SATORI,
 					.heldItem = ITEM_SILK_SCARF,
 					.moves = {MOVE_BOUNCE, MOVE_IRON_TAIL, MOVE_THRASH, MOVE_DOUBLE_EDGE},
 					.hpEV = 110,
@@ -2032,7 +2032,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_FLAREON,
+					.species = SPECIES_SUWAKO,
 					.heldItem = ITEM_SILK_SCARF,
 					.moves = {MOVE_IRON_TAIL, MOVE_FLAIL, MOVE_BITE, MOVE_DOUBLE_EDGE},
 					.hpEV = 255,
@@ -2054,7 +2054,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NIDOQUEEN,
+					.species = SPECIES_FLANDRE,
 					.heldItem = ITEM_SILK_SCARF,
 					.moves = {MOVE_SUPERPOWER, MOVE_AERIAL_ACE, MOVE_BRICK_BREAK, MOVE_COUNTER},
 					.hpEV = 110,
@@ -2076,7 +2076,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PERSIAN,
+					.species = SPECIES_CHEN,
 					.heldItem = ITEM_SILK_SCARF,
 					.moves = {MOVE_RETURN, MOVE_AERIAL_ACE, MOVE_IRON_TAIL, MOVE_DIG},
 					.hpEV = 110,
@@ -2109,7 +2109,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 			.speechAfter = {EC_WORD_I, EC_WORD_HAVE, EC_WORD_TO, EC_WORD_TRAIN, EC_WORD_SOME, EC_WORD_MORE},
 			.mons = {
 				{
-					.species = SPECIES_HITMONLEE,
+					.species = SPECIES_CHIBI_KANAKO,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_MEGA_KICK, MOVE_REVERSAL, MOVE_FOCUS_PUNCH, MOVE_BRICK_BREAK},
 					.hpEV = 0,
@@ -2131,7 +2131,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SCYTHER,
+					.species = SPECIES_AYA,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_SLASH, MOVE_REVERSAL, MOVE_STEEL_WING, MOVE_AERIAL_ACE},
 					.hpEV = 0,
@@ -2153,7 +2153,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAGMAR,
+					.species = SPECIES_CHIBI_SHOU,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_FIRE_PUNCH, MOVE_THUNDER_PUNCH, MOVE_BRICK_BREAK, MOVE_IRON_TAIL},
 					.hpEV = 110,
@@ -2175,7 +2175,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MACHAMP,
+					.species = SPECIES_CHIBI_TENSHI,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_DYNAMIC_PUNCH, MOVE_DIG, MOVE_CROSS_CHOP, MOVE_REVENGE},
 					.hpEV = 255,
@@ -2197,7 +2197,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PRIMEAPE,
+					.species = SPECIES_KAGUYA,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_THRASH, MOVE_CROSS_CHOP, MOVE_IRON_TAIL, MOVE_AERIAL_ACE},
 					.hpEV = 0,
@@ -2219,7 +2219,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_POLIWRATH,
+					.species = SPECIES_CHIBI_LETTY,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_BODY_SLAM, MOVE_DIG, MOVE_MEGA_KICK, MOVE_COUNTER},
 					.hpEV = 110,
@@ -2262,7 +2262,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 			.speechAfter = {EC_WORD_THE, EC_WORD_WAY, EC_WORD_POKEMON, EC_WORD_MATCH_UP, EC_WORD_IS, EC_WORD_IMPORTANT},
 			.mons = {
 				{
-					.species = SPECIES_MURKROW,
+					.species = SPECIES_KURUMI,
 					.heldItem = ITEM_BLACK_GLASSES,
 					.moves = {MOVE_FAINT_ATTACK, MOVE_AERIAL_ACE, MOVE_SHADOW_BALL, MOVE_CONFUSE_RAY},
 					.hpEV = 84,
@@ -2284,7 +2284,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TAUROS,
+					.species = SPECIES_CHIBI_WRIGGLE,
 					.heldItem = ITEM_SILK_SCARF,
 					.moves = {MOVE_EARTHQUAKE, MOVE_BODY_SLAM, MOVE_ROCK_TOMB, MOVE_PURSUIT},
 					.hpEV = 84,
@@ -2306,7 +2306,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SLOWBRO,
+					.species = SPECIES_CHIBI_EIRIN,
 					.heldItem = ITEM_MYSTIC_WATER,
 					.moves = {MOVE_AMNESIA, MOVE_PSYCHIC, MOVE_SURF, MOVE_ICE_BEAM},
 					.hpEV = 84,
@@ -2328,7 +2328,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ARBOK,
+					.species = SPECIES_REMILIA,
 					.heldItem = ITEM_POISON_BARB,
 					.moves = {MOVE_IRON_TAIL, MOVE_SLUDGE_BOMB, MOVE_ROCK_SLIDE, MOVE_TOXIC},
 					.hpEV = 84,
@@ -2350,7 +2350,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NIDOKING,
+					.species = SPECIES_YOUMU,
 					.heldItem = ITEM_SOFT_SAND,
 					.moves = {MOVE_EARTHQUAKE, MOVE_MEGAHORN, MOVE_SLUDGE_BOMB, MOVE_ROCK_SLIDE},
 					.hpEV = 84,
@@ -2372,7 +2372,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RAPIDASH,
+					.species = SPECIES_CHIBI_SATORI,
 					.heldItem = ITEM_CHARCOAL,
 					.moves = {MOVE_FLAMETHROWER, MOVE_BOUNCE, MOVE_QUICK_ATTACK, MOVE_DOUBLE_KICK},
 					.hpEV = 84,
@@ -2417,7 +2417,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 			.speechAfter = {EC_WORD_MY, EC_WORD_POKEMON, EC_WORD_HAVE, EC_WORD_MY, EC_WORD_TRUST, EC_WORD_FOREVER},
 			.mons = {
 				{
-					.species = SPECIES_CLEFAIRY,
+					.species = SPECIES_CHIBI_YUKARI,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_CHARM, MOVE_METRONOME, MOVE_RETURN, MOVE_REST},
 					.hpEV = 255,
@@ -2439,7 +2439,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TOGEPI,
+					.species = SPECIES_CHIBI_ALICE_98,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_CHARM, MOVE_METRONOME, MOVE_RETURN, MOVE_REST},
 					.hpEV = 255,
@@ -2461,7 +2461,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MEOWTH,
+					.species = SPECIES_CHIBI_CHEN,
 					.heldItem = ITEM_SILK_SCARF,
 					.moves = {MOVE_CHARM, MOVE_ASSIST, MOVE_RETURN, MOVE_REST},
 					.hpEV = 255,
@@ -2483,7 +2483,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_JIGGLYPUFF,
+					.species = SPECIES_CHIBI_MYSTIA,
 					.heldItem = ITEM_SILK_SCARF,
 					.moves = {MOVE_CHARM, MOVE_ROLLOUT, MOVE_RETURN, MOVE_REST},
 					.hpEV = 255,
@@ -2505,7 +2505,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SNORLAX,
+					.species = SPECIES_BYAKUREN,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_CHARM, MOVE_ROLLOUT, MOVE_RETURN, MOVE_REST},
 					.hpEV = 255,
@@ -2527,7 +2527,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SNUBBULL,
+					.species = SPECIES_ATTACK_NITORI,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_CHARM, MOVE_LICK, MOVE_RETURN, MOVE_REST},
 					.hpEV = 255,
@@ -2572,7 +2572,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 			.speechAfter = {EC_WORD_POISON, EC_WORD_IS, EC_WORD_A, EC_WORD_TERRIBLE, EC_MOVE(TORMENT), EC_WORD_ISN_T_IT_QUES},
 			.mons = {
 				{
-					.species = SPECIES_BUTTERFREE,
+					.species = SPECIES_MOMIJI,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_SILVER_WIND, MOVE_SLEEP_POWDER, MOVE_PSYCHIC, MOVE_SUPERSONIC},
 					.hpEV = 255,
@@ -2594,7 +2594,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_BEEDRILL,
+					.species = SPECIES_CHIBI_MEDICINE,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_SLUDGE_BOMB, MOVE_TWINEEDLE, MOVE_DOUBLE_TEAM, MOVE_AERIAL_ACE},
 					.hpEV = 255,
@@ -2616,7 +2616,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PARASECT,
+					.species = SPECIES_IKU,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_GIGA_DRAIN, MOVE_LIGHT_SCREEN, MOVE_STUN_SPORE, MOVE_SLASH},
 					.hpEV = 255,
@@ -2638,7 +2638,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_YANMA,
+					.species = SPECIES_CHIBI_MUGETSU,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_HYPNOSIS, MOVE_SONIC_BOOM, MOVE_QUICK_ATTACK, MOVE_AERIAL_ACE},
 					.hpEV = 255,
@@ -2660,7 +2660,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SHUCKLE,
+					.species = SPECIES_DEFENSE_REISEN,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_TOXIC, MOVE_ROCK_TOMB, MOVE_PROTECT, MOVE_REST},
 					.hpEV = 255,
@@ -2682,7 +2682,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_FORRETRESS,
+					.species = SPECIES_MAI,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_TOXIC, MOVE_GIGA_DRAIN, MOVE_PROTECT, MOVE_SANDSTORM},
 					.hpEV = 255,
@@ -2727,7 +2727,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 			.speechAfter = {EC_WORD_BIG, EC_WORD_BROTHER, EC_WORD_FIGHT, EC_WORD_EXCL, 0xFFFF, 0xFFFF},
 			.mons = {
 				{
-					.species = SPECIES_HITMONLEE,
+					.species = SPECIES_CHIBI_KANAKO,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_ROCK_TOMB, MOVE_HI_JUMP_KICK, MOVE_BULK_UP, MOVE_PROTECT},
 					.hpEV = 255,
@@ -2749,7 +2749,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RHYDON,
+					.species = SPECIES_CHIBI_ICHIRIN,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_MEGAHORN, MOVE_ROCK_BLAST, MOVE_BRICK_BREAK, MOVE_PROTECT},
 					.hpEV = 255,
@@ -2771,7 +2771,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GOLEM,
+					.species = SPECIES_CHIBI_KOGASA,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_BRICK_BREAK, MOVE_ROCK_BLAST, MOVE_DIG, MOVE_PROTECT},
 					.hpEV = 255,
@@ -2793,7 +2793,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAGMAR,
+					.species = SPECIES_CHIBI_SHOU,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_FIRE_PUNCH, MOVE_BRICK_BREAK, MOVE_CONFUSE_RAY, MOVE_PROTECT},
 					.hpEV = 0,
@@ -2815,7 +2815,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HERACROSS,
+					.species = SPECIES_TECHNICAL_REISEN,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_MEGAHORN, MOVE_BRICK_BREAK, MOVE_ROCK_TOMB, MOVE_PROTECT},
 					.hpEV = 255,
@@ -2837,7 +2837,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_POLIWRATH,
+					.species = SPECIES_CHIBI_LETTY,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_FOCUS_PUNCH, MOVE_SURF, MOVE_BULK_UP, MOVE_PROTECT},
 					.hpEV = 0,
@@ -2870,7 +2870,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 			.speechAfter = {EC_WORD_I, EC_WORD_WILL, EC_WORD_DO, EC_WORD_MY, EC_WORD_BEST, EC_WORD_EXCL},
 			.mons = {
 				{
-					.species = SPECIES_MACHAMP,
+					.species = SPECIES_CHIBI_TENSHI,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_CROSS_CHOP, MOVE_SEISMIC_TOSS, MOVE_ROCK_TOMB, MOVE_PROTECT},
 					.hpEV = 255,
@@ -2892,7 +2892,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PINSIR,
+					.species = SPECIES_SHOU,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_ROCK_TOMB, MOVE_SEISMIC_TOSS, MOVE_SUBMISSION, MOVE_PROTECT},
 					.hpEV = 255,
@@ -2914,7 +2914,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAROWAK,
+					.species = SPECIES_LAYLA,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_BRICK_BREAK, MOVE_BONEMERANG, MOVE_AERIAL_ACE, MOVE_PROTECT},
 					.hpEV = 255,
@@ -2936,7 +2936,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HITMONCHAN,
+					.species = SPECIES_KANAKO,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_MACH_PUNCH, MOVE_THUNDER_PUNCH, MOVE_DOUBLE_TEAM, MOVE_PROTECT},
 					.hpEV = 255,
@@ -2958,7 +2958,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ELECTABUZZ,
+					.species = SPECIES_EIKI,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_THUNDER_PUNCH, MOVE_BRICK_BREAK, MOVE_THUNDER_WAVE, MOVE_PROTECT},
 					.hpEV = 0,
@@ -2980,7 +2980,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_POLIWRATH,
+					.species = SPECIES_CHIBI_LETTY,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_FOCUS_PUNCH, MOVE_SURF, MOVE_BULK_UP, MOVE_PROTECT},
 					.hpEV = 0,
@@ -3024,7 +3024,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 			.speechAfter = {EC_WORD_I, EC_WORD_WILL, EC_WORD_TRY, EC_WORD_TO, EC_WORD_GET, EC_WORD_BETTER},
 			.mons = {
 				{
-					.species = SPECIES_JOLTEON,
+					.species = SPECIES_CHIBI_SUWAKO,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_QUICK_ATTACK, MOVE_THUNDERBOLT, MOVE_DOUBLE_KICK, MOVE_PIN_MISSILE},
 					.hpEV = 0,
@@ -3046,7 +3046,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ESPEON,
+					.species = SPECIES_GENGETSU,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_QUICK_ATTACK, MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_BITE},
 					.hpEV = 0,
@@ -3068,7 +3068,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_FLAREON,
+					.species = SPECIES_SUWAKO,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_QUICK_ATTACK, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL, MOVE_IRON_TAIL},
 					.hpEV = 0,
@@ -3090,7 +3090,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_VAPOREON,
+					.species = SPECIES_NUE,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_QUICK_ATTACK, MOVE_WATERFALL, MOVE_ICE_BEAM, MOVE_BITE},
 					.hpEV = 0,
@@ -3112,7 +3112,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_EEVEE,
+					.species = SPECIES_CHIBI_NUE,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_QUICK_ATTACK, MOVE_DOUBLE_EDGE, MOVE_BITE, MOVE_IRON_TAIL},
 					.hpEV = 0,
@@ -3134,7 +3134,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_UMBREON,
+					.species = SPECIES_CHIBI_KURUMI,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_QUICK_ATTACK, MOVE_FAINT_ATTACK, MOVE_SHADOW_BALL, MOVE_IRON_TAIL},
 					.hpEV = 0,
@@ -3167,7 +3167,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 			.speechAfter = {EC_WORD_WE, EC_WORD_HAVE, EC_WORD_TO, EC_WORD_WORK, EC_WORD_BETTER, 0xFFFF},
 			.mons = {
 				{
-					.species = SPECIES_JOLTEON,
+					.species = SPECIES_CHIBI_SUWAKO,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_GROWL, MOVE_TAIL_WHIP, MOVE_HELPING_HAND, MOVE_THUNDERBOLT},
 					.hpEV = 255,
@@ -3189,7 +3189,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ESPEON,
+					.species = SPECIES_GENGETSU,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_HELPING_HAND, MOVE_PSYCHIC},
 					.hpEV = 255,
@@ -3211,7 +3211,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_FLAREON,
+					.species = SPECIES_SUWAKO,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_GROWL, MOVE_TAIL_WHIP, MOVE_HELPING_HAND, MOVE_FLAMETHROWER},
 					.hpEV = 255,
@@ -3233,7 +3233,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_VAPOREON,
+					.species = SPECIES_NUE,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_GROWL, MOVE_TAIL_WHIP, MOVE_HELPING_HAND, MOVE_SURF},
 					.hpEV = 255,
@@ -3255,7 +3255,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_EEVEE,
+					.species = SPECIES_CHIBI_NUE,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_GROWL, MOVE_TAIL_WHIP, MOVE_HELPING_HAND, MOVE_DOUBLE_EDGE},
 					.hpEV = 255,
@@ -3277,7 +3277,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_UMBREON,
+					.species = SPECIES_CHIBI_KURUMI,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_GROWL, MOVE_TAIL_WHIP, MOVE_HELPING_HAND, MOVE_FAINT_ATTACK},
 					.hpEV = 255,
@@ -3321,7 +3321,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 			.speechAfter = {EC_WORD_MY, EC_WORD_GIRL, EC_WORD_ISN_T, EC_WORD_SHAKY, EC_WORD_SHE_IS, EC_WORD_LOVEY_DOVEY},
 			.mons = {
 				{
-					.species = SPECIES_NIDOKING,
+					.species = SPECIES_YOUMU,
 					.heldItem = ITEM_SOFT_SAND,
 					.moves = {MOVE_EARTHQUAKE, MOVE_MEGAHORN, MOVE_SHADOW_BALL, MOVE_FIRE_BLAST},
 					.hpEV = 0,
@@ -3343,7 +3343,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GLIGAR,
+					.species = SPECIES_TECHNICAL_LUNA_CHILD,
 					.heldItem = ITEM_SOFT_SAND,
 					.moves = {MOVE_EARTHQUAKE, MOVE_QUICK_ATTACK, MOVE_AERIAL_ACE, MOVE_IRON_TAIL},
 					.hpEV = 0,
@@ -3365,7 +3365,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_QUAGSIRE,
+					.species = SPECIES_CHIBI_GENGETSU,
 					.heldItem = ITEM_SOFT_SAND,
 					.moves = {MOVE_EARTHQUAKE, MOVE_SLUDGE_BOMB, MOVE_BLIZZARD, MOVE_BRICK_BREAK},
 					.hpEV = 0,
@@ -3387,7 +3387,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_PILOSWINE,
+					.species = SPECIES_ATTACK_CHEN,
 					.heldItem = ITEM_SOFT_SAND,
 					.moves = {MOVE_EARTHQUAKE, MOVE_BLIZZARD, MOVE_ANCIENT_POWER, MOVE_BODY_SLAM},
 					.hpEV = 0,
@@ -3409,7 +3409,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GOLEM,
+					.species = SPECIES_CHIBI_KOGASA,
 					.heldItem = ITEM_SOFT_SAND,
 					.moves = {MOVE_EARTHQUAKE, MOVE_ROCK_BLAST, MOVE_BRICK_BREAK, MOVE_EXPLOSION},
 					.hpEV = 0,
@@ -3431,7 +3431,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_STEELIX,
+					.species = SPECIES_SUPPORT_STAR_SAPPHIRE,
 					.heldItem = ITEM_SOFT_SAND,
 					.moves = {MOVE_EARTHQUAKE, MOVE_IRON_TAIL, MOVE_DRAGON_BREATH, MOVE_DOUBLE_EDGE},
 					.hpEV = 0,
@@ -3464,7 +3464,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 			.speechAfter = {EC_WORD_I_AM, EC_WORD_LOVEY_DOVEY, EC_WORD_FOR, EC_WORD_HIM, EC_WORD_NOT, EC_WORD_SHAKY},
 			.mons = {
 				{
-					.species = SPECIES_SKARMORY,
+					.species = SPECIES_SPEED_AYA,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_SANDSTORM, MOVE_STEEL_WING, MOVE_AIR_CUTTER, MOVE_SPIKES},
 					.hpEV = 0,
@@ -3486,7 +3486,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MANTINE,
+					.species = SPECIES_TECHNICAL_YUUKA,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_ICE_BEAM, MOVE_SURF, MOVE_CONFUSE_RAY, MOVE_AERIAL_ACE},
 					.hpEV = 0,
@@ -3508,7 +3508,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_JUMPLUFF,
+					.species = SPECIES_MIMI_CHAN,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_TAIL_WHIP, MOVE_SUNNY_DAY, MOVE_SOLAR_BEAM, MOVE_AERIAL_ACE},
 					.hpEV = 0,
@@ -3530,7 +3530,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GENGAR,
+					.species = SPECIES_CHIBI_MEILING,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_SHADOW_BALL, MOVE_SLUDGE_BOMB, MOVE_THUNDERBOLT, MOVE_PSYCHIC},
 					.hpEV = 0,
@@ -3552,7 +3552,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CROBAT,
+					.species = SPECIES_CHIBI_MEIRA,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_GIGA_DRAIN, MOVE_POISON_FANG, MOVE_FLY, MOVE_STEEL_WING},
 					.hpEV = 0,
@@ -3574,7 +3574,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_XATU,
+					.species = SPECIES_KANA,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_PSYCHIC, MOVE_CONFUSE_RAY, MOVE_AERIAL_ACE, MOVE_LIGHT_SCREEN},
 					.hpEV = 0,
@@ -3618,7 +3618,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 			.speechAfter = {EC_WORD_DON_T, EC_WORD_EVER, EC_WORD_POISON, EC_WORD_THE, EC_WORD_GREEN, EC_WORD_WORLD},
 			.mons = {
 				{
-					.species = SPECIES_VILEPLUME,
+					.species = SPECIES_ATTACK_KEINE,
 					.heldItem = ITEM_PETAYA_BERRY,
 					.moves = {MOVE_INGRAIN, MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB, MOVE_STUN_SPORE},
 					.hpEV = 255,
@@ -3640,7 +3640,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_STARMIE,
+					.species = SPECIES_YUUKA,
 					.heldItem = ITEM_PETAYA_BERRY,
 					.moves = {MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_WATERFALL, MOVE_RECOVER},
 					.hpEV = 255,
@@ -3662,7 +3662,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_URSARING,
+					.species = SPECIES_ATTACK_RUMIA,
 					.heldItem = ITEM_LIECHI_BERRY,
 					.moves = {MOVE_FAINT_ATTACK, MOVE_BODY_SLAM, MOVE_BRICK_BREAK, MOVE_ROCK_TOMB},
 					.hpEV = 255,
@@ -3684,7 +3684,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NOCTOWL,
+					.species = SPECIES_YUMEMI,
 					.heldItem = ITEM_LIECHI_BERRY,
 					.moves = {MOVE_HYPNOSIS, MOVE_DREAM_EATER, MOVE_FAINT_ATTACK, MOVE_AERIAL_ACE},
 					.hpEV = 255,
@@ -3706,7 +3706,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NINETALES,
+					.species = SPECIES_SUIKA,
 					.heldItem = ITEM_PETAYA_BERRY,
 					.moves = {MOVE_GRUDGE, MOVE_OVERHEAT, MOVE_FAINT_ATTACK, MOVE_WILL_O_WISP},
 					.hpEV = 0,
@@ -3728,7 +3728,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_LEDIAN,
+					.species = SPECIES_ELLEN,
 					.heldItem = ITEM_LIECHI_BERRY,
 					.moves = {MOVE_SILVER_WIND, MOVE_SWIFT, MOVE_AERIAL_ACE, MOVE_TOXIC},
 					.hpEV = 0,
@@ -3761,7 +3761,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 			.speechAfter = {EC_MOVE2(PROTECT), EC_WORD_AND, EC_WORD_RESUSCITATE, EC_WORD_THE, EC_WORD_GREEN, EC_WORD_WORLD},
 			.mons = {
 				{
-					.species = SPECIES_GYARADOS,
+					.species = SPECIES_CHIBI_TEWI,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_EARTHQUAKE, MOVE_WATERFALL, MOVE_BLIZZARD, MOVE_HYPER_BEAM},
 					.hpEV = 0,
@@ -3783,7 +3783,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_VICTREEBEL,
+					.species = SPECIES_PARSEE,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB, MOVE_REFLECT, MOVE_ATTRACT},
 					.hpEV = 0,
@@ -3805,7 +3805,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_DONPHAN,
+					.species = SPECIES_TECHNICAL_PARSEE,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_EARTHQUAKE, MOVE_ANCIENT_POWER, MOVE_IRON_TAIL, MOVE_DOUBLE_EDGE},
 					.hpEV = 255,
@@ -3827,7 +3827,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_FEAROW,
+					.species = SPECIES_TOKIKO,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_FAINT_ATTACK, MOVE_DRILL_PECK, MOVE_STEEL_WING, MOVE_DOUBLE_TEAM},
 					.hpEV = 255,
@@ -3849,7 +3849,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ARCANINE,
+					.species = SPECIES_MOKOU,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_EXTREME_SPEED, MOVE_FIRE_BLAST, MOVE_CRUNCH, MOVE_AERIAL_ACE},
 					.hpEV = 0,
@@ -3871,7 +3871,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ARIADOS,
+					.species = SPECIES_KAZAMI,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_PSYCHIC, MOVE_SLUDGE_BOMB, MOVE_SIGNAL_BEAM, MOVE_TOXIC},
 					.hpEV = 0,
@@ -3904,7 +3904,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 			.speechAfter = {EC_WORD_I_AM, EC_WORD_TIRED, EC_WORD_AFTER, EC_WORD_THAT, EC_WORD_EXCITING, EC_WORD_MATCH},
 			.mons = {
 				{
-					.species = SPECIES_KINGDRA,
+					.species = SPECIES_DEFENSE_TENSHI,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_TWISTER, MOVE_OCTAZOOKA, MOVE_AURORA_BEAM, MOVE_RETURN},
 					.hpEV = 255,
@@ -3926,7 +3926,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GOLEM,
+					.species = SPECIES_CHIBI_KOGASA,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_BRICK_BREAK, MOVE_DOUBLE_EDGE},
 					.hpEV = 0,
@@ -3948,7 +3948,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_DRAGONITE,
+					.species = SPECIES_GOLIATH,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_THUNDER, MOVE_FIRE_BLAST, MOVE_BLIZZARD, MOVE_DRAGON_CLAW},
 					.hpEV = 0,
@@ -3970,7 +3970,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TYRANITAR,
+					.species = SPECIES_DEFENSE_MOMJI,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_EARTHQUAKE, MOVE_CRUNCH, MOVE_THUNDER, MOVE_FIRE_BLAST},
 					.hpEV = 255,
@@ -3992,7 +3992,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_AMPHAROS,
+					.species = SPECIES_CHIBI_KIRISAME,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_REFLECT, MOVE_THUNDER, MOVE_BRICK_BREAK, MOVE_RETURN},
 					.hpEV = 0,
@@ -4014,7 +4014,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_VENUSAUR,
+					.species = SPECIES_CHIBI_ALICE,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_GIGA_DRAIN, MOVE_LEECH_SEED, MOVE_TOXIC, MOVE_BODY_SLAM},
 					.hpEV = 255,
@@ -4057,7 +4057,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 			.speechAfter = {EC_WORD_YOU_RE, EC_WORD_TOO_STRONG, 0xFFFF, 0xFFFF, 0xFFFF, 0xFFFF},
 			.mons = {
 				{
-					.species = SPECIES_MURKROW,
+					.species = SPECIES_KURUMI,
 					.heldItem = ITEM_BLACK_GLASSES,
 					.moves = {MOVE_AERIAL_ACE, MOVE_SHADOW_BALL, MOVE_FAINT_ATTACK, MOVE_CONFUSE_RAY},
 					.hpEV = 84,
@@ -4079,7 +4079,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RAPIDASH,
+					.species = SPECIES_CHIBI_SATORI,
 					.heldItem = ITEM_CHARCOAL,
 					.moves = {MOVE_BOUNCE, MOVE_FLAMETHROWER, MOVE_QUICK_ATTACK, MOVE_DOUBLE_KICK},
 					.hpEV = 84,
@@ -4101,7 +4101,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MILTANK,
+					.species = SPECIES_ATTACK_KAGUYA,
 					.heldItem = ITEM_SILK_SCARF,
 					.moves = {MOVE_MILK_DRINK, MOVE_BRICK_BREAK, MOVE_BODY_SLAM, MOVE_SHADOW_BALL},
 					.hpEV = 84,
@@ -4123,7 +4123,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GOLDUCK,
+					.species = SPECIES_YORIHIME,
 					.heldItem = ITEM_MYSTIC_WATER,
 					.moves = {MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_CALM_MIND, MOVE_LIGHT_SCREEN},
 					.hpEV = 84,
@@ -4145,7 +4145,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SANDSLASH,
+					.species = SPECIES_RUMIA,
 					.heldItem = ITEM_SOFT_SAND,
 					.moves = {MOVE_SANDSTORM, MOVE_AERIAL_ACE, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB},
 					.hpEV = 84,
@@ -4167,7 +4167,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NIDOQUEEN,
+					.species = SPECIES_FLANDRE,
 					.heldItem = ITEM_HARD_STONE,
 					.moves = {MOVE_EARTHQUAKE, MOVE_SUPERPOWER, MOVE_SLUDGE_BOMB, MOVE_ROCK_SLIDE},
 					.hpEV = 84,
@@ -4200,7 +4200,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 			.speechAfter = {EC_WORD_I, EC_MOVE2(REFRESH), EC_WORD_THINGS, EC_WORD_WITH, EC_WORD_REFRESHING, EC_MOVE(AROMATHERAPY)},
 			.mons = {
 				{
-					.species = SPECIES_BELLOSSOM,
+					.species = SPECIES_KIRISAME,
 					.heldItem = ITEM_PERSIM_BERRY,
 					.moves = {MOVE_SWEET_SCENT, MOVE_ATTRACT, MOVE_PETAL_DANCE, MOVE_FLAIL},
 					.hpEV = 84,
@@ -4222,7 +4222,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_VICTREEBEL,
+					.species = SPECIES_PARSEE,
 					.heldItem = ITEM_MIRACLE_SEED,
 					.moves = {MOVE_SWEET_SCENT, MOVE_ATTRACT, MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB},
 					.hpEV = 84,
@@ -4244,7 +4244,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PARASECT,
+					.species = SPECIES_IKU,
 					.heldItem = ITEM_MIRACLE_SEED,
 					.moves = {MOVE_SWEET_SCENT, MOVE_ATTRACT, MOVE_GIGA_DRAIN, MOVE_AERIAL_ACE},
 					.hpEV = 84,
@@ -4266,7 +4266,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_VILEPLUME,
+					.species = SPECIES_ATTACK_KEINE,
 					.heldItem = ITEM_PERSIM_BERRY,
 					.moves = {MOVE_SWEET_SCENT, MOVE_ATTRACT, MOVE_PETAL_DANCE, MOVE_SLUDGE_BOMB},
 					.hpEV = 84,
@@ -4288,7 +4288,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_VENUSAUR,
+					.species = SPECIES_CHIBI_ALICE,
 					.heldItem = ITEM_PERSIM_BERRY,
 					.moves = {MOVE_SWEET_SCENT, MOVE_ATTRACT, MOVE_PETAL_DANCE, MOVE_SLUDGE_BOMB},
 					.hpEV = 84,
@@ -4310,7 +4310,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MEGANIUM,
+					.species = SPECIES_TORI,
 					.heldItem = ITEM_MIRACLE_SEED,
 					.moves = {MOVE_SWEET_SCENT, MOVE_ATTRACT, MOVE_GIGA_DRAIN, MOVE_BODY_SLAM},
 					.hpEV = 84,
@@ -4343,7 +4343,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 			.speechAfter = {EC_WORD_YOU, EC_WORD_HAVE, EC_WORD_PURE_POWER, EC_WORD_THAT, EC_WORD_IS, EC_WORD_NATURAL},
 			.mons = {
 				{
-					.species = SPECIES_MAROWAK,
+					.species = SPECIES_LAYLA,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_EARTHQUAKE, MOVE_BRICK_BREAK, MOVE_BONEMERANG, MOVE_AERIAL_ACE},
 					.hpEV = 84,
@@ -4365,7 +4365,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_LAPRAS,
+					.species = SPECIES_TEWI,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_SURF, MOVE_BLIZZARD, MOVE_PSYCHIC, MOVE_THUNDER},
 					.hpEV = 84,
@@ -4387,7 +4387,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ARCANINE,
+					.species = SPECIES_MOKOU,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_EXTREME_SPEED, MOVE_FLAMETHROWER, MOVE_CRUNCH, MOVE_AERIAL_ACE},
 					.hpEV = 84,
@@ -4409,7 +4409,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RAICHU,
+					.species = SPECIES_CIRNO,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_THUNDERBOLT, MOVE_QUICK_ATTACK, MOVE_DOUBLE_TEAM, MOVE_IRON_TAIL},
 					.hpEV = 84,
@@ -4431,7 +4431,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TOGETIC,
+					.species = SPECIES_ALICE_98,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_ANCIENT_POWER, MOVE_SWEET_KISS, MOVE_PSYCHIC, MOVE_MAGICAL_LEAF},
 					.hpEV = 84,
@@ -4453,7 +4453,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SNORLAX,
+					.species = SPECIES_BYAKUREN,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_BODY_SLAM, MOVE_REST, MOVE_SNORE, MOVE_SHADOW_BALL},
 					.hpEV = 84,
@@ -4496,7 +4496,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 			.speechAfter = {EC_WORD_NICE, EC_WORD_WORK, EC_WORD_YOU, EC_WORD_EXCL, EC_WORD_YOU_RE, EC_WORD_FABULOUS},
 			.mons = {
 				{
-					.species = SPECIES_VAPOREON,
+					.species = SPECIES_NUE,
 					.heldItem = ITEM_CHERI_BERRY,
 					.moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_SHADOW_BALL, MOVE_WISH},
 					.hpEV = 100,
@@ -4518,7 +4518,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SLOWBRO,
+					.species = SPECIES_CHIBI_EIRIN,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_SURF, MOVE_CONFUSION, MOVE_AMNESIA, MOVE_DISABLE},
 					.hpEV = 0,
@@ -4540,7 +4540,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_POLITOED,
+					.species = SPECIES_YUMEKO,
 					.heldItem = ITEM_CHESTO_BERRY,
 					.moves = {MOVE_SURF, MOVE_EARTHQUAKE, MOVE_HYPNOSIS, MOVE_SWAGGER},
 					.hpEV = 100,
@@ -4562,7 +4562,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TENTACRUEL,
+					.species = SPECIES_MURASA,
 					.heldItem = ITEM_POISON_BARB,
 					.moves = {MOVE_SURF, MOVE_SLUDGE_BOMB, MOVE_ICE_BEAM, MOVE_MIRROR_COAT},
 					.hpEV = 100,
@@ -4584,7 +4584,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RATICATE,
+					.species = SPECIES_NAZRIN,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_SUPER_FANG, MOVE_HYPER_FANG, MOVE_THUNDER_WAVE, MOVE_QUICK_ATTACK},
 					.hpEV = 110,
@@ -4606,7 +4606,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_DUNSPARCE,
+					.species = SPECIES_DEFENSE_SUNNY_MILK,
 					.heldItem = ITEM_PERSIM_BERRY,
 					.moves = {MOVE_WATER_PULSE, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_YAWN},
 					.hpEV = 255,
@@ -4651,7 +4651,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 			.speechAfter = {EC_WORD_YOU_RE, EC_WORD_TOO, EC_WORD_STRONG, EC_WORD_TODAY, EC_WORD_THAT_S, EC_WORD_ALL},
 			.mons = {
 				{
-					.species = SPECIES_STARMIE,
+					.species = SPECIES_YUUKA,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_SURF, MOVE_PSYCHIC, MOVE_THUNDER_WAVE, MOVE_RECOVER},
 					.hpEV = 0,
@@ -4673,7 +4673,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_BLASTOISE,
+					.species = SPECIES_CHIBI_LILY_BLACK,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_EARTHQUAKE, MOVE_MIRROR_COAT},
 					.hpEV = 0,
@@ -4695,7 +4695,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_KINGDRA,
+					.species = SPECIES_DEFENSE_TENSHI,
 					.heldItem = ITEM_CHESTO_BERRY,
 					.moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_DRAGON_BREATH, MOVE_REST},
 					.hpEV = 0,
@@ -4717,7 +4717,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_QUAGSIRE,
+					.species = SPECIES_CHIBI_GENGETSU,
 					.heldItem = ITEM_CHESTO_BERRY,
 					.moves = {MOVE_SURF, MOVE_EARTHQUAKE, MOVE_ICE_BEAM, MOVE_REST},
 					.hpEV = 0,
@@ -4739,7 +4739,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_LAPRAS,
+					.species = SPECIES_TEWI,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_PSYCHIC, MOVE_ATTRACT},
 					.hpEV = 0,
@@ -4761,7 +4761,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_DRAGONITE,
+					.species = SPECIES_GOLIATH,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_EARTHQUAKE, MOVE_LIGHT_SCREEN},
 					.hpEV = 0,
@@ -4806,7 +4806,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 			.speechAfter = {EC_WORD_OKAY, EC_WORD_I, EC_WORD_CONCEDE, EC_WORD_ELLIPSIS, EC_WORD_I, EC_WORD_LOST},
 			.mons = {
 				{
-					.species = SPECIES_FERALIGATR,
+					.species = SPECIES_YOUKI,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_SURF, MOVE_EARTHQUAKE, MOVE_CRUNCH, MOVE_DRAGON_CLAW},
 					.hpEV = 0,
@@ -4828,7 +4828,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_POLIWRATH,
+					.species = SPECIES_CHIBI_LETTY,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_SURF, MOVE_EARTHQUAKE, MOVE_MEGA_KICK, MOVE_ROCK_TOMB},
 					.hpEV = 100,
@@ -4850,7 +4850,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_KANGASKHAN,
+					.species = SPECIES_SUNNY_MILK,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_CRUSH_CLAW, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB, MOVE_AERIAL_ACE},
 					.hpEV = 0,
@@ -4872,7 +4872,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MILTANK,
+					.species = SPECIES_ATTACK_KAGUYA,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_EARTHQUAKE, MOVE_SHADOW_BALL, MOVE_ROCK_TOMB, MOVE_MILK_DRINK},
 					.hpEV = 155,
@@ -4894,7 +4894,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GOLDUCK,
+					.species = SPECIES_YORIHIME,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_CROSS_CHOP, MOVE_SURF, MOVE_ICE_BEAM, MOVE_DISABLE},
 					.hpEV = 0,
@@ -4916,7 +4916,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GRANBULL,
+					.species = SPECIES_TECHNICAL_NITORI,
 					.heldItem = ITEM_LIECHI_BERRY,
 					.moves = {MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_SHADOW_BALL, MOVE_SLUDGE_BOMB},
 					.hpEV = 0,
@@ -4961,7 +4961,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 			.speechAfter = {EC_WORD_OKAY, EC_WORD_MY, EC_WORD_AWESOME, EC_WORD_BROTHER, EC_WORD_FIGHT, EC_WORD_FIGHT},
 			.mons = {
 				{
-					.species = SPECIES_SNEASEL,
+					.species = SPECIES_TECHNICAL_SAKUYA,
 					.heldItem = ITEM_RAWST_BERRY,
 					.moves = {MOVE_DIG, MOVE_TORMENT, MOVE_REFLECT, MOVE_TAUNT},
 					.hpEV = 0,
@@ -4983,7 +4983,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_OMASTAR,
+					.species = SPECIES_MARISA,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_DIVE, MOVE_LEER, MOVE_TICKLE, MOVE_SUPERSONIC},
 					.hpEV = 255,
@@ -5005,7 +5005,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_DEWGONG,
+					.species = SPECIES_NITORI,
 					.heldItem = ITEM_PERSIM_BERRY,
 					.moves = {MOVE_DIVE, MOVE_ENCORE, MOVE_GROWL, MOVE_SAFEGUARD},
 					.hpEV = 200,
@@ -5027,7 +5027,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_QUAGSIRE,
+					.species = SPECIES_CHIBI_GENGETSU,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_DIVE, MOVE_YAWN, MOVE_AMNESIA, MOVE_SAFEGUARD},
 					.hpEV = 200,
@@ -5049,7 +5049,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CORSOLA,
+					.species = SPECIES_TECHNICAL_CHEN,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_DIG, MOVE_MIRROR_COAT, MOVE_RECOVER, MOVE_CONFUSE_RAY},
 					.hpEV = 155,
@@ -5071,7 +5071,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SANDSLASH,
+					.species = SPECIES_RUMIA,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_DIG, MOVE_COUNTER, MOVE_DEFENSE_CURL, MOVE_SAND_ATTACK},
 					.hpEV = 255,
@@ -5104,7 +5104,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 			.speechAfter = {EC_WORD_WAAAH, EC_WORD_WAAAH, EC_WORD_OH, EC_WORD_BIG, EC_WORD_SISTER, EC_WORD_EXCL},
 			.mons = {
 				{
-					.species = SPECIES_FURRET,
+					.species = SPECIES_CHIYURI,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_DIG, MOVE_AMNESIA, MOVE_DEFENSE_CURL, MOVE_FOLLOW_ME},
 					.hpEV = 255,
@@ -5126,7 +5126,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_AZUMARILL,
+					.species = SPECIES_KOTOHIME,
 					.heldItem = ITEM_WHITE_HERB,
 					.moves = {MOVE_DIVE, MOVE_LIGHT_SCREEN, MOVE_TAIL_WHIP, MOVE_DEFENSE_CURL},
 					.hpEV = 155,
@@ -5148,7 +5148,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_KINGLER,
+					.species = SPECIES_LUNASA,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_DIVE, MOVE_HARDEN, MOVE_LEER, MOVE_AMNESIA},
 					.hpEV = 255,
@@ -5170,7 +5170,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CLOYSTER,
+					.species = SPECIES_KOMACHI,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_DIVE, MOVE_WITHDRAW, MOVE_PROTECT, MOVE_SUPERSONIC},
 					.hpEV = 255,
@@ -5192,7 +5192,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_QUAGSIRE,
+					.species = SPECIES_CHIBI_GENGETSU,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_DIG, MOVE_YAWN, MOVE_AMNESIA, MOVE_SAFEGUARD},
 					.hpEV = 200,
@@ -5214,7 +5214,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_KABUTOPS,
+					.species = SPECIES_REIMU,
 					.heldItem = ITEM_PECHA_BERRY,
 					.moves = {MOVE_DIG, MOVE_SAND_ATTACK, MOVE_ENDURE, MOVE_CONFUSE_RAY},
 					.hpEV = 255,
@@ -5258,7 +5258,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 			.speechAfter = {EC_WORD_WON_T, EC_WORD_YOU, EC_WORD_GET, EC_WORD_LOST, EC_WORD_PLEASE, EC_WORD_QUES},
 			.mons = {
 				{
-					.species = SPECIES_POLITOED,
+					.species = SPECIES_YUMEKO,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_SURF, MOVE_HYPNOSIS, MOVE_PERISH_SONG, MOVE_SWAGGER},
 					.hpEV = 0,
@@ -5280,7 +5280,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GYARADOS,
+					.species = SPECIES_CHIBI_TEWI,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_HYPER_BEAM, MOVE_DRAGON_DANCE, MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT},
 					.hpEV = 0,
@@ -5302,7 +5302,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_LAPRAS,
+					.species = SPECIES_TEWI,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_SURF, MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_ICE_BEAM},
 					.hpEV = 0,
@@ -5324,7 +5324,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NIDOQUEEN,
+					.species = SPECIES_FLANDRE,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_SURF, MOVE_EARTHQUAKE, MOVE_SUPERPOWER, MOVE_ROCK_SLIDE},
 					.hpEV = 110,
@@ -5346,7 +5346,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_JYNX,
+					.species = SPECIES_CHIBI_EIKI,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_WATER_PULSE, MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_PSYCHIC},
 					.hpEV = 255,
@@ -5368,7 +5368,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GIRAFARIG,
+					.species = SPECIES_YUKI,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_LIGHT_SCREEN, MOVE_CRUNCH, MOVE_PSYCHIC, MOVE_REFLECT},
 					.hpEV = 210,
@@ -5401,7 +5401,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 			.speechAfter = {EC_WORD_WE, EC_WORD_NEED, EC_WORD_TO, EC_WORD_TRAIN, EC_WORD_SOME, EC_WORD_MORE},
 			.mons = {
 				{
-					.species = SPECIES_MAROWAK,
+					.species = SPECIES_LAYLA,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_AERIAL_ACE, MOVE_PROTECT},
 					.hpEV = 0,
@@ -5423,7 +5423,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_URSARING,
+					.species = SPECIES_ATTACK_RUMIA,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_DOUBLE_EDGE, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_AERIAL_ACE},
 					.hpEV = 0,
@@ -5445,7 +5445,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SLOWKING,
+					.species = SPECIES_CHIBI_RIKAKO,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_SURF, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_SHADOW_BALL},
 					.hpEV = 0,
@@ -5467,7 +5467,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ALAKAZAM,
+					.species = SPECIES_PATCHOULI,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_PSYCHIC, MOVE_PROTECT, MOVE_LIGHT_SCREEN, MOVE_REFLECT},
 					.hpEV = 110,
@@ -5489,7 +5489,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NIDOKING,
+					.species = SPECIES_YOUMU,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_SURF, MOVE_MEGAHORN, MOVE_THUNDERBOLT, MOVE_ICE_BEAM},
 					.hpEV = 110,
@@ -5511,7 +5511,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RHYDON,
+					.species = SPECIES_CHIBI_ICHIRIN,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_EARTHQUAKE, MOVE_PROTECT, MOVE_MEGAHORN, MOVE_ROCK_SLIDE},
 					.hpEV = 255,
@@ -5555,7 +5555,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 			.speechAfter = {EC_WORD_EXCUSE_ME, EC_WORD_BUT, EC_WORD_YOU_RE, EC_WORD_ALL, EC_WORD_TOO_STRONG, 0xFFFF},
 			.mons = {
 				{
-					.species = SPECIES_POLIWAG,
+					.species = SPECIES_CHIBI_HATATE,
 					.heldItem = ITEM_CHERI_BERRY,
 					.moves = {MOVE_SURF, MOVE_PROTECT, MOVE_TOXIC, MOVE_DOUBLE_TEAM},
 					.hpEV = 0,
@@ -5577,7 +5577,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SQUIRTLE,
+					.species = SPECIES_CHIBI_LILY_WHITE,
 					.heldItem = ITEM_MYSTIC_WATER,
 					.moves = {MOVE_WATER_PULSE, MOVE_PROTECT, MOVE_TOXIC, MOVE_MIRROR_COAT},
 					.hpEV = 255,
@@ -5599,7 +5599,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CHINCHOU,
+					.species = SPECIES_MEIRA,
 					.heldItem = ITEM_MAGNET,
 					.moves = {MOVE_SURF, MOVE_THUNDER_WAVE, MOVE_CONFUSE_RAY, MOVE_THUNDERBOLT},
 					.hpEV = 0,
@@ -5621,7 +5621,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NIDORAN_F,
+					.species = SPECIES_SHANGHAI,
 					.heldItem = ITEM_POISON_BARB,
 					.moves = {MOVE_WATER_PULSE, MOVE_SLUDGE_BOMB, MOVE_CRUNCH, MOVE_DIG},
 					.hpEV = 110,
@@ -5643,7 +5643,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CLEFAIRY,
+					.species = SPECIES_CHIBI_YUKARI,
 					.heldItem = ITEM_WHITE_HERB,
 					.moves = {MOVE_WATER_PULSE, MOVE_DOUBLE_TEAM, MOVE_SING, MOVE_MINIMIZE},
 					.hpEV = 110,
@@ -5665,7 +5665,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HORSEA,
+					.species = SPECIES_CHIBI_LUNA_CHILD,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_SURF, MOVE_SMOKESCREEN, MOVE_ATTRACT, MOVE_DRAGON_RAGE},
 					.hpEV = 110,
@@ -5698,7 +5698,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 			.speechAfter = {EC_WORD_YOU, EC_WORD_SHOULD, EC_WORD_NOT, EC_MOVE2(BEAT_UP), EC_WORD_ON, EC_WORD_CHILDREN},
 			.mons = {
 				{
-					.species = SPECIES_WOOPER,
+					.species = SPECIES_MUGETSU,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_SURF, MOVE_EARTHQUAKE, MOVE_YAWN, MOVE_FLASH},
 					.hpEV = 110,
@@ -5720,7 +5720,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PSYDUCK,
+					.species = SPECIES_CHIBI_YORIHIME,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_SURF, MOVE_CROSS_CHOP, MOVE_HYPNOSIS, MOVE_DISABLE},
 					.hpEV = 110,
@@ -5742,7 +5742,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SNUBBULL,
+					.species = SPECIES_ATTACK_NITORI,
 					.heldItem = ITEM_PECHA_BERRY,
 					.moves = {MOVE_WATER_PULSE, MOVE_THUNDER_WAVE, MOVE_CRUNCH, MOVE_SHADOW_BALL},
 					.hpEV = 110,
@@ -5764,7 +5764,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_JIGGLYPUFF,
+					.species = SPECIES_CHIBI_MYSTIA,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_WATER_PULSE, MOVE_THUNDER_WAVE, MOVE_SING, MOVE_DISABLE},
 					.hpEV = 110,
@@ -5786,7 +5786,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NIDORAN_M,
+					.species = SPECIES_HOURAI,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_WATER_PULSE, MOVE_SLUDGE_BOMB, MOVE_HORN_DRILL, MOVE_DIG},
 					.hpEV = 110,
@@ -5808,7 +5808,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused1 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TOTODILE,
+					.species = SPECIES_CHIBI_ORANGE,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_SURF, MOVE_PROTECT, MOVE_TOXIC, MOVE_DOUBLE_TEAM},
 					.hpEV = 110,
@@ -5852,7 +5852,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 			.speechAfter = {EC_WORD_YOU_RE, EC_WORD_A, EC_WORD_NICE, EC_WORD_TRAINER, EC_WORD_THANK_YOU, EC_WORD_EXCL},
 			.mons = {
 				{
-					.species = SPECIES_GOLDEEN,
+					.species = SPECIES_CHIBI_STAR_SAPPHIRE,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_WATER_PULSE, MOVE_MEGAHORN, MOVE_SUPERSONIC, MOVE_ICE_BEAM},
 					.hpEV = 110,
@@ -5874,7 +5874,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_SEAKING,
+					.species = SPECIES_STAR_SAPPHIRE,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_SURF, MOVE_MEGAHORN, MOVE_HORN_DRILL, MOVE_PROTECT},
 					.hpEV = 100,
@@ -5896,7 +5896,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_LANTURN,
+					.species = SPECIES_CHIBI_SARA,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_SURF, MOVE_THUNDERBOLT, MOVE_THUNDER_WAVE, MOVE_ICE_BEAM},
 					.hpEV = 0,
@@ -5918,7 +5918,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_LANTURN,
+					.species = SPECIES_CHIBI_SARA,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_HYDRO_PUMP, MOVE_THUNDER, MOVE_ICE_BEAM, MOVE_RAIN_DANCE},
 					.hpEV = 0,
@@ -5940,7 +5940,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_GOLDEEN,
+					.species = SPECIES_CHIBI_STAR_SAPPHIRE,
 					.heldItem = ITEM_APICOT_BERRY,
 					.moves = {MOVE_WATER_PULSE, MOVE_DOUBLE_EDGE, MOVE_TOXIC, MOVE_PSYBEAM},
 					.hpEV = 110,
@@ -5962,7 +5962,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 0
 				},
 				{
-					.species = SPECIES_SEAKING,
+					.species = SPECIES_STAR_SAPPHIRE,
 					.heldItem = ITEM_PETAYA_BERRY,
 					.moves = {MOVE_SURF, MOVE_HYPER_BEAM, MOVE_ICE_BEAM, MOVE_PSYBEAM},
 					.hpEV = 110,
@@ -5995,7 +5995,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 			.speechAfter = {EC_WORD_HOHOHO, EC_WORD_THANK_YOU, EC_WORD_FOR, EC_WORD_AN, EC_WORD_AMUSING, EC_WORD_BATTLE},
 			.mons = {
 				{
-					.species = SPECIES_OCTILLERY,
+					.species = SPECIES_SPEED_YOUMU,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_OCTAZOOKA, MOVE_ICE_BEAM, MOVE_PSYCHIC, MOVE_FLAMETHROWER},
 					.hpEV = 55,
@@ -6017,7 +6017,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_QWILFISH,
+					.species = SPECIES_ATTACK_MOKOU,
 					.heldItem = ITEM_PERSIM_BERRY,
 					.moves = {MOVE_SURF, MOVE_TOXIC, MOVE_REVENGE, MOVE_DOUBLE_TEAM},
 					.hpEV = 200,
@@ -6039,7 +6039,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_REMORAID,
+					.species = SPECIES_DEFENSE_YOUMU,
 					.heldItem = ITEM_PECHA_BERRY,
 					.moves = {MOVE_SURF, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_THUNDER_WAVE},
 					.hpEV = 0,
@@ -6061,7 +6061,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_REMORAID,
+					.species = SPECIES_DEFENSE_YOUMU,
 					.heldItem = ITEM_WHITE_HERB,
 					.moves = {MOVE_WATER_PULSE, MOVE_BLIZZARD, MOVE_FIRE_BLAST, MOVE_PROTECT},
 					.hpEV = 0,
@@ -6083,7 +6083,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_OCTILLERY,
+					.species = SPECIES_SPEED_YOUMU,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_OCTAZOOKA, MOVE_SLUDGE_BOMB, MOVE_THUNDER_WAVE, MOVE_HYPER_BEAM},
 					.hpEV = 155,
@@ -6105,7 +6105,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_QWILFISH,
+					.species = SPECIES_ATTACK_MOKOU,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_HYDRO_PUMP, MOVE_SLUDGE_BOMB, MOVE_SHADOW_BALL, MOVE_DESTINY_BOND},
 					.hpEV = 100,
@@ -6138,7 +6138,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 			.speechAfter = {EC_WORD_NICE, EC_WORD_BATTLE, EC_WORD_THANKS, EC_WORD_FOR, EC_WORD_ENTERTAINING, EC_WORD_ME},
 			.mons = {
 				{
-					.species = SPECIES_MANTINE,
+					.species = SPECIES_TECHNICAL_YUUKA,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_DOUBLE_EDGE, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE, MOVE_ROCK_SLIDE},
 					.hpEV = 0,
@@ -6160,7 +6160,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAGIKARP,
+					.species = SPECIES_WRIGGLE,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_SPLASH, MOVE_TACKLE, MOVE_NONE, MOVE_NONE},
 					.hpEV = 0,
@@ -6182,7 +6182,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MANTINE,
+					.species = SPECIES_TECHNICAL_YUUKA,
 					.heldItem = ITEM_MENTAL_HERB,
 					.moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_CONFUSE_RAY, MOVE_ATTRACT},
 					.hpEV = 0,
@@ -6204,7 +6204,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GYARADOS,
+					.species = SPECIES_CHIBI_TEWI,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_HYPER_BEAM, MOVE_THUNDER_WAVE, MOVE_EARTHQUAKE, MOVE_PROTECT},
 					.hpEV = 0,
@@ -6226,7 +6226,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAGIKARP,
+					.species = SPECIES_WRIGGLE,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_FLAIL, MOVE_TACKLE, MOVE_NONE, MOVE_NONE},
 					.hpEV = 0,
@@ -6248,7 +6248,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GYARADOS,
+					.species = SPECIES_CHIBI_TEWI,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_DOUBLE_EDGE, MOVE_THUNDER_WAVE, MOVE_EARTHQUAKE, MOVE_DRAGON_DANCE},
 					.hpEV = 0,
@@ -6291,7 +6291,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 			.speechAfter = {EC_WORD_I, EC_WORD_DON_T, EC_MOVE(GRUDGE), EC_WORD_YOU, EC_WORD_BUT, EC_WORD_ELLIPSIS},
 			.mons = {
 				{
-					.species = SPECIES_LAPRAS,
+					.species = SPECIES_TEWI,
 					.heldItem = ITEM_CHESTO_BERRY,
 					.moves = {MOVE_HYDRO_PUMP, MOVE_PSYCHIC, MOVE_ATTRACT, MOVE_REST},
 					.hpEV = 0,
@@ -6313,7 +6313,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_KINGDRA,
+					.species = SPECIES_DEFENSE_TENSHI,
 					.heldItem = ITEM_CHESTO_BERRY,
 					.moves = {MOVE_HYDRO_PUMP, MOVE_BLIZZARD, MOVE_DRAGON_BREATH, MOVE_REST},
 					.hpEV = 0,
@@ -6335,7 +6335,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MACHAMP,
+					.species = SPECIES_CHIBI_TENSHI,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_CROSS_CHOP, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_HYPER_BEAM},
 					.hpEV = 0,
@@ -6357,7 +6357,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CHANSEY,
+					.species = SPECIES_ICHIRIN,
 					.heldItem = ITEM_ORAN_BERRY,
 					.moves = {MOVE_WATER_PULSE, MOVE_SOFT_BOILED, MOVE_MINIMIZE, MOVE_THUNDER_WAVE},
 					.hpEV = 255,
@@ -6379,7 +6379,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TAUROS,
+					.species = SPECIES_CHIBI_WRIGGLE,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_DOUBLE_EDGE, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB, MOVE_SWAGGER},
 					.hpEV = 110,
@@ -6401,7 +6401,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SNORLAX,
+					.species = SPECIES_BYAKUREN,
 					.heldItem = ITEM_ORAN_BERRY,
 					.moves = {MOVE_DOUBLE_EDGE, MOVE_EARTHQUAKE, MOVE_DOUBLE_TEAM, MOVE_REST},
 					.hpEV = 0,
@@ -6434,7 +6434,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 			.speechAfter = {EC_WORD_FASHION, EC_WORD_APPEAL, EC_WORD_WON_T, EC_WORD_GET, EC_WORD_ME, EC_WORD_WINS},
 			.mons = {
 				{
-					.species = SPECIES_CHINCHOU,
+					.species = SPECIES_MEIRA,
 					.heldItem = ITEM_MAGNET,
 					.moves = {MOVE_THUNDERBOLT, MOVE_THUNDER_WAVE, MOVE_CONFUSE_RAY, MOVE_PROTECT},
 					.hpEV = 100,
@@ -6456,7 +6456,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_DRATINI,
+					.species = SPECIES_CHIBI_TOYOHIME,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_WATER_PULSE, MOVE_THUNDER_WAVE, MOVE_DRAGON_BREATH, MOVE_PROTECT},
 					.hpEV = 110,
@@ -6478,7 +6478,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SLOWPOKE,
+					.species = SPECIES_SATORI,
 					.heldItem = ITEM_PECHA_BERRY,
 					.moves = {MOVE_WATER_PULSE, MOVE_YAWN, MOVE_DISABLE, MOVE_PROTECT},
 					.hpEV = 0,
@@ -6500,7 +6500,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAGIKARP,
+					.species = SPECIES_WRIGGLE,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_SPLASH, MOVE_FLAIL, MOVE_TACKLE, MOVE_NONE},
 					.hpEV = 0,
@@ -6522,7 +6522,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_SEAKING,
+					.species = SPECIES_STAR_SAPPHIRE,
 					.heldItem = ITEM_CHERI_BERRY,
 					.moves = {MOVE_HORN_DRILL, MOVE_MEGAHORN, MOVE_SUPERSONIC, MOVE_AGILITY},
 					.hpEV = 255,
@@ -6544,7 +6544,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TENTACRUEL,
+					.species = SPECIES_MURASA,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_MIRROR_COAT, MOVE_SUPERSONIC, MOVE_PROTECT, MOVE_TOXIC},
 					.hpEV = 0,
@@ -6577,7 +6577,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 			.speechAfter = {EC_WORD_I_AM, EC_WORD_SORRY, EC_WORD_THAT, EC_WORD_I_WAS, EC_WORD_YOUR, EC_WORD_OPPONENT},
 			.mons = {
 				{
-					.species = SPECIES_VAPOREON,
+					.species = SPECIES_NUE,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_ATTRACT, MOVE_BITE},
 					.hpEV = 0,
@@ -6599,7 +6599,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ESPEON,
+					.species = SPECIES_GENGETSU,
 					.heldItem = ITEM_CHESTO_BERRY,
 					.moves = {MOVE_PSYCHIC, MOVE_BITE, MOVE_REFLECT, MOVE_REST},
 					.hpEV = 110,
@@ -6621,7 +6621,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_BLISSEY,
+					.species = SPECIES_DEFENSE_KAGUYA,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_WATER_PULSE, MOVE_MINIMIZE, MOVE_THUNDER_WAVE, MOVE_PROTECT},
 					.hpEV = 255,
@@ -6643,7 +6643,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_STARMIE,
+					.species = SPECIES_YUUKA,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_RECOVER, MOVE_PSYCHIC},
 					.hpEV = 255,
@@ -6665,7 +6665,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PERSIAN,
+					.species = SPECIES_CHEN,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_SLASH, MOVE_SWAGGER, MOVE_PSYCH_UP, MOVE_FAKE_OUT},
 					.hpEV = 0,
@@ -6687,7 +6687,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_4 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_AZUMARILL,
+					.species = SPECIES_KOTOHIME,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_SURF, MOVE_ENCORE, MOVE_ATTRACT, MOVE_DIG},
 					.hpEV = 0,
@@ -6730,7 +6730,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 			.speechAfter = {EC_WORD_WANT, EC_WORD_TO, EC_WORD_PARTY, EC_WORD_SOME, EC_WORD_MORE, EC_WORD_QUES},
 			.mons = {
 				{
-					.species = SPECIES_ELECTRODE,
+					.species = SPECIES_MERLIN,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_EXPLOSION, MOVE_LIGHT_SCREEN, MOVE_SCREECH, MOVE_THUNDERBOLT},
 					.hpEV = 10,
@@ -6752,7 +6752,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_VOLTORB,
+					.species = SPECIES_CHIBI_MERLIN,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_EXPLOSION, MOVE_FLASH, MOVE_DOUBLE_TEAM, MOVE_THUNDER},
 					.hpEV = 0,
@@ -6774,7 +6774,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_WEEZING,
+					.species = SPECIES_CHIBI_UTSUHO,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_EXPLOSION, MOVE_SLUDGE_BOMB, MOVE_DESTINY_BOND, MOVE_THUNDERBOLT},
 					.hpEV = 0,
@@ -6796,7 +6796,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GOLEM,
+					.species = SPECIES_CHIBI_KOGASA,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_EXPLOSION, MOVE_DOUBLE_EDGE, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB},
 					.hpEV = 0,
@@ -6818,7 +6818,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_EXEGGCUTE,
+					.species = SPECIES_CHIBI_LYRICA,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_EXPLOSION, MOVE_STUN_SPORE, MOVE_HYPNOSIS, MOVE_GIGA_DRAIN},
 					.hpEV = 0,
@@ -6840,7 +6840,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Single_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_FORRETRESS,
+					.species = SPECIES_MAI,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_EXPLOSION, MOVE_GIGA_DRAIN, MOVE_DIG, MOVE_PROTECT},
 					.hpEV = 0,
@@ -6885,7 +6885,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 			.speechAfter = {EC_MOVE2(WHIRLWIND), EC_WORD_SPIRALING, 0xFFFF, 0xFFFF, EC_WORD_SPIRALING, EC_MOVE2(WHIRLWIND)},
 			.mons = {
 				{
-					.species = SPECIES_MAGNETON,
+					.species = SPECIES_CHIBI_RAN,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_PROTECT, MOVE_ZAP_CANNON, MOVE_TOXIC, MOVE_SUPERSONIC},
 					.hpEV = 0,
@@ -6907,7 +6907,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PIKACHU,
+					.species = SPECIES_CHIBI_CIRNO,
 					.heldItem = ITEM_LIGHT_BALL,
 					.moves = {MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_PROTECT, MOVE_DOUBLE_TEAM},
 					.hpEV = 0,
@@ -6929,7 +6929,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_JOLTEON,
+					.species = SPECIES_CHIBI_SUWAKO,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_THUNDER_WAVE, MOVE_THUNDERBOLT, MOVE_DOUBLE_TEAM, MOVE_TOXIC},
 					.hpEV = 0,
@@ -6951,7 +6951,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_BLISSEY,
+					.species = SPECIES_DEFENSE_KAGUYA,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_THUNDER_WAVE, MOVE_BLIZZARD, MOVE_WATER_PULSE, MOVE_REST},
 					.hpEV = 0,
@@ -6973,7 +6973,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PORYGON2,
+					.species = SPECIES_ATTACK_KOISHI,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_THUNDER_WAVE, MOVE_ZAP_CANNON, MOVE_PSYCHIC, MOVE_RECOVER},
 					.hpEV = 0,
@@ -6995,7 +6995,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PORYGON,
+					.species = SPECIES_GYOKUTO,
 					.heldItem = ITEM_LAX_INCENSE,
 					.moves = {MOVE_THUNDER_WAVE, MOVE_ZAP_CANNON, MOVE_DOUBLE_TEAM, MOVE_PROTECT},
 					.hpEV = 0,
@@ -7040,7 +7040,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 			.speechAfter = {EC_WORD_I, EC_WORD_WILL, EC_WORD_MAKE, EC_WORD_THE, EC_MOVE(KINESIS), EC_WORD_HALL_OF_FAME},
 			.mons = {
 				{
-					.species = SPECIES_MR_MIME,
+					.species = SPECIES_CHIBI_AYA,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_THUNDERBOLT, MOVE_THUNDER_WAVE, MOVE_LIGHT_SCREEN, MOVE_REFLECT},
 					.hpEV = 0,
@@ -7062,7 +7062,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HYPNO,
+					.species = SPECIES_SAKUYA,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_THUNDER_PUNCH, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH, MOVE_PSYCHIC},
 					.hpEV = 0,
@@ -7084,7 +7084,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ALAKAZAM,
+					.species = SPECIES_PATCHOULI,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_THUNDER_PUNCH, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH, MOVE_PSYCHIC},
 					.hpEV = 0,
@@ -7106,7 +7106,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GENGAR,
+					.species = SPECIES_CHIBI_MEILING,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_THUNDERBOLT, MOVE_SHADOW_BALL, MOVE_HYPNOSIS, MOVE_TOXIC},
 					.hpEV = 0,
@@ -7128,7 +7128,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GIRAFARIG,
+					.species = SPECIES_YUKI,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_THUNDERBOLT, MOVE_CRUNCH, MOVE_BODY_SLAM, MOVE_REST},
 					.hpEV = 0,
@@ -7150,7 +7150,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Mixed_2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_STARMIE,
+					.species = SPECIES_YUUKA,
 					.heldItem = ITEM_APICOT_BERRY,
 					.moves = {MOVE_THUNDERBOLT, MOVE_SURF, MOVE_RECOVER, MOVE_ICE_BEAM},
 					.hpEV = 0,
@@ -7195,7 +7195,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 			.speechAfter = {EC_WORD_MY, EC_WORD_INVINCIBLE, EC_WORD_STRATEGY, EC_WORD_WAS, EC_WORD_DESTROYED, EC_WORD_ELLIPSIS},
 			.mons = {
 				{
-					.species = SPECIES_MUK,
+					.species = SPECIES_HINA,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_THUNDERBOLT, MOVE_SLUDGE_BOMB, MOVE_SHADOW_BALL, MOVE_BODY_SLAM},
 					.hpEV = 0,
@@ -7217,7 +7217,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GENGAR,
+					.species = SPECIES_CHIBI_MEILING,
 					.heldItem = ITEM_PETAYA_BERRY,
 					.moves = {MOVE_THUNDERBOLT, MOVE_CONFUSE_RAY, MOVE_PSYCHIC, MOVE_EXPLOSION},
 					.hpEV = 0,
@@ -7239,7 +7239,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ALAKAZAM,
+					.species = SPECIES_PATCHOULI,
 					.heldItem = ITEM_GANLON_BERRY,
 					.moves = {MOVE_THUNDER_PUNCH, MOVE_PSYCHIC, MOVE_RECOVER, MOVE_REFLECT},
 					.hpEV = 0,
@@ -7261,7 +7261,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_JOLTEON,
+					.species = SPECIES_CHIBI_SUWAKO,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_THUNDERBOLT, MOVE_FLAIL, MOVE_THUNDER_WAVE, MOVE_DOUBLE_TEAM},
 					.hpEV = 0,
@@ -7283,7 +7283,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ELECTRODE,
+					.species = SPECIES_MERLIN,
 					.heldItem = ITEM_LIECHI_BERRY,
 					.moves = {MOVE_THUNDERBOLT, MOVE_EXPLOSION, MOVE_MIRROR_COAT, MOVE_LIGHT_SCREEN},
 					.hpEV = 0,
@@ -7305,7 +7305,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RAICHU,
+					.species = SPECIES_CIRNO,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_THUNDERBOLT, MOVE_COUNTER, MOVE_REVERSAL, MOVE_LIGHT_SCREEN},
 					.hpEV = 0,
@@ -7338,7 +7338,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 			.speechAfter = {EC_WORD_GO, EC_WORD_ON, EC_WORD_PLEASE, EC_WORD_EXCL, EC_WORD_TCH, EC_WORD_ELLIPSIS},
 			.mons = {
 				{
-					.species = SPECIES_KANGASKHAN,
+					.species = SPECIES_SUNNY_MILK,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_SHADOW_BALL, MOVE_REVERSAL, MOVE_ENDURE, MOVE_FAKE_OUT},
 					.hpEV = 0,
@@ -7360,7 +7360,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TAUROS,
+					.species = SPECIES_CHIBI_WRIGGLE,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_DOUBLE_EDGE, MOVE_ROCK_TOMB, MOVE_SURF, MOVE_REST},
 					.hpEV = 0,
@@ -7382,7 +7382,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MILTANK,
+					.species = SPECIES_ATTACK_KAGUYA,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_BODY_SLAM, MOVE_SHADOW_BALL, MOVE_MILK_DRINK, MOVE_ROCK_TOMB},
 					.hpEV = 0,
@@ -7404,7 +7404,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RHYDON,
+					.species = SPECIES_CHIBI_ICHIRIN,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_THUNDERBOLT, MOVE_MEGAHORN, MOVE_HORN_DRILL, MOVE_ROCK_TOMB},
 					.hpEV = 0,
@@ -7426,7 +7426,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_DRAGONITE,
+					.species = SPECIES_GOLIATH,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_BLIZZARD, MOVE_SURF, MOVE_OUTRAGE, MOVE_FLAMETHROWER},
 					.hpEV = 0,
@@ -7448,7 +7448,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused2 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_LAPRAS,
+					.species = SPECIES_TEWI,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_THUNDERBOLT, MOVE_BLIZZARD, MOVE_SURF, MOVE_HORN_DRILL},
 					.hpEV = 0,
@@ -7492,7 +7492,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 			.speechAfter = {EC_WORD_THIS, EC_MOVE(SHEER_COLD), EC_WORD_HAS, EC_WORD_ME, EC_WORD_FEELING, EC_WORD_SHAKY},
 			.mons = {
 				{
-					.species = SPECIES_LANTURN,
+					.species = SPECIES_CHIBI_SARA,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_RAIN_DANCE, MOVE_SURF, MOVE_THUNDER, MOVE_ICE_BEAM},
 					.hpEV = 0,
@@ -7514,7 +7514,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MANTINE,
+					.species = SPECIES_TECHNICAL_YUUKA,
 					.heldItem = ITEM_PETAYA_BERRY,
 					.moves = {MOVE_RAIN_DANCE, MOVE_SURF, MOVE_CONFUSE_RAY, MOVE_ICE_BEAM},
 					.hpEV = 0,
@@ -7536,7 +7536,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_DEWGONG,
+					.species = SPECIES_NITORI,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_RAIN_DANCE, MOVE_SURF, MOVE_SHEER_COLD, MOVE_BLIZZARD},
 					.hpEV = 0,
@@ -7558,7 +7558,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CLOYSTER,
+					.species = SPECIES_KOMACHI,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_RAIN_DANCE, MOVE_SURF, MOVE_ICE_BEAM, MOVE_HYPER_BEAM},
 					.hpEV = 255,
@@ -7580,7 +7580,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TENTACRUEL,
+					.species = SPECIES_MURASA,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_RAIN_DANCE, MOVE_SURF, MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB},
 					.hpEV = 0,
@@ -7602,7 +7602,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GYARADOS,
+					.species = SPECIES_CHIBI_TEWI,
 					.heldItem = ITEM_LIECHI_BERRY,
 					.moves = {MOVE_RAIN_DANCE, MOVE_SURF, MOVE_DRAGON_DANCE, MOVE_RETURN},
 					.hpEV = 0,
@@ -7635,7 +7635,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 			.speechAfter = {EC_WORD_SISTER, EC_WORD_I, EC_WORD_NEED, EC_WORD_SOMETHING, EC_WORD_HOT, EC_WORD_PLEASE},
 			.mons = {
 				{
-					.species = SPECIES_ELECTABUZZ,
+					.species = SPECIES_EIKI,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_THUNDER, MOVE_PSYCHIC, MOVE_CROSS_CHOP, MOVE_LIGHT_SCREEN},
 					.hpEV = 0,
@@ -7657,7 +7657,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAGNETON,
+					.species = SPECIES_CHIBI_RAN,
 					.heldItem = ITEM_PETAYA_BERRY,
 					.moves = {MOVE_THUNDER, MOVE_SONIC_BOOM, MOVE_METAL_SOUND, MOVE_REFLECT},
 					.hpEV = 0,
@@ -7679,7 +7679,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PORYGON,
+					.species = SPECIES_GYOKUTO,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_THUNDER, MOVE_PSYCHIC, MOVE_BLIZZARD, MOVE_PROTECT},
 					.hpEV = 255,
@@ -7701,7 +7701,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_DRAGONAIR,
+					.species = SPECIES_TOYOHIME,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_THUNDER, MOVE_SURF, MOVE_BLIZZARD, MOVE_OUTRAGE},
 					.hpEV = 0,
@@ -7723,7 +7723,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PERSIAN,
+					.species = SPECIES_CHEN,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_THUNDER, MOVE_FAKE_OUT, MOVE_WATER_PULSE, MOVE_RETURN},
 					.hpEV = 0,
@@ -7745,7 +7745,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_7 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_STARMIE,
+					.species = SPECIES_YUUKA,
 					.heldItem = ITEM_GANLON_BERRY,
 					.moves = {MOVE_THUNDER, MOVE_SURF, MOVE_RECOVER, MOVE_REFLECT},
 					.hpEV = 0,
@@ -7789,7 +7789,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 			.speechAfter = {EC_WORD_YOU_RE, EC_WORD_JUST, EC_WORD_A_LITTLE, EC_WORD_KID, EC_WORD_AHAHA, EC_WORD_EXCL},
 			.mons = {
 				{
-					.species = SPECIES_FLAAFFY,
+					.species = SPECIES_HAKUREI,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_ATTRACT, MOVE_PROTECT, MOVE_THUNDERBOLT, MOVE_REFLECT},
 					.hpEV = 0,
@@ -7811,7 +7811,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_QUAGSIRE,
+					.species = SPECIES_CHIBI_GENGETSU,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_ATTRACT, MOVE_SURF, MOVE_AMNESIA, MOVE_BLIZZARD},
 					.hpEV = 0,
@@ -7833,7 +7833,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PIKACHU,
+					.species = SPECIES_CHIBI_CIRNO,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_ATTRACT, MOVE_REVERSAL, MOVE_THUNDERBOLT, MOVE_IRON_TAIL},
 					.hpEV = 0,
@@ -7855,7 +7855,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ELECTABUZZ,
+					.species = SPECIES_EIKI,
 					.heldItem = ITEM_LIECHI_BERRY,
 					.moves = {MOVE_ATTRACT, MOVE_COUNTER, MOVE_ICE_PUNCH, MOVE_BODY_SLAM},
 					.hpEV = 0,
@@ -7877,7 +7877,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TOGETIC,
+					.species = SPECIES_ALICE_98,
 					.heldItem = ITEM_KINGS_ROCK,
 					.moves = {MOVE_ATTRACT, MOVE_BLIZZARD, MOVE_ANCIENT_POWER, MOVE_WATER_PULSE},
 					.hpEV = 0,
@@ -7899,7 +7899,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GOLDUCK,
+					.species = SPECIES_YORIHIME,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_ATTRACT, MOVE_SURF, MOVE_DIG, MOVE_CROSS_CHOP},
 					.hpEV = 0,
@@ -7932,7 +7932,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 			.speechAfter = {EC_WORD_YOU, EC_WORD_HAVE, EC_WORD_TIME, EC_WORD_TO, EC_WORD_TALK, EC_WORD_QUES},
 			.mons = {
 				{
-					.species = SPECIES_PICHU,
+					.species = SPECIES_SARA,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_ATTRACT, MOVE_PROTECT, MOVE_SWEET_KISS, MOVE_REVERSAL},
 					.hpEV = 0,
@@ -7954,7 +7954,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ELEKID,
+					.species = SPECIES_ATTACK_KANAKO,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_ATTRACT, MOVE_PROTECT, MOVE_DOUBLE_TEAM, MOVE_FOCUS_PUNCH},
 					.hpEV = 0,
@@ -7976,7 +7976,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_TOGEPI,
+					.species = SPECIES_CHIBI_ALICE_98,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_ATTRACT, MOVE_PROTECT, MOVE_YAWN, MOVE_WATER_PULSE},
 					.hpEV = 0,
@@ -7998,7 +7998,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PSYDUCK,
+					.species = SPECIES_CHIBI_YORIHIME,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_ATTRACT, MOVE_PROTECT, MOVE_DIG, MOVE_DIVE},
 					.hpEV = 0,
@@ -8020,7 +8020,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAREEP,
+					.species = SPECIES_CHIBI_HAKUREI,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_ATTRACT, MOVE_PROTECT, MOVE_LIGHT_SCREEN, MOVE_THUNDERBOLT},
 					.hpEV = 0,
@@ -8042,7 +8042,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Double_Unused3 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_WOOPER,
+					.species = SPECIES_MUGETSU,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_ATTRACT, MOVE_PROTECT, MOVE_SURF, MOVE_YAWN},
 					.hpEV = 0,
@@ -8086,7 +8086,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 			.speechAfter = {EC_WORD_ELECTRIC, EC_WORD_EXCL, EC_WORD_IT_S, EC_WORD_A, EC_WORD_NATURAL, EC_WORD_POWER},
 			.mons = {
 				{
-					.species = SPECIES_ELECTRODE,
+					.species = SPECIES_MERLIN,
 					.heldItem = ITEM_LIECHI_BERRY,
 					.moves = {MOVE_THUNDERBOLT, MOVE_MIRROR_COAT, MOVE_EXPLOSION, MOVE_THUNDER_WAVE},
 					.hpEV = 0,
@@ -8108,7 +8108,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_ELECTABUZZ,
+					.species = SPECIES_EIKI,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_THUNDERBOLT, MOVE_FIRE_PUNCH, MOVE_PSYCHIC, MOVE_ICE_PUNCH},
 					.hpEV = 0,
@@ -8130,7 +8130,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_LANTURN,
+					.species = SPECIES_CHIBI_SARA,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_THUNDERBOLT, MOVE_DOUBLE_EDGE, MOVE_ICE_BEAM, MOVE_HYDRO_PUMP},
 					.hpEV = 0,
@@ -8152,7 +8152,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAGNETON,
+					.species = SPECIES_CHIBI_RAN,
 					.heldItem = ITEM_LIECHI_BERRY,
 					.moves = {MOVE_ZAP_CANNON, MOVE_HYPER_BEAM, MOVE_LOCK_ON, MOVE_SUPERSONIC},
 					.hpEV = 0,
@@ -8174,7 +8174,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RAICHU,
+					.species = SPECIES_CIRNO,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_DOUBLE_EDGE, MOVE_MEGA_KICK, MOVE_REVERSAL, MOVE_BODY_SLAM},
 					.hpEV = 0,
@@ -8196,7 +8196,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_AMPHAROS,
+					.species = SPECIES_CHIBI_KIRISAME,
 					.heldItem = ITEM_SHELL_BELL,
 					.moves = {MOVE_THUNDERBOLT, MOVE_MEGA_KICK, MOVE_COUNTER, MOVE_BODY_SLAM},
 					.hpEV = 0,
@@ -8229,7 +8229,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 			.speechAfter = {EC_WORD_ELECTRIC, EC_WORD_EXCL, EC_WORD_IT_S, EC_WORD_A, EC_WORD_TREASURE, EC_WORD_EXCL},
 			.mons = {
 				{
-					.species = SPECIES_GRANBULL,
+					.species = SPECIES_TECHNICAL_NITORI,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_THUNDERBOLT, MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB},
 					.hpEV = 0,
@@ -8251,7 +8251,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PERSIAN,
+					.species = SPECIES_CHEN,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_THUNDERBOLT, MOVE_WATER_PULSE, MOVE_HYPNOSIS, MOVE_SLASH},
 					.hpEV = 0,
@@ -8273,7 +8273,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_LICKITUNG,
+					.species = SPECIES_CHIBI_RIN,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_PROTECT, MOVE_SURF, MOVE_EARTHQUAKE, MOVE_SHADOW_BALL},
 					.hpEV = 200,
@@ -8295,7 +8295,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RATICATE,
+					.species = SPECIES_NAZRIN,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_THUNDERBOLT, MOVE_HYPER_FANG, MOVE_SUPER_FANG, MOVE_REVERSAL},
 					.hpEV = 0,
@@ -8317,7 +8317,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PRIMEAPE,
+					.species = SPECIES_KAGUYA,
 					.heldItem = ITEM_SCOPE_LENS,
 					.moves = {MOVE_THUNDERBOLT, MOVE_CROSS_CHOP, MOVE_EARTHQUAKE, MOVE_ROCK_TOMB},
 					.hpEV = 0,
@@ -8339,7 +8339,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_KANGASKHAN,
+					.species = SPECIES_SUNNY_MILK,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_THUNDERBOLT, MOVE_SURF, MOVE_CRUSH_CLAW, MOVE_REST},
 					.hpEV = 0,
@@ -8372,7 +8372,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 			.speechAfter = {EC_WORD_ALL, EC_WORD_TOGETHER, EC_WORD_NOW, EC_WORD_EXCL, EC_MOVE(SPARK), EC_MOVE(SPARK)},
 			.mons = {
 				{
-					.species = SPECIES_WEEZING,
+					.species = SPECIES_CHIBI_UTSUHO,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_THUNDERBOLT, MOVE_SLUDGE_BOMB, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL},
 					.hpEV = 0,
@@ -8394,7 +8394,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MUK,
+					.species = SPECIES_HINA,
 					.heldItem = ITEM_LEFTOVERS,
 					.moves = {MOVE_THUNDERBOLT, MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN, MOVE_CURSE},
 					.hpEV = 0,
@@ -8416,7 +8416,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_GENGAR,
+					.species = SPECIES_CHIBI_MEILING,
 					.heldItem = ITEM_PETAYA_BERRY,
 					.moves = {MOVE_THUNDERBOLT, MOVE_HYPNOSIS, MOVE_DREAM_EATER, MOVE_WILL_O_WISP},
 					.hpEV = 0,
@@ -8438,7 +8438,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MISDREAVUS,
+					.species = SPECIES_RIKAKO,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_PSYCHIC, MOVE_GRUDGE, MOVE_CONFUSE_RAY, MOVE_DESTINY_BOND},
 					.hpEV = 0,
@@ -8460,7 +8460,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CROBAT,
+					.species = SPECIES_CHIBI_MEIRA,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_SLUDGE_BOMB, MOVE_CONFUSE_RAY, MOVE_GIGA_DRAIN, MOVE_TOXIC},
 					.hpEV = 0,
@@ -8482,7 +8482,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_6 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_HAUNTER,
+					.species = SPECIES_YUYUKO,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_DESTINY_BOND, MOVE_HYPNOSIS, MOVE_CONFUSE_RAY, MOVE_TOXIC},
 					.hpEV = 0,
@@ -8525,7 +8525,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 			.speechAfter = {EC_WORD_HEY, EC_WORD_EXCL, EC_WORD_THE, EC_WORD_GROUND, EC_WORD_IS, EC_WORD_SLIMY},
 			.mons = {
 				{
-					.species = SPECIES_PICHU,
+					.species = SPECIES_SARA,
 					.heldItem = ITEM_FOCUS_BAND,
 					.moves = {MOVE_THUNDER_SHOCK, MOVE_THUNDER_WAVE, MOVE_SWEET_KISS, MOVE_PROTECT},
 					.hpEV = 0,
@@ -8547,7 +8547,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_MAREEP,
+					.species = SPECIES_CHIBI_HAKUREI,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_THUNDER_SHOCK, MOVE_CHARGE, MOVE_PROTECT, MOVE_RETURN},
 					.hpEV = 0,
@@ -8569,7 +8569,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_IGGLYBUFF,
+					.species = SPECIES_LOUISE,
 					.heldItem = ITEM_QUICK_CLAW,
 					.moves = {MOVE_SING, MOVE_SWEET_KISS, MOVE_PRESENT, MOVE_PROTECT},
 					.hpEV = 0,
@@ -8591,7 +8591,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CLEFFA,
+					.species = SPECIES_CHIBI_LOUISE,
 					.heldItem = ITEM_LAX_INCENSE,
 					.moves = {MOVE_SING, MOVE_SWEET_KISS, MOVE_ENCORE, MOVE_METRONOME},
 					.hpEV = 0,
@@ -8613,7 +8613,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NIDORAN_F,
+					.species = SPECIES_SHANGHAI,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_CRUNCH, MOVE_DIG, MOVE_FLATTER, MOVE_ATTRACT},
 					.hpEV = 0,
@@ -8635,7 +8635,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NIDORAN_M,
+					.species = SPECIES_HOURAI,
 					.heldItem = ITEM_SITRUS_BERRY,
 					.moves = {MOVE_HORN_DRILL, MOVE_SLUDGE_BOMB, MOVE_FLATTER, MOVE_ATTRACT},
 					.hpEV = 0,
@@ -8668,7 +8668,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 			.speechAfter = {EC_WORD_YOU, EC_MOVE2(SPIT_UP), EC_WORD_ME, EC_WORD_AS_IF, EC_WORD_I_AM, EC_WORD_NOTHING},
 			.mons = {
 				{
-					.species = SPECIES_NIDORINO,
+					.species = SPECIES_CHIBI_YOUMU,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_SHOCK_WAVE, MOVE_HORN_DRILL, MOVE_ICE_BEAM, MOVE_IRON_TAIL},
 					.hpEV = 0,
@@ -8690,7 +8690,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NIDORINA,
+					.species = SPECIES_CHIBI_FLANDRE,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_SHOCK_WAVE, MOVE_CRUNCH, MOVE_BODY_SLAM, MOVE_COUNTER},
 					.hpEV = 0,
@@ -8712,7 +8712,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_PIKACHU,
+					.species = SPECIES_CHIBI_CIRNO,
 					.heldItem = ITEM_LIGHT_BALL,
 					.moves = {MOVE_SHOCK_WAVE, MOVE_THUNDER_WAVE, MOVE_COUNTER, MOVE_BODY_SLAM},
 					.hpEV = 0,
@@ -8734,7 +8734,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_FLAAFFY,
+					.species = SPECIES_HAKUREI,
 					.heldItem = ITEM_BRIGHT_POWDER,
 					.moves = {MOVE_SHOCK_WAVE, MOVE_DOUBLE_TEAM, MOVE_SEISMIC_TOSS, MOVE_BODY_SLAM},
 					.hpEV = 0,
@@ -8756,7 +8756,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_JIGGLYPUFF,
+					.species = SPECIES_CHIBI_MYSTIA,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_SHOCK_WAVE, MOVE_SHADOW_BALL, MOVE_FOCUS_PUNCH, MOVE_BODY_SLAM},
 					.hpEV = 0,
@@ -8778,7 +8778,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CLEFAIRY,
+					.species = SPECIES_CHIBI_YUKARI,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_SHOCK_WAVE, MOVE_METEOR_MASH, MOVE_MOONLIGHT, MOVE_BODY_SLAM},
 					.hpEV = 0,
@@ -8811,7 +8811,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 			.speechAfter = {EC_WORD_WHOAH, EC_WORD_EXCL, EC_WORD_I_AM, EC_WORD_DROOLING, EC_WORD_ALL, EC_WORD_OVER},
 			.mons = {
 				{
-					.species = SPECIES_WIGGLYTUFF,
+					.species = SPECIES_MYSTIA,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_WATER_PULSE, MOVE_FLAMETHROWER},
 					.hpEV = 0,
@@ -8833,7 +8833,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_CLEFABLE,
+					.species = SPECIES_YUKARI,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_THUNDERBOLT, MOVE_SOFT_BOILED, MOVE_METEOR_MASH, MOVE_DOUBLE_EDGE},
 					.hpEV = 0,
@@ -8855,7 +8855,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NIDOQUEEN,
+					.species = SPECIES_FLANDRE,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_THUNDERBOLT, MOVE_CRUNCH, MOVE_SUPERPOWER, MOVE_SURF},
 					.hpEV = 0,
@@ -8877,7 +8877,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_NIDOKING,
+					.species = SPECIES_YOUMU,
 					.heldItem = ITEM_CHOICE_BAND,
 					.moves = {MOVE_THUNDERBOLT, MOVE_HYPER_BEAM, MOVE_MEGAHORN, MOVE_SHADOW_BALL},
 					.hpEV = 0,
@@ -8899,7 +8899,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_RAICHU,
+					.species = SPECIES_CIRNO,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_THUNDERBOLT, MOVE_REVERSAL, MOVE_IRON_TAIL, MOVE_DOUBLE_EDGE},
 					.hpEV = 0,
@@ -8921,7 +8921,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_5 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_AMPHAROS,
+					.species = SPECIES_CHIBI_KIRISAME,
 					.heldItem = ITEM_LUM_BERRY,
 					.moves = {MOVE_THUNDERBOLT, MOVE_REST, MOVE_BODY_SLAM, MOVE_IRON_TAIL},
 					.hpEV = 0,

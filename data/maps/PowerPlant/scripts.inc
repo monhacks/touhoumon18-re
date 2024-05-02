@@ -37,9 +37,9 @@ PowerPlant_EventScript_Zapdos::
 	special QuestLog_CutRecording
 	lock
 	faceplayer
-	setwildbattle SPECIES_ZAPDOS, 50
+	setwildbattle SPECIES_KIKURI, 50
 	waitse
-	playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_KIKURI, CRY_MODE_ENCOUNTER
 	message Text_Gyaoo
 	waitmessage
 	waitmoncry
@@ -64,7 +64,7 @@ PowerPlant_EventScript_DefeatedZapdos::
 	end
 
 PowerPlant_EventScript_RanFromZapdos::
-	setvar VAR_0x8004, SPECIES_ZAPDOS
+	setvar VAR_0x8004, SPECIES_KIKURI
 	goto EventScript_MonFlewAway
 	end
 
@@ -72,9 +72,9 @@ PowerPlant_EventScript_Electrode1::
 	goto_if_questlog EventScript_ReleaseEnd
 	lock
 	faceplayer
-	setwildbattle SPECIES_ELECTRODE, 34
+	setwildbattle SPECIES_MERLIN, 34
 	waitse
-	playmoncry SPECIES_ELECTRODE, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_MERLIN, CRY_MODE_ENCOUNTER
 	delay 40
 	waitmoncry
 	setflag FLAG_SYS_SPECIAL_WILD_BATTLE
@@ -98,9 +98,9 @@ PowerPlant_EventScript_Electrode2::
 	goto_if_questlog EventScript_ReleaseEnd
 	lock
 	faceplayer
-	setwildbattle SPECIES_ELECTRODE, 34
+	setwildbattle SPECIES_MERLIN, 34
 	waitse
-	playmoncry SPECIES_ELECTRODE, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_MERLIN, CRY_MODE_ENCOUNTER
 	delay 40
 	waitmoncry
 	setflag FLAG_SYS_SPECIAL_WILD_BATTLE

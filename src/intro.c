@@ -2452,7 +2452,7 @@ static void SpriteCB_NidorinoCry(struct Sprite *sprite)
         }
         break;
     case 1:
-        PlayCry_ByMode(SPECIES_NIDORINO, 0x3F, CRY_MODE_DOUBLES);
+        PlayCry_ByMode(SPECIES_CHIBI_YOUMU, 0x3F, CRY_MODE_DOUBLES);
         sprite->sStateTimer = 0;
         sprite->sState++;
         break;

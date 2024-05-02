@@ -217,7 +217,7 @@ bool8 PlayerHasGrassPokemonInParty(void)
         )
         {
             species = GetMonData(pokemon, MON_DATA_SPECIES);
-            if (gSpeciesInfo[species].types[0] == TYPE_GRASS || gSpeciesInfo[species].types[1] == TYPE_GRASS)
+            if (gSpeciesInfo[species].types[0] == TYPE_NATIVE || gSpeciesInfo[species].types[1] == TYPE_NATIVE)
                 return TRUE;
         }
     }
@@ -718,7 +718,7 @@ static u16 SampleResortGorgeousMon(void)
     }
     while (GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), 0) != TRUE)
     {
-        if (species == SPECIES_BULBASAUR)
+        if (species == SPECIES_CHIBI_SANAE)
             species = NUM_SPECIES - 1;
         else
             species--;
@@ -1534,9 +1534,9 @@ void ForcePlayerToStartSurfing(void)
 }
 
 static const u16 sStarterSpecies[] = {
-    SPECIES_BULBASAUR,
-    SPECIES_SQUIRTLE,
-    SPECIES_CHARMANDER
+    SPECIES_CHIBI_SANAE,
+    SPECIES_CHIBI_LILY_WHITE,
+    SPECIES_ALICE
 };
 
 static u16 GetStarterSpeciesById(u16 idx)
@@ -2228,9 +2228,9 @@ void StopPokemonLeagueLightingEffectTask(void)
 }
 
 static const u8 sCapeBrinkCompatibleSpecies[] = {
-    SPECIES_VENUSAUR,
-    SPECIES_CHARIZARD,
-    SPECIES_BLASTOISE
+    SPECIES_CHIBI_ALICE,
+    SPECIES_REISEN,
+    SPECIES_CHIBI_LILY_BLACK
 };
 
 bool8 CapeBrinkGetMoveToTeachLeadPokemon(void)

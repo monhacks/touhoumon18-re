@@ -351,7 +351,7 @@ void BattleLoadOpponentMonSpriteGfx(struct Pokemon *mon, u8 battlerId)
     LoadPalette(buffer, paletteOffset, PLTT_SIZE_4BPP);
     LoadPalette(buffer, BG_PLTT_ID(8) + BG_PLTT_ID(battlerId), PLTT_SIZE_4BPP);
     Free(buffer);
-    if (species == SPECIES_CASTFORM)
+    if (species == SPECIES_FAIRY)
     {
         paletteOffset = OBJ_PLTT_ID(battlerId);
         LZDecompressWram(lzPaletteData, gBattleStruct->castformPalette[0]);
@@ -405,7 +405,7 @@ void BattleLoadPlayerMonSpriteGfx(struct Pokemon *mon, u8 battlerId)
     LoadPalette(buffer, paletteOffset, PLTT_SIZE_4BPP);
     LoadPalette(buffer, BG_PLTT_ID(8) + BG_PLTT_ID(battlerId), PLTT_SIZE_4BPP);
     Free(buffer);
-    if (species == SPECIES_CASTFORM)
+    if (species == SPECIES_FAIRY)
     {
         paletteOffset = OBJ_PLTT_ID(battlerId);
         LZDecompressWram(lzPaletteData, gBattleStruct->castformPalette[0]);
@@ -739,7 +739,7 @@ void HandleSpeciesGfxDataChange(u8 battlerAtk, u8 battlerDef, u8 transformType)
         LZDecompressWram(lzPaletteData, buffer);
         LoadPalette(buffer, paletteOffset, PLTT_SIZE_4BPP);
         Free(buffer);
-        if (targetSpecies == SPECIES_CASTFORM)
+        if (targetSpecies == SPECIES_FAIRY)
         {
             LZDecompressWram(lzPaletteData, gBattleStruct->castformPalette[0]);
             LoadPalette(gBattleStruct->castformPalette[0] + gBattleMonForms[battlerDef] * 16, paletteOffset, PLTT_SIZE_4BPP);

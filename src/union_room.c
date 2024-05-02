@@ -202,7 +202,7 @@ static EWRAM_DATA union
 static EWRAM_DATA u32 sUnused = 0;
 EWRAM_DATA struct RfuGameCompatibilityData gRfuPartnerCompatibilityData = {};
 EWRAM_DATA u16 gUnionRoomOfferedSpecies = SPECIES_NONE;
-EWRAM_DATA u8 gUnionRoomRequestedMonType = TYPE_NORMAL;
+EWRAM_DATA u8 gUnionRoomRequestedMonType = TYPE_ILLUSION;
 static EWRAM_DATA struct UnionRoomTrade sUnionRoomTrade = {};
 
 static struct WirelessLink_Leader * sLeader;

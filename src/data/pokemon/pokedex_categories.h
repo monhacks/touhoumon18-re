@@ -1,782 +1,782 @@
 static const u16 sDexCategory_GrasslandPkmn_Page1[] = {
-    SPECIES_RATTATA,
-    SPECIES_RATICATE,
-    SPECIES_SENTRET,
-    SPECIES_FURRET,
+    SPECIES_CHIBI_NAZRIN,
+    SPECIES_NAZRIN,
+    SPECIES_CHIBI_CHIYURI,
+    SPECIES_CHIYURI,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page2[] = {
-    SPECIES_ZIGZAGOON,
-    SPECIES_LINOONE,
-    SPECIES_POOCHYENA,
-    SPECIES_MIGHTYENA,
+    SPECIES_TECHNICAL_CIRNO,
+    SPECIES_DEFENSE_YUYUKO,
+    SPECIES_DEFENSE_REIMU,
+    SPECIES_SPEED_CIRNO,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page3[] = {
-    SPECIES_NIDORAN_F,
-    SPECIES_NIDORINA,
-    SPECIES_NIDOQUEEN,
+    SPECIES_SHANGHAI,
+    SPECIES_CHIBI_FLANDRE,
+    SPECIES_FLANDRE,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page4[] = {
-    SPECIES_NIDORAN_M,
-    SPECIES_NIDORINO,
-    SPECIES_NIDOKING,
+    SPECIES_HOURAI,
+    SPECIES_CHIBI_YOUMU,
+    SPECIES_YOUMU,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page5[] = {
-    SPECIES_DODUO,
-    SPECIES_DODRIO,
-    SPECIES_TAILLOW,
-    SPECIES_SWELLOW,
+    SPECIES_YOUSEI,
+    SPECIES_DAIYOUSEI,
+    SPECIES_SUPPORT_SHIZUHA,
+    SPECIES_ATTACK_SUWAKO,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page6[] = {
-    SPECIES_TANGELA,
-    SPECIES_ROSELIA,
-    SPECIES_SUNKERN,
-    SPECIES_SUNFLORA,
+    SPECIES_CHIBI_SUNNY_MILK,
+    SPECIES_DEFENSE_YUUGI,
+    SPECIES_CHIBI_RIKA,
+    SPECIES_RIKA,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page7[] = {
-    SPECIES_HOPPIP,
-    SPECIES_SKIPLOOM,
-    SPECIES_JUMPLUFF,
+    SPECIES_CHIBI_SHINKI,
+    SPECIES_SHINKI,
+    SPECIES_MIMI_CHAN,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page8[] = {
-    SPECIES_ODDISH,
-    SPECIES_GLOOM,
-    SPECIES_VILEPLUME,
-    SPECIES_BELLOSSOM,
+    SPECIES_CHIBI_KEINE,
+    SPECIES_KEINE,
+    SPECIES_ATTACK_KEINE,
+    SPECIES_KIRISAME,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page9[] = {
-    SPECIES_EKANS,
-    SPECIES_ARBOK,
+    SPECIES_CHIBI_REMILIA,
+    SPECIES_REMILIA,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page10[] = {
-    SPECIES_IGGLYBUFF,
-    SPECIES_JIGGLYPUFF,
-    SPECIES_WIGGLYTUFF,
+    SPECIES_LOUISE,
+    SPECIES_CHIBI_MYSTIA,
+    SPECIES_MYSTIA,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page11[] = {
-    SPECIES_MAREEP,
-    SPECIES_FLAAFFY,
-    SPECIES_AMPHAROS,
+    SPECIES_CHIBI_HAKUREI,
+    SPECIES_HAKUREI,
+    SPECIES_CHIBI_KIRISAME,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page12[] = {
-    SPECIES_FARFETCHD,
-    SPECIES_LICKITUNG,
+    SPECIES_RAN,
+    SPECIES_CHIBI_RIN,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page13[] = {
-    SPECIES_SCYTHER,
-    SPECIES_SCIZOR,
+    SPECIES_AYA,
+    SPECIES_DEFENSE_MOKOU,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page14[] = {
-    SPECIES_DROWZEE,
-    SPECIES_HYPNO,
-    SPECIES_GULPIN,
-    SPECIES_SWALOT,
+    SPECIES_CHIBI_SAKUYA,
+    SPECIES_SAKUYA,
+    SPECIES_ATTACK_YUUGI,
+    SPECIES_SUPPORT_KEINE,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page15[] = {
-    SPECIES_KANGASKHAN,
-    SPECIES_GIRAFARIG,
+    SPECIES_SUNNY_MILK,
+    SPECIES_YUKI,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page16[] = {
-    SPECIES_TAUROS,
-    SPECIES_MILTANK,
+    SPECIES_CHIBI_WRIGGLE,
+    SPECIES_ATTACK_KAGUYA,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page17[] = {
-    SPECIES_VULPIX,
-    SPECIES_NINETALES,
-    SPECIES_PONYTA,
-    SPECIES_RAPIDASH,
+    SPECIES_CHIBI_SUIKA,
+    SPECIES_SUIKA,
+    SPECIES_KOGASA,
+    SPECIES_CHIBI_SATORI,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page18[] = {
-    SPECIES_ELEKID,
-    SPECIES_ELECTABUZZ,
-    SPECIES_ELECTRIKE,
-    SPECIES_MANECTRIC,
+    SPECIES_ATTACK_KANAKO,
+    SPECIES_EIKI,
+    SPECIES_ATTACK_SANAE,
+    SPECIES_TECHNICAL_SANAE,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page19[] = {
-    SPECIES_ZANGOOSE,
-    SPECIES_SEVIPER,
+    SPECIES_CHIBI_KIKURI,
+    SPECIES_CHIBI_MIMA,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page20[] = {
-    SPECIES_PLUSLE,
-    SPECIES_MINUN,
+    SPECIES_ATTACK_NUE,
+    SPECIES_TECHNICAL_NUE,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page21[] = {
-    SPECIES_GROWLITHE,
-    SPECIES_ARCANINE,
+    SPECIES_CHIBI_MOKOU,
+    SPECIES_MOKOU,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page22[] = {
-    SPECIES_CASTFORM,
-    SPECIES_CHIMECHO,
+    SPECIES_FAIRY,
+    SPECIES_CHIBI_VIVIT,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page23[] = {
-    SPECIES_BULBASAUR,
-    SPECIES_IVYSAUR,
-    SPECIES_VENUSAUR,
+    SPECIES_CHIBI_SANAE,
+    SPECIES_SANAE,
+    SPECIES_CHIBI_ALICE,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page24[] = {
-    SPECIES_CHIKORITA,
-    SPECIES_BAYLEEF,
-    SPECIES_MEGANIUM,
+    SPECIES_AKYUU,
+    SPECIES_GENJI,
+    SPECIES_TORI,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page25[] = {
-    SPECIES_CYNDAQUIL,
-    SPECIES_QUILAVA,
-    SPECIES_TYPHLOSION,
+    SPECIES_OONAMAZU,
+    SPECIES_CHIBI_ELLY,
+    SPECIES_ELLY,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page26[] = {
-    SPECIES_TORCHIC,
-    SPECIES_COMBUSKEN,
-    SPECIES_BLAZIKEN,
+    SPECIES_SUPPORT_EIRIN,
+    SPECIES_DEFENSE_YUKARI,
+    SPECIES_TECHNICAL_YUKARI,
 };
 
 static const u16 sDexCategory_GrasslandPkmn_Page27[] = {
-    SPECIES_RAIKOU,
-    SPECIES_ENTEI,
-    SPECIES_SUICUNE,
+    SPECIES_SHINGYOKU_ORB,
+    SPECIES_SHINGYOKU_MALE,
+    SPECIES_SHINGYOKU_FEMALE,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page1[] = {
-    SPECIES_CATERPIE,
-    SPECIES_METAPOD,
-    SPECIES_BUTTERFREE,
+    SPECIES_LILY_BLACK,
+    SPECIES_CHIBI_MOMIJI,
+    SPECIES_MOMIJI,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page2[] = {
-    SPECIES_WEEDLE,
-    SPECIES_KAKUNA,
-    SPECIES_BEEDRILL,
+    SPECIES_CHIBI_SHIZUHA,
+    SPECIES_SHIZUHA,
+    SPECIES_CHIBI_MEDICINE,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page3[] = {
-    SPECIES_WURMPLE,
-    SPECIES_SILCOON,
-    SPECIES_BEAUTIFLY,
+    SPECIES_ATTACK_YUYUKO,
+    SPECIES_SUPPORT_LUNASA,
+    SPECIES_SUPPORT_MERLIN,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page4[] = {
-    SPECIES_CASCOON,
-    SPECIES_DUSTOX,
+    SPECIES_SUPPORT_LYRICA,
+    SPECIES_ATTACK_RAN,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page5[] = {
-    SPECIES_PIDGEY,
-    SPECIES_PIDGEOTTO,
-    SPECIES_PIDGEOT,
+    SPECIES_MEDICINE,
+    SPECIES_CHIBI_KOAKUMA,
+    SPECIES_KOAKUMA,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page6[] = {
-    SPECIES_HOOTHOOT,
-    SPECIES_NOCTOWL,
-    SPECIES_NATU,
-    SPECIES_XATU,
+    SPECIES_CHIBI_YUMEMI,
+    SPECIES_YUMEMI,
+    SPECIES_CHIBI_KANA,
+    SPECIES_KANA,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page7[] = {
-    SPECIES_PICHU,
-    SPECIES_PIKACHU,
-    SPECIES_RAICHU,
+    SPECIES_SARA,
+    SPECIES_CHIBI_CIRNO,
+    SPECIES_CIRNO,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page8[] = {
-    SPECIES_BELLSPROUT,
-    SPECIES_WEEPINBELL,
-    SPECIES_VICTREEBEL,
+    SPECIES_TENSHI,
+    SPECIES_CHIBI_PARSEE,
+    SPECIES_PARSEE,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page9[] = {
-    SPECIES_PARAS,
-    SPECIES_PARASECT,
-    SPECIES_SHROOMISH,
-    SPECIES_BRELOOM,
+    SPECIES_CHIBI_IKU,
+    SPECIES_IKU,
+    SPECIES_ATTACK_SHOU,
+    SPECIES_TECHNICAL_SHOU,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page10[] = {
-    SPECIES_SEEDOT,
-    SPECIES_NUZLEAF,
-    SPECIES_SHIFTRY,
+    SPECIES_ATTACK_HINA,
+    SPECIES_DEFENSE_HINA,
+    SPECIES_SPEED_SHIZUHA,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page11[] = {
-    SPECIES_VENONAT,
-    SPECIES_VENOMOTH,
-    SPECIES_YANMA,
+    SPECIES_CHIBI_KOISHI,
+    SPECIES_KOISHI,
+    SPECIES_CHIBI_MUGETSU,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page12[] = {
-    SPECIES_LEDYBA,
-    SPECIES_LEDIAN,
-    SPECIES_SPINARAK,
-    SPECIES_ARIADOS,
+    SPECIES_CHIBI_ELLEN,
+    SPECIES_ELLEN,
+    SPECIES_CHIBI_KAZAMI,
+    SPECIES_KAZAMI,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page13[] = {
-    SPECIES_NINCADA,
-    SPECIES_NINJASK,
-    SPECIES_SHEDINJA,
+    SPECIES_SPEED_RIN,
+    SPECIES_ATTACK_RIN,
+    SPECIES_ZOMBIE_FAIRY,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page14[] = {
-    SPECIES_VOLBEAT,
-    SPECIES_ILLUMISE,
+    SPECIES_DEFENSE_MURASA,
+    SPECIES_ATTACK_MURASA,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page15[] = {
-    SPECIES_PINECO,
-    SPECIES_FORRETRESS,
+    SPECIES_CHIBI_MAI,
+    SPECIES_MAI,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page16[] = {
-    SPECIES_SLAKOTH,
-    SPECIES_VIGOROTH,
-    SPECIES_SLAKING,
+    SPECIES_TECHNICAL_NAZRIN,
+    SPECIES_SUPPORT_NAZRIN,
+    SPECIES_TECHNICAL_KISUME,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page17[] = {
-    SPECIES_SKITTY,
-    SPECIES_DELCATTY,
+    SPECIES_DEFENSE_WRIGGLE,
+    SPECIES_DEFENSE_MEILING,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page18[] = {
-    SPECIES_MURKROW,
-    SPECIES_SNEASEL,
+    SPECIES_KURUMI,
+    SPECIES_TECHNICAL_SAKUYA,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page19[] = {
-    SPECIES_EXEGGCUTE,
-    SPECIES_EXEGGUTOR,
-    SPECIES_SUDOWOODO,
+    SPECIES_CHIBI_LYRICA,
+    SPECIES_LYRICA,
+    SPECIES_CHIBI_YUMEKO,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page20[] = {
-    SPECIES_AIPOM,
-    SPECIES_STANTLER,
-    SPECIES_KECLEON,
+    SPECIES_RUUKOTO,
+    SPECIES_SPEED_KOISHI,
+    SPECIES_TENSOKU,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page21[] = {
-    SPECIES_PINSIR,
-    SPECIES_HERACROSS,
+    SPECIES_SHOU,
+    SPECIES_TECHNICAL_REISEN,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page22[] = {
-    SPECIES_SWABLU,
-    SPECIES_ALTARIA,
-    SPECIES_TROPIUS,
+    SPECIES_SPEED_YORIHIME,
+    SPECIES_CHIBI_SHINGYOKU,
+    SPECIES_KASEN,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page23[] = {
-    SPECIES_DUSKULL,
-    SPECIES_DUSCLOPS,
+    SPECIES_ATTACK_LILY_BLACK,
+    SPECIES_CHIBI_KASEN,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page24[] = {
-    SPECIES_TOGEPI,
-    SPECIES_TOGETIC,
+    SPECIES_CHIBI_ALICE_98,
+    SPECIES_ALICE_98,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page25[] = {
-    SPECIES_TREECKO,
-    SPECIES_GROVYLE,
-    SPECIES_SCEPTILE,
+    SPECIES_SPEED_KOMACHI,
+    SPECIES_ATTACK_KOMACHI,
+    SPECIES_ATTACK_EIRIN,
 };
 
 static const u16 sDexCategory_ForestPkmn_Page26[] = {
-    SPECIES_CELEBI,
+    SPECIES_ISAMI,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page1[] = {
-    SPECIES_GOLDEEN,
-    SPECIES_SEAKING,
+    SPECIES_CHIBI_STAR_SAPPHIRE,
+    SPECIES_STAR_SAPPHIRE,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page2[] = {
-    SPECIES_MAGIKARP,
-    SPECIES_GYARADOS,
-    SPECIES_KRABBY,
-    SPECIES_KINGLER,
+    SPECIES_WRIGGLE,
+    SPECIES_CHIBI_TEWI,
+    SPECIES_CHIBI_LUNASA,
+    SPECIES_LUNASA,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page3[] = {
-    SPECIES_CORPHISH,
-    SPECIES_CRAWDAUNT,
-    SPECIES_BARBOACH,
-    SPECIES_WHISCASH,
+    SPECIES_TECHNICAL_HATATE,
+    SPECIES_DEFENSE_HATATE,
+    SPECIES_CHIBI_ELIS,
+    SPECIES_CHIBI_SARIEL,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page4[] = {
-    SPECIES_LOTAD,
-    SPECIES_LOMBRE,
-    SPECIES_LUDICOLO,
+    SPECIES_SUPPORT_RAN,
+    SPECIES_ATTACK_MEDICINE,
+    SPECIES_TECHNICAL_MEDICINE,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page5[] = {
-    SPECIES_SURSKIT,
-    SPECIES_MASQUERAIN,
+    SPECIES_SPEED_KOGASA,
+    SPECIES_TECHNICAL_KOGASA,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page6[] = {
-    SPECIES_PSYDUCK,
-    SPECIES_GOLDUCK,
-    SPECIES_WOOPER,
-    SPECIES_QUAGSIRE,
+    SPECIES_CHIBI_YORIHIME,
+    SPECIES_YORIHIME,
+    SPECIES_MUGETSU,
+    SPECIES_CHIBI_GENGETSU,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page7[] = {
-    SPECIES_POLIWAG,
-    SPECIES_POLIWHIRL,
-    SPECIES_POLIWRATH,
-    SPECIES_POLITOED,
+    SPECIES_CHIBI_HATATE,
+    SPECIES_HATATE,
+    SPECIES_CHIBI_LETTY,
+    SPECIES_YUMEKO,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page8[] = {
-    SPECIES_AZURILL,
-    SPECIES_MARILL,
-    SPECIES_AZUMARILL,
+    SPECIES_ATTACK_SUIKA,
+    SPECIES_CHIBI_KOTOHIME,
+    SPECIES_KOTOHIME,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page9[] = {
-    SPECIES_SLOWPOKE,
-    SPECIES_SLOWBRO,
-    SPECIES_SLOWKING,
+    SPECIES_SATORI,
+    SPECIES_CHIBI_EIRIN,
+    SPECIES_CHIBI_RIKAKO,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page10[] = {
-    SPECIES_FEEBAS,
-    SPECIES_MILOTIC,
+    SPECIES_AKI_SISTERS,
+    SPECIES_DEFENSE_LAYLA,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page11[] = {
-    SPECIES_ANORITH,
-    SPECIES_ARMALDO,
+    SPECIES_SPEED_MEDICINE,
+    SPECIES_DEFENSE_DAIYOUSEI,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page12[] = {
-    SPECIES_DRATINI,
-    SPECIES_DRAGONAIR,
-    SPECIES_DRAGONITE,
+    SPECIES_CHIBI_TOYOHIME,
+    SPECIES_TOYOHIME,
+    SPECIES_GOLIATH,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page13[] = {
-    SPECIES_SQUIRTLE,
-    SPECIES_WARTORTLE,
-    SPECIES_BLASTOISE,
+    SPECIES_CHIBI_LILY_WHITE,
+    SPECIES_LILY_WHITE,
+    SPECIES_CHIBI_LILY_BLACK,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page14[] = {
-    SPECIES_TOTODILE,
-    SPECIES_CROCONAW,
-    SPECIES_FERALIGATR,
+    SPECIES_CHIBI_ORANGE,
+    SPECIES_ORANGE,
+    SPECIES_YOUKI,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page15[] = {
-    SPECIES_MUDKIP,
-    SPECIES_MARSHTOMP,
-    SPECIES_SWAMPERT,
+    SPECIES_ATTACK_ALICE,
+    SPECIES_TECHNICAL_ALICE,
+    SPECIES_ATTACK_REIMU,
 };
 
 static const u16 sDexCategory_WatersEdgePkmn_Page16[] = {
-    SPECIES_LATIAS,
-    SPECIES_LATIOS,
+    SPECIES_CHIBI_SENDAI,
+    SPECIES_CHIBI_TENMA,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page1[] = {
-    SPECIES_TENTACOOL,
-    SPECIES_TENTACRUEL,
+    SPECIES_CHIBI_MURASA,
+    SPECIES_MURASA,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page2[] = {
-    SPECIES_WINGULL,
-    SPECIES_PELIPPER,
+    SPECIES_DEFENSE_SUWAKO,
+    SPECIES_SPEED_YAMAME,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page3[] = {
-    SPECIES_STARYU,
-    SPECIES_STARMIE,
+    SPECIES_CHIBI_YUUKA,
+    SPECIES_YUUKA,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page4[] = {
-    SPECIES_CHINCHOU,
-    SPECIES_LANTURN,
-    SPECIES_REMORAID,
-    SPECIES_OCTILLERY,
+    SPECIES_MEIRA,
+    SPECIES_CHIBI_SARA,
+    SPECIES_DEFENSE_YOUMU,
+    SPECIES_SPEED_YOUMU,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page5[] = {
-    SPECIES_SHELLDER,
-    SPECIES_CLOYSTER,
+    SPECIES_CHIBI_KOMACHI,
+    SPECIES_KOMACHI,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page6[] = {
-    SPECIES_CLAMPERL,
-    SPECIES_HUNTAIL,
-    SPECIES_GOREBYSS,
+    SPECIES_RINNOSUKE,
+    SPECIES_ADVENT_CIRNO,
+    SPECIES_ADVENT_REISEN,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page7[] = {
-    SPECIES_QWILFISH,
-    SPECIES_CORSOLA,
-    SPECIES_MANTINE,
-    SPECIES_LUVDISC,
+    SPECIES_ATTACK_MOKOU,
+    SPECIES_TECHNICAL_CHEN,
+    SPECIES_TECHNICAL_YUUKA,
+    SPECIES_ADVENT_MYSTIA,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page8[] = {
-    SPECIES_SEEL,
-    SPECIES_DEWGONG,
+    SPECIES_CHIBI_NITORI,
+    SPECIES_NITORI,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page9[] = {
-    SPECIES_SPHEAL,
-    SPECIES_SEALEO,
-    SPECIES_WALREIN,
+    SPECIES_TOJIKO,
+    SPECIES_CHIBI_FUTO,
+    SPECIES_FUTO,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page10[] = {
-    SPECIES_CARVANHA,
-    SPECIES_SHARPEDO,
-    SPECIES_WAILMER,
-    SPECIES_WAILORD,
+    SPECIES_DEFENSE_KEINE,
+    SPECIES_ATTACK_REMILIA,
+    SPECIES_DEFENSE_REMILIA,
+    SPECIES_SPEED_FLANDRE,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page11[] = {
-    SPECIES_HORSEA,
-    SPECIES_SEADRA,
-    SPECIES_KINGDRA,
+    SPECIES_CHIBI_LUNA_CHILD,
+    SPECIES_LUNA_CHILD,
+    SPECIES_DEFENSE_TENSHI,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page12[] = {
-    SPECIES_RELICANTH,
+    SPECIES_ADVENT_MEILING,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page13[] = {
-    SPECIES_LAPRAS,
+    SPECIES_TEWI,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page14[] = {
-    SPECIES_OMANYTE,
-    SPECIES_OMASTAR,
-    SPECIES_KABUTO,
-    SPECIES_KABUTOPS,
+    SPECIES_CHIBI_MARISA,
+    SPECIES_MARISA,
+    SPECIES_CHIBI_REIMU,
+    SPECIES_REIMU,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page15[] = {
-    SPECIES_LILEEP,
-    SPECIES_CRADILY,
+    SPECIES_ATTACK_STAR_SAPPHIRE,
+    SPECIES_ATTACK_KAZAMI,
 };
 
 static const u16 sDexCategory_SeaPkmn_Page16[] = {
-    SPECIES_KYOGRE,
+    SPECIES_BLACK_ALICE,
 };
 
 static const u16 sDexCategory_CavePkmn_Page1[] = {
-    SPECIES_ZUBAT,
-    SPECIES_GOLBAT,
-    SPECIES_CROBAT,
+    SPECIES_CHIBI_MINORIKO,
+    SPECIES_MINORIKO,
+    SPECIES_CHIBI_MEIRA,
 };
 
 static const u16 sDexCategory_CavePkmn_Page2[] = {
-    SPECIES_DIGLETT,
-    SPECIES_DUGTRIO,
-    SPECIES_ONIX,
-    SPECIES_STEELIX,
+    SPECIES_CHIBI_YAMAME,
+    SPECIES_YAMAME,
+    SPECIES_MEILING,
+    SPECIES_SUPPORT_STAR_SAPPHIRE,
 };
 
 static const u16 sDexCategory_CavePkmn_Page3[] = {
-    SPECIES_SWINUB,
-    SPECIES_PILOSWINE,
-    SPECIES_SNORUNT,
-    SPECIES_GLALIE,
+    SPECIES_ATTACK_MYSTIA,
+    SPECIES_ATTACK_CHEN,
+    SPECIES_MISSING_POWER_SUIKA,
+    SPECIES_SCHOOLGIRL_SANAE,
 };
 
 static const u16 sDexCategory_CavePkmn_Page4[] = {
-    SPECIES_WHISMUR,
-    SPECIES_LOUDRED,
-    SPECIES_EXPLOUD,
+    SPECIES_DEFENSE_IKU,
+    SPECIES_TECHNICAL_IKU,
+    SPECIES_ATTACK_MINORIKO,
 };
 
 static const u16 sDexCategory_CavePkmn_Page5[] = {
-    SPECIES_MISDREAVUS,
-    SPECIES_DUNSPARCE,
-    SPECIES_NOSEPASS,
+    SPECIES_RIKAKO,
+    SPECIES_DEFENSE_SUNNY_MILK,
+    SPECIES_SPEED_WRIGGLE,
 };
 
 static const u16 sDexCategory_CavePkmn_Page6[] = {
-    SPECIES_SABLEYE,
-    SPECIES_MAWILE,
+    SPECIES_SPEED_MEILING,
+    SPECIES_DEFENSE_PATCHOULI,
 };
 
 static const u16 sDexCategory_CavePkmn_Page7[] = {
-    SPECIES_GASTLY,
-    SPECIES_HAUNTER,
-    SPECIES_GENGAR,
+    SPECIES_CHIBI_YUYUKO,
+    SPECIES_YUYUKO,
+    SPECIES_CHIBI_MEILING,
 };
 
 static const u16 sDexCategory_CavePkmn_Page8[] = {
-    SPECIES_WYNAUT,
-    SPECIES_WOBBUFFET,
+    SPECIES_ANGEL_VIVIT,
+    SPECIES_CHIBI_YUKI,
 };
 
 static const u16 sDexCategory_CavePkmn_Page9[] = {
-    SPECIES_LUNATONE,
-    SPECIES_SOLROCK,
+    SPECIES_CHIBI_KONGALA,
+    SPECIES_CHIBI_YUUGEN,
 };
 
 static const u16 sDexCategory_CavePkmn_Page10[] = {
-    SPECIES_REGIROCK,
-    SPECIES_REGICE,
-    SPECIES_REGISTEEL,
+    SPECIES_ADVENT_RAN,
+    SPECIES_ADVENT_CHEN,
+    SPECIES_MARISA_EX,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page1[] = {
-    SPECIES_GEODUDE,
-    SPECIES_GRAVELER,
-    SPECIES_GOLEM,
+    SPECIES_CHIBI_KISUME,
+    SPECIES_KISUME,
+    SPECIES_CHIBI_KOGASA,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page2[] = {
-    SPECIES_MANKEY,
-    SPECIES_PRIMEAPE,
-    SPECIES_SPOINK,
-    SPECIES_GRUMPIG,
+    SPECIES_CHIBI_KAGUYA,
+    SPECIES_KAGUYA,
+    SPECIES_SUPPORT_LILY_WHITE,
+    SPECIES_SUPPORT_LILY_BLACK,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page3[] = {
-    SPECIES_MACHOP,
-    SPECIES_MACHOKE,
-    SPECIES_MACHAMP,
+    SPECIES_CHIBI_YUUGI,
+    SPECIES_YUUGI,
+    SPECIES_CHIBI_TENSHI,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page4[] = {
-    SPECIES_CLEFFA,
-    SPECIES_CLEFAIRY,
-    SPECIES_CLEFABLE,
+    SPECIES_CHIBI_LOUISE,
+    SPECIES_CHIBI_YUKARI,
+    SPECIES_YUKARI,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page5[] = {
-    SPECIES_CUBONE,
-    SPECIES_MAROWAK,
+    SPECIES_CHIBI_LAYLA,
+    SPECIES_LAYLA,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page6[] = {
-    SPECIES_SLUGMA,
-    SPECIES_MAGCARGO,
-    SPECIES_NUMEL,
-    SPECIES_CAMERUPT,
+    SPECIES_SPEED_RUMIA,
+    SPECIES_SUPPORT_MYSTIA,
+    SPECIES_ATTACK_FLANDRE,
+    SPECIES_ATTACK_DAIYOUSEI,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page7[] = {
-    SPECIES_MAKUHITA,
-    SPECIES_HARIYAMA,
-    SPECIES_MEDITITE,
-    SPECIES_MEDICHAM,
+    SPECIES_DEFENSE_MINORIKO,
+    SPECIES_TECHNICAL_SUIKA,
+    SPECIES_DEFENSE_LETTY,
+    SPECIES_SUPPORT_LETTY,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page8[] = {
-    SPECIES_SHUCKLE,
-    SPECIES_TEDDIURSA,
-    SPECIES_URSARING,
-    SPECIES_DELIBIRD,
+    SPECIES_DEFENSE_REISEN,
+    SPECIES_SUPPORT_SAKUYA,
+    SPECIES_ATTACK_RUMIA,
+    SPECIES_ATTACK_YUUKA,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page9[] = {
-    SPECIES_GLIGAR,
-    SPECIES_SPINDA,
+    SPECIES_TECHNICAL_LUNA_CHILD,
+    SPECIES_ATTACK_TOKIKO,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page10[] = {
-    SPECIES_MAGBY,
-    SPECIES_MAGMAR,
-    SPECIES_TORKOAL,
+    SPECIES_DEFENSE_KANAKO,
+    SPECIES_CHIBI_SHOU,
+    SPECIES_SUPPORT_KOAKUMA,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page11[] = {
-    SPECIES_ARON,
-    SPECIES_LAIRON,
-    SPECIES_AGGRON,
+    SPECIES_ATTACK_PATCHOULI,
+    SPECIES_SPEED_MARISA,
+    SPECIES_ATTACK_MARISA,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page12[] = {
-    SPECIES_LARVITAR,
-    SPECIES_PUPITAR,
-    SPECIES_TYRANITAR,
+    SPECIES_ATTACK_UTSUHO,
+    SPECIES_SPEED_UTSUHO,
+    SPECIES_DEFENSE_MOMJI,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page13[] = {
-    SPECIES_SNORLAX,
+    SPECIES_BYAKUREN,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page14[] = {
-    SPECIES_ABSOL,
+    SPECIES_VIVIT,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page15[] = {
-    SPECIES_AERODACTYL,
+    SPECIES_CHIBI_BYAKUREN,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page16[] = {
-    SPECIES_CHARMANDER,
-    SPECIES_CHARMELEON,
-    SPECIES_CHARIZARD,
+    SPECIES_ALICE,
+    SPECIES_CHIBI_REISEN,
+    SPECIES_REISEN,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page17[] = {
-    SPECIES_JIRACHI,
+    SPECIES_TENSOKU_G,
 };
 
 static const u16 sDexCategory_RoughTerrainPkmn_Page1[] = {
-    SPECIES_SPEAROW,
-    SPECIES_FEAROW,
+    SPECIES_CHIBI_TOKIKO,
+    SPECIES_TOKIKO,
 };
 
 static const u16 sDexCategory_RoughTerrainPkmn_Page2[] = {
-    SPECIES_SANDSHREW,
-    SPECIES_SANDSLASH,
-    SPECIES_RHYHORN,
-    SPECIES_RHYDON,
+    SPECIES_CHIBI_RUMIA,
+    SPECIES_RUMIA,
+    SPECIES_UTSUHO,
+    SPECIES_CHIBI_ICHIRIN,
 };
 
 static const u16 sDexCategory_RoughTerrainPkmn_Page3[] = {
-    SPECIES_MAGNEMITE,
-    SPECIES_MAGNETON,
+    SPECIES_EIRIN,
+    SPECIES_CHIBI_RAN,
 };
 
 static const u16 sDexCategory_RoughTerrainPkmn_Page4[] = {
-    SPECIES_HOUNDOUR,
-    SPECIES_HOUNDOOM,
-    SPECIES_PHANPY,
-    SPECIES_DONPHAN,
+    SPECIES_TECHNICAL_AYA,
+    SPECIES_ATTACK_TENSHI,
+    SPECIES_DEFENSE_PARSEE,
+    SPECIES_TECHNICAL_PARSEE,
 };
 
 static const u16 sDexCategory_RoughTerrainPkmn_Page5[] = {
-    SPECIES_CACNEA,
-    SPECIES_CACTURNE,
+    SPECIES_ATTACK_EIKI,
+    SPECIES_TECHNICAL_TOYOHIME,
 };
 
 static const u16 sDexCategory_RoughTerrainPkmn_Page6[] = {
-    SPECIES_TRAPINCH,
-    SPECIES_VIBRAVA,
-    SPECIES_FLYGON,
+    SPECIES_DEFENSE_TEWI,
+    SPECIES_ATTACK_TEWI,
+    SPECIES_DEFENSE_EIKI,
 };
 
 static const u16 sDexCategory_RoughTerrainPkmn_Page7[] = {
-    SPECIES_SKARMORY,
+    SPECIES_SPEED_AYA,
 };
 
 static const u16 sDexCategory_RoughTerrainPkmn_Page8[] = {
-    SPECIES_BALTOY,
-    SPECIES_CLAYDOL,
+    SPECIES_ATTACK_SUNNY_MILK,
+    SPECIES_ATTACK_LUNA_CHILD,
 };
 
 static const u16 sDexCategory_RoughTerrainPkmn_Page9[] = {
-    SPECIES_BAGON,
-    SPECIES_SHELGON,
-    SPECIES_SALAMENCE,
+    SPECIES_ADVENT_LETTY,
+    SPECIES_ADVENT_TEWI,
+    SPECIES_ADVENT_MARISA,
 };
 
 static const u16 sDexCategory_RoughTerrainPkmn_Page10[] = {
-    SPECIES_BELDUM,
-    SPECIES_METANG,
-    SPECIES_METAGROSS,
+    SPECIES_ADVENT_ALICE,
+    SPECIES_ADVENT_MOKOU,
+    SPECIES_ADVENT_YUKARI,
 };
 
 static const u16 sDexCategory_RoughTerrainPkmn_Page11[] = {
-    SPECIES_GROUDON,
+    SPECIES_TENMA,
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page1[] = {
-    SPECIES_MEOWTH,
-    SPECIES_PERSIAN,
-    SPECIES_SNUBBULL,
-    SPECIES_GRANBULL,
+    SPECIES_CHIBI_CHEN,
+    SPECIES_CHEN,
+    SPECIES_ATTACK_NITORI,
+    SPECIES_TECHNICAL_NITORI,
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page2[] = {
-    SPECIES_GRIMER,
-    SPECIES_MUK,
-    SPECIES_KOFFING,
-    SPECIES_WEEZING,
+    SPECIES_CHIBI_HINA,
+    SPECIES_HINA,
+    SPECIES_RIN,
+    SPECIES_CHIBI_UTSUHO,
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page3[] = {
-    SPECIES_SHUPPET,
-    SPECIES_BANETTE,
+    SPECIES_SPEED_SARIEL,
+    SPECIES_ATTACK_LILY_WHITE,
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page4[] = {
-    SPECIES_ABRA,
-    SPECIES_KADABRA,
-    SPECIES_ALAKAZAM,
+    SPECIES_LETTY,
+    SPECIES_CHIBI_PATCHOULI,
+    SPECIES_PATCHOULI,
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page5[] = {
-    SPECIES_RALTS,
-    SPECIES_KIRLIA,
-    SPECIES_GARDEVOIR,
+    SPECIES_TECHNICAL_YAMAME,
+    SPECIES_TECHNICAL_SATORI,
+    SPECIES_DEFENSE_SATORI,
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page6[] = {
-    SPECIES_SMOOCHUM,
-    SPECIES_JYNX,
-    SPECIES_MR_MIME,
-    SPECIES_SMEARGLE,
+    SPECIES_TECHNICAL_ICHIRIN,
+    SPECIES_CHIBI_EIKI,
+    SPECIES_CHIBI_AYA,
+    SPECIES_DEFENSE_BYAKUREN,
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page7[] = {
-    SPECIES_TYROGUE,
-    SPECIES_HITMONLEE,
-    SPECIES_HITMONCHAN,
-    SPECIES_HITMONTOP,
+    SPECIES_TECHNICAL_BYAKUREN,
+    SPECIES_CHIBI_KANAKO,
+    SPECIES_KANAKO,
+    SPECIES_DEFENSE_ICHIRIN,
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page8[] = {
-    SPECIES_CHANSEY,
-    SPECIES_BLISSEY,
+    SPECIES_ICHIRIN,
+    SPECIES_DEFENSE_KAGUYA,
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page9[] = {
-    SPECIES_VOLTORB,
-    SPECIES_ELECTRODE,
-    SPECIES_PORYGON,
-    SPECIES_PORYGON2,
+    SPECIES_CHIBI_MERLIN,
+    SPECIES_MERLIN,
+    SPECIES_GYOKUTO,
+    SPECIES_ATTACK_KOISHI,
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page10[] = {
-    SPECIES_DITTO,
+    SPECIES_KEDAMA,
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page11[] = {
-    SPECIES_EEVEE,
-    SPECIES_VAPOREON,
-    SPECIES_JOLTEON,
-    SPECIES_FLAREON,
+    SPECIES_CHIBI_NUE,
+    SPECIES_NUE,
+    SPECIES_CHIBI_SUWAKO,
+    SPECIES_SUWAKO,
 };
 
 static const u16 sDexCategory_UrbanPkmn_Page12[] = {
-    SPECIES_ESPEON,
-    SPECIES_UMBREON,
+    SPECIES_GENGETSU,
+    SPECIES_CHIBI_KURUMI,
 };
 
 static const u16 sDexCategory_RarePkmn_Page1[] = {
@@ -784,33 +784,33 @@ static const u16 sDexCategory_RarePkmn_Page1[] = {
 };
 
 static const u16 sDexCategory_RarePkmn_Page2[] = {
-    SPECIES_ARTICUNO,
-    SPECIES_ZAPDOS,
-    SPECIES_MOLTRES,
+    SPECIES_KONGALA,
+    SPECIES_KIKURI,
+    SPECIES_YUUGEN,
 };
 
 static const u16 sDexCategory_RarePkmn_Page3[] = {
-    SPECIES_LUGIA,
+    SPECIES_ELIS,
 };
 
 static const u16 sDexCategory_RarePkmn_Page4[] = {
-    SPECIES_HO_OH,
+    SPECIES_MIMA,
 };
 
 static const u16 sDexCategory_RarePkmn_Page5[] = {
-    SPECIES_RAYQUAZA,
+    SPECIES_SENDAI,
 };
 
 static const u16 sDexCategory_RarePkmn_Page6[] = {
-    SPECIES_DEOXYS,
+    SPECIES_AYAKASHI,
 };
 
 static const u16 sDexCategory_RarePkmn_Page7[] = {
-    SPECIES_MEWTWO,
+    SPECIES_SARIEL,
 };
 
 static const u16 sDexCategory_RarePkmn_Page8[] = {
-    SPECIES_MEW,
+    SPECIES_SATSUKI,
 };
 
 #define DEX_CATEGORY(name){sDexCategory_##name, NELEMS(sDexCategory_##name)}

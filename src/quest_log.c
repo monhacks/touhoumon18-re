@@ -626,7 +626,7 @@ void QL_ResetPartyAndPC(void)
     } *prev = AllocZeroed(sizeof(*prev));
     u16 packedCounts, i, count, j;
 
-    CreateMon(&prev->mon, SPECIES_RATTATA, 1, USE_RANDOM_IVS, FALSE, 0, OT_ID_PLAYER_ID, 0);
+    CreateMon(&prev->mon, SPECIES_CHIBI_NAZRIN, 1, USE_RANDOM_IVS, FALSE, 0, OT_ID_PLAYER_ID, 0);
     packedCounts = VarGet(VAR_QUEST_LOG_MON_COUNTS);
     prev->partyCount = packedCounts >> NUM_PC_COUNT_BITS;
     prev->boxMonCount = packedCounts % (1 << NUM_PC_COUNT_BITS);

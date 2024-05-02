@@ -1835,14 +1835,14 @@ static bool8 IsSpeciesFromSpecialEncounter(u16 species)
 {
     switch (species)
     {
-    case SPECIES_SNORLAX:
-    case SPECIES_ARTICUNO:
-    case SPECIES_ZAPDOS:
-    case SPECIES_MOLTRES:
-    case SPECIES_MEWTWO:
-    case SPECIES_LUGIA:
-    case SPECIES_HO_OH:
-    case SPECIES_DEOXYS:
+    case SPECIES_BYAKUREN:
+    case SPECIES_KONGALA:
+    case SPECIES_KIKURI:
+    case SPECIES_YUUGEN:
+    case SPECIES_SARIEL:
+    case SPECIES_ELIS:
+    case SPECIES_MIMA:
+    case SPECIES_AYAKASHI:
         return TRUE;
     }
     return FALSE;

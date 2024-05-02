@@ -1462,23 +1462,23 @@ static const u8 sText_GameFreak[] = _("ゲーフリ");
 
 static const u8 sHoldEffectToType[][2] = 
 {
-    {HOLD_EFFECT_BUG_POWER, TYPE_BUG},
+    {HOLD_EFFECT_BUG_POWER, TYPE_DREAM},
     {HOLD_EFFECT_STEEL_POWER, TYPE_STEEL},
-    {HOLD_EFFECT_GROUND_POWER, TYPE_GROUND},
-    {HOLD_EFFECT_ROCK_POWER, TYPE_ROCK},
-    {HOLD_EFFECT_GRASS_POWER, TYPE_GRASS},
-    {HOLD_EFFECT_DARK_POWER, TYPE_DARK},
-    {HOLD_EFFECT_FIGHTING_POWER, TYPE_FIGHTING},
-    {HOLD_EFFECT_ELECTRIC_POWER, TYPE_ELECTRIC},
+    {HOLD_EFFECT_GROUND_POWER, TYPE_EARTH},
+    {HOLD_EFFECT_ROCK_POWER, TYPE_BEAST},
+    {HOLD_EFFECT_GRASS_POWER, TYPE_NATIVE},
+    {HOLD_EFFECT_DARK_POWER, TYPE_HEART},
+    {HOLD_EFFECT_FIGHTING_POWER, TYPE_DARK2},
+    {HOLD_EFFECT_ELECTRIC_POWER, TYPE_WIND},
     {HOLD_EFFECT_WATER_POWER, TYPE_WATER},
     {HOLD_EFFECT_FLYING_POWER, TYPE_FLYING},
-    {HOLD_EFFECT_POISON_POWER, TYPE_POISON},
+    {HOLD_EFFECT_POISON_POWER, TYPE_MIASMA},
     {HOLD_EFFECT_ICE_POWER, TYPE_ICE},
     {HOLD_EFFECT_GHOST_POWER, TYPE_GHOST},
-    {HOLD_EFFECT_PSYCHIC_POWER, TYPE_PSYCHIC},
+    {HOLD_EFFECT_PSYCHIC_POWER, TYPE_REASON},
     {HOLD_EFFECT_FIRE_POWER, TYPE_FIRE},
-    {HOLD_EFFECT_DRAGON_POWER, TYPE_DRAGON},
-    {HOLD_EFFECT_NORMAL_POWER, TYPE_NORMAL},
+    {HOLD_EFFECT_DRAGON_POWER, TYPE_FAITH},
+    {HOLD_EFFECT_NORMAL_POWER, TYPE_ILLUSION},
 };
 
 const struct SpriteTemplate gSpriteTemplates_Battlers[MAX_BATTLERS_COUNT] = 
@@ -2123,7 +2123,7 @@ void CalculateMonStats(struct Pokemon *mon)
 
     SetMonData(mon, MON_DATA_LEVEL, &level);
 
-    if (species == SPECIES_SHEDINJA)
+    if (species == SPECIES_ZOMBIE_FAIRY)
     {
         newMaxHP = 1;
     }
@@ -2145,7 +2145,7 @@ void CalculateMonStats(struct Pokemon *mon)
     CALC_STAT(baseSpAttack, spAttackIV, spAttackEV, STAT_SPATK, MON_DATA_SPATK)
     CALC_STAT(baseSpDefense, spDefenseIV, spDefenseEV, STAT_SPDEF, MON_DATA_SPDEF)
 
-    if (species == SPECIES_SHEDINJA)
+    if (species == SPECIES_ZOMBIE_FAIRY)
     {
         if (currentHP != 0 || oldMaxHP == 0)
             currentHP = 1;
@@ -2465,19 +2465,19 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
     // Apply boosts from hold items
     if (attackerHoldEffect == HOLD_EFFECT_CHOICE_BAND)
         attack = (150 * attack) / 100;
-    if (attackerHoldEffect == HOLD_EFFECT_SOUL_DEW && !(gBattleTypeFlags & (BATTLE_TYPE_BATTLE_TOWER)) && (attacker->species == SPECIES_LATIAS || attacker->species == SPECIES_LATIOS))
+    if (attackerHoldEffect == HOLD_EFFECT_SOUL_DEW && !(gBattleTypeFlags & (BATTLE_TYPE_BATTLE_TOWER)) && (attacker->species == SPECIES_CHIBI_SENDAI || attacker->species == SPECIES_CHIBI_TENMA))
         spAttack = (150 * spAttack) / 100;
-    if (defenderHoldEffect == HOLD_EFFECT_SOUL_DEW && !(gBattleTypeFlags & (BATTLE_TYPE_BATTLE_TOWER)) && (defender->species == SPECIES_LATIAS || defender->species == SPECIES_LATIOS))
+    if (defenderHoldEffect == HOLD_EFFECT_SOUL_DEW && !(gBattleTypeFlags & (BATTLE_TYPE_BATTLE_TOWER)) && (defender->species == SPECIES_CHIBI_SENDAI || defender->species == SPECIES_CHIBI_TENMA))
         spDefense = (150 * spDefense) / 100;
-    if (attackerHoldEffect == HOLD_EFFECT_DEEP_SEA_TOOTH && attacker->species == SPECIES_CLAMPERL)
+    if (attackerHoldEffect == HOLD_EFFECT_DEEP_SEA_TOOTH && attacker->species == SPECIES_RINNOSUKE)
         spAttack *= 2;
-    if (defenderHoldEffect == HOLD_EFFECT_DEEP_SEA_SCALE && defender->species == SPECIES_CLAMPERL)
+    if (defenderHoldEffect == HOLD_EFFECT_DEEP_SEA_SCALE && defender->species == SPECIES_RINNOSUKE)
         spDefense *= 2;
-    if (attackerHoldEffect == HOLD_EFFECT_LIGHT_BALL && attacker->species == SPECIES_PIKACHU)
+    if (attackerHoldEffect == HOLD_EFFECT_LIGHT_BALL && attacker->species == SPECIES_CHIBI_CIRNO)
         spAttack *= 2;
-    if (defenderHoldEffect == HOLD_EFFECT_METAL_POWDER && defender->species == SPECIES_DITTO)
+    if (defenderHoldEffect == HOLD_EFFECT_METAL_POWDER && defender->species == SPECIES_KEDAMA)
         defense *= 2;
-    if (attackerHoldEffect == HOLD_EFFECT_THICK_CLUB && (attacker->species == SPECIES_CUBONE || attacker->species == SPECIES_MAROWAK))
+    if (attackerHoldEffect == HOLD_EFFECT_THICK_CLUB && (attacker->species == SPECIES_CHIBI_LAYLA || attacker->species == SPECIES_LAYLA))
         attack *= 2;
     if (defender->ability == ABILITY_THICK_FAT && (type == TYPE_FIRE || type == TYPE_ICE))
         spAttack /= 2;
@@ -2491,17 +2491,17 @@ s32 CalculateBaseDamage(struct BattlePokemon *attacker, struct BattlePokemon *de
         attack = (150 * attack) / 100;
     if (defender->ability == ABILITY_MARVEL_SCALE && defender->status1)
         defense = (150 * defense) / 100;
-    if (type == TYPE_ELECTRIC && AbilityBattleEffects(ABILITYEFFECT_FIELD_SPORT, 0, 0, ABILITYEFFECT_MUD_SPORT, 0))
+    if (type == TYPE_WIND && AbilityBattleEffects(ABILITYEFFECT_FIELD_SPORT, 0, 0, ABILITYEFFECT_MUD_SPORT, 0))
         gBattleMovePower /= 2;
     if (type == TYPE_FIRE && AbilityBattleEffects(ABILITYEFFECT_FIELD_SPORT, 0, 0, ABILITYEFFECT_WATER_SPORT, 0))
         gBattleMovePower /= 2;
-    if (type == TYPE_GRASS && attacker->ability == ABILITY_OVERGROW && attacker->hp <= (attacker->maxHP / 3))
+    if (type == TYPE_NATIVE && attacker->ability == ABILITY_OVERGROW && attacker->hp <= (attacker->maxHP / 3))
         gBattleMovePower = (150 * gBattleMovePower) / 100;
     if (type == TYPE_FIRE && attacker->ability == ABILITY_BLAZE && attacker->hp <= (attacker->maxHP / 3))
         gBattleMovePower = (150 * gBattleMovePower) / 100;
     if (type == TYPE_WATER && attacker->ability == ABILITY_TORRENT && attacker->hp <= (attacker->maxHP / 3))
         gBattleMovePower = (150 * gBattleMovePower) / 100;
-    if (type == TYPE_BUG && attacker->ability == ABILITY_SWARM && attacker->hp <= (attacker->maxHP / 3))
+    if (type == TYPE_DREAM && attacker->ability == ABILITY_SWARM && attacker->hp <= (attacker->maxHP / 3))
         gBattleMovePower = (150 * gBattleMovePower) / 100;
 
     // Self-destruct / Explosion cut defense in half
@@ -5218,13 +5218,13 @@ u16 HoennToNationalOrder(u16 hoennNum)
 
 u16 SpeciesToCryId(u16 species)
 {
-    if (species < SPECIES_OLD_UNOWN_B - 1)
+    if (species < SPECIES_DUMMY1 - 1)
         return species;
 
-    if (species <= SPECIES_OLD_UNOWN_Z - 1)
+    if (species <= SPECIES_SPEED_TENMA - 1)
         return SPECIES_UNOWN - 1;
 
-    return sHoennSpeciesIdToCryId[species - ((SPECIES_OLD_UNOWN_Z + 1) - 1)];
+    return sHoennSpeciesIdToCryId[species - ((SPECIES_SPEED_TENMA + 1) - 1)];
 }
 
 // Spots can be drawn on Spinda's color indexes 1, 2, or 3
@@ -5315,7 +5315,7 @@ u16 SpeciesToCryId(u16 species)
 // not it's the front pic.
 static void DrawSpindaSpotsUnused(u16 species, u32 personality, u8 *dest)
 {
-    if (species == SPECIES_SPINDA
+    if (species == SPECIES_ATTACK_TOKIKO
         && dest != gMonSpritesGfxPtr->sprites[B_POSITION_PLAYER_LEFT]
         && dest != gMonSpritesGfxPtr->sprites[B_POSITION_PLAYER_RIGHT])
         DRAW_SPINDA_SPOTS(personality, dest);
@@ -5323,7 +5323,7 @@ static void DrawSpindaSpotsUnused(u16 species, u32 personality, u8 *dest)
 
 void DrawSpindaSpots(u16 species, u32 personality, u8 *dest, bool8 isFrontPic)
 {
-    if (species == SPECIES_SPINDA && isFrontPic)
+    if (species == SPECIES_ATTACK_TOKIKO && isFrontPic)
         DRAW_SPINDA_SPOTS(personality, dest);
 }
 
@@ -6236,7 +6236,7 @@ static u16 GetDeoxysStat(struct Pokemon *mon, s32 statId)
     u16 statValue = 0;
     u8 nature;
 
-    if (gBattleTypeFlags & BATTLE_TYPE_LINK_IN_BATTLE || GetMonData(mon, MON_DATA_SPECIES, NULL) != SPECIES_DEOXYS)
+    if (gBattleTypeFlags & BATTLE_TYPE_LINK_IN_BATTLE || GetMonData(mon, MON_DATA_SPECIES, NULL) != SPECIES_AYAKASHI)
         return 0;
 
     ivVal = GetMonData(mon, MON_DATA_HP_IV + statId, NULL);
@@ -6255,7 +6255,7 @@ void SetDeoxysStats(void)
     {
         struct Pokemon *mon = &gPlayerParty[i];
 
-        if (GetMonData(mon, MON_DATA_SPECIES, NULL) != SPECIES_DEOXYS)
+        if (GetMonData(mon, MON_DATA_SPECIES, NULL) != SPECIES_AYAKASHI)
             continue;
         value = GetMonData(mon, MON_DATA_ATK, NULL);
         SetMonData(mon, MON_DATA_ATK, &value);
@@ -6315,7 +6315,7 @@ void HandleSetPokedexFlag(u16 nationalNum, u8 caseId, u32 personality)
         GetSetPokedexFlag(nationalNum, caseId);
         if (NationalPokedexNumToSpecies(nationalNum) == SPECIES_UNOWN)
             gSaveBlock2Ptr->pokedex.unownPersonality = personality;
-        if (NationalPokedexNumToSpecies(nationalNum) == SPECIES_SPINDA)
+        if (NationalPokedexNumToSpecies(nationalNum) == SPECIES_ATTACK_TOKIKO)
             gSaveBlock2Ptr->pokedex.spindaPersonality = personality;
     }
 }

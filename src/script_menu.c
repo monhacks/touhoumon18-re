@@ -1150,12 +1150,12 @@ bool8 OpenMuseumFossilPic(void)
         return TRUE;
     if (FindTaskIdByFunc(Task_WaitMuseumFossilPic) != TASK_NONE)
         return FALSE;
-    if (gSpecialVar_0x8004 == SPECIES_KABUTOPS)
+    if (gSpecialVar_0x8004 == SPECIES_REIMU)
     {
         LoadSpriteSheets(sMuseumKabutopsSprSheets);
         LoadPalette(sMuseumKabutopsSprPalette, OBJ_PLTT_ID(FOSSIL_PIC_PAL_NUM), sizeof(sMuseumKabutopsSprPalette));
     }
-    else if (gSpecialVar_0x8004 == SPECIES_AERODACTYL)
+    else if (gSpecialVar_0x8004 == SPECIES_CHIBI_BYAKUREN)
     {
         LoadSpriteSheets(sMuseumAerodactylSprSheets);
         LoadPalette(sMuseumAerodactylSprPalette, OBJ_PLTT_ID(FOSSIL_PIC_PAL_NUM), sizeof(sMuseumAerodactylSprPalette));

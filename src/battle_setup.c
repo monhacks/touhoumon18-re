@@ -296,7 +296,7 @@ static void DoTrainerBattle(void)
 
 void StartOldManTutorialBattle(void)
 {
-    CreateMaleMon(&gEnemyParty[0], SPECIES_WEEDLE, 5);
+    CreateMaleMon(&gEnemyParty[0], SPECIES_CHIBI_SHIZUHA, 5);
     LockPlayerFieldControls();
     gMain.savedCallback = CB2_ReturnToFieldContinueScriptPlayMapMusic;
     gBattleTypeFlags = BATTLE_TYPE_OLD_MAN_TUTORIAL;
@@ -320,7 +320,7 @@ void StartMarowakBattle(void)
     if (CheckBagHasItem(ITEM_SILPH_SCOPE, 1))
     {
         gBattleTypeFlags = BATTLE_TYPE_GHOST | BATTLE_TYPE_GHOST_UNVEILED;
-        CreateMonWithGenderNatureLetter(gEnemyParty, SPECIES_MAROWAK, 30, 31, MON_FEMALE, NATURE_SERIOUS, 0);
+        CreateMonWithGenderNatureLetter(gEnemyParty, SPECIES_LAYLA, 30, 31, MON_FEMALE, NATURE_SERIOUS, 0);
     }
     else
     {
@@ -352,17 +352,17 @@ void StartLegendaryBattle(void)
     species = GetMonData(&gEnemyParty[0], MON_DATA_SPECIES);
     switch (species)
     {
-    case SPECIES_MEWTWO:
+    case SPECIES_SARIEL:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_MEWTWO);
         break;
-    case SPECIES_DEOXYS:
+    case SPECIES_AYAKASHI:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_DEOXYS);
         break;
-    case SPECIES_MOLTRES:
-    case SPECIES_ARTICUNO:
-    case SPECIES_ZAPDOS:
-    case SPECIES_HO_OH:
-    case SPECIES_LUGIA:
+    case SPECIES_YUUGEN:
+    case SPECIES_KONGALA:
+    case SPECIES_KIKURI:
+    case SPECIES_MIMA:
+    case SPECIES_ELIS:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_VS_LEGEND);
         break;
     default:

@@ -694,7 +694,7 @@ static u16 GetEggSpecies(u16 species)
 //    for (dittoCount = 0, i = 0; i < DAYCARE_MON_COUNT; i++)
 //    {
 //        species[i] = GetBoxMonData(&daycare->mons[i].mon, MON_DATA_SPECIES);
-//        if (species[i] == SPECIES_DITTO)
+//        if (species[i] == SPECIES_KEDAMA)
 //            dittoCount++, slot = i;
 //    }
 //
@@ -986,18 +986,18 @@ void RejectEggFromDayCare(void)
 static void AlterEggSpeciesWithIncenseItem(u16 *species, struct DayCare *daycare)
 {
     u16 motherItem, fatherItem;
-    if (*species == SPECIES_WYNAUT || *species == SPECIES_AZURILL)
+    if (*species == SPECIES_ANGEL_VIVIT || *species == SPECIES_ATTACK_SUIKA)
     {
         motherItem = GetBoxMonData(&daycare->mons[0].mon, MON_DATA_HELD_ITEM);
         fatherItem = GetBoxMonData(&daycare->mons[1].mon, MON_DATA_HELD_ITEM);
-        if (*species == SPECIES_WYNAUT && motherItem != ITEM_LAX_INCENSE && fatherItem != ITEM_LAX_INCENSE)
+        if (*species == SPECIES_ANGEL_VIVIT && motherItem != ITEM_LAX_INCENSE && fatherItem != ITEM_LAX_INCENSE)
         {
-            *species = SPECIES_WOBBUFFET;
+            *species = SPECIES_CHIBI_YUKI;
         }
 
-        if (*species == SPECIES_AZURILL && motherItem != ITEM_SEA_INCENSE && fatherItem != ITEM_SEA_INCENSE)
+        if (*species == SPECIES_ATTACK_SUIKA && motherItem != ITEM_SEA_INCENSE && fatherItem != ITEM_SEA_INCENSE)
         {
-            *species = SPECIES_MARILL;
+            *species = SPECIES_CHIBI_KOTOHIME;
         }
     }
 }
@@ -1026,7 +1026,7 @@ static u16 DetermineEggSpeciesAndParentSlots(struct DayCare *daycare, u8 *parent
     for (i = 0; i < DAYCARE_MON_COUNT; i++)
     {
         species[i] = GetBoxMonData(&daycare->mons[i].mon, MON_DATA_SPECIES);
-        if (species[i] == SPECIES_DITTO)
+        if (species[i] == SPECIES_KEDAMA)
         {
             parentSlots[0] = i ^ 1;
             parentSlots[1] = i;
@@ -1039,17 +1039,17 @@ static u16 DetermineEggSpeciesAndParentSlots(struct DayCare *daycare, u8 *parent
     }
 
     eggSpecies = GetEggSpecies(species[parentSlots[0]]);
-    if (eggSpecies == SPECIES_NIDORAN_F && daycare->offspringPersonality & EGG_GENDER_MALE)
+    if (eggSpecies == SPECIES_SHANGHAI && daycare->offspringPersonality & EGG_GENDER_MALE)
     {
-        eggSpecies = SPECIES_NIDORAN_M;
+        eggSpecies = SPECIES_HOURAI;
     }
-    if (eggSpecies == SPECIES_ILLUMISE && daycare->offspringPersonality & EGG_GENDER_MALE)
+    if (eggSpecies == SPECIES_ATTACK_MURASA && daycare->offspringPersonality & EGG_GENDER_MALE)
     {
-        eggSpecies = SPECIES_VOLBEAT;
+        eggSpecies = SPECIES_DEFENSE_MURASA;
     }
 
     // Make Ditto the "mother" slot if the other daycare mon is male.
-    if (species[parentSlots[1]] == SPECIES_DITTO && GetBoxMonGender(&daycare->mons[parentSlots[0]].mon) != MON_FEMALE)
+    if (species[parentSlots[1]] == SPECIES_KEDAMA && GetBoxMonGender(&daycare->mons[parentSlots[0]].mon) != MON_FEMALE)
     {
         u8 ditto = parentSlots[1];
         parentSlots[1] = parentSlots[0];
@@ -1072,7 +1072,7 @@ static void _GiveEggFromDaycare(struct DayCare *daycare)
     InheritIVs(&egg, daycare);
     BuildEggMoveset(&egg, &daycare->mons[parentSlots[1]].mon, &daycare->mons[parentSlots[0]].mon);
 
-    /*if (species == SPECIES_PICHU)
+    /*if (species == SPECIES_SARA)
         GiveVoltTackleIfLightBall(&egg, daycare);*/
 
     isEgg = TRUE;

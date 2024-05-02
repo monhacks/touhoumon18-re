@@ -394,23 +394,23 @@ static const struct SpriteTemplate sSpriteTemplate_Disc = {
 };
 
 static const u16 sTMSpritePaletteOffsetByType[NUMBER_OF_MON_TYPES] = {
-    [TYPE_NORMAL]   = 0x000,
+    [TYPE_ILLUSION]   = 0x000,
     [TYPE_FIRE]     = 0x010,
     [TYPE_WATER]    = 0x020,
-    [TYPE_GRASS]    = 0x030,
-    [TYPE_ELECTRIC] = 0x040,
-    [TYPE_ROCK]     = 0x050,
-    [TYPE_GROUND]   = 0x060,
+    [TYPE_NATIVE]    = 0x030,
+    [TYPE_WIND] = 0x040,
+    [TYPE_BEAST]     = 0x050,
+    [TYPE_EARTH]   = 0x060,
     [TYPE_ICE]      = 0x070,
     [TYPE_FLYING]   = 0x080,
-    [TYPE_FIGHTING] = 0x090,
+    [TYPE_DARK2] = 0x090,
     [TYPE_GHOST]    = 0x0a0,
-    [TYPE_BUG]      = 0x0b0,
-    [TYPE_POISON]   = 0x0c0,
-    [TYPE_PSYCHIC]  = 0x0d0,
+    [TYPE_DREAM]      = 0x0b0,
+    [TYPE_MIASMA]   = 0x0c0,
+    [TYPE_REASON]  = 0x0d0,
     [TYPE_STEEL]    = 0x0e0,
-    [TYPE_DARK]     = 0x0f0,
-    [TYPE_DRAGON]   = 0x100
+    [TYPE_HEART]     = 0x0f0,
+    [TYPE_FAITH]   = 0x100
 };
 
 void InitTMCase(u8 type, void (* exitCallback)(void), bool8 allowSelectClose)

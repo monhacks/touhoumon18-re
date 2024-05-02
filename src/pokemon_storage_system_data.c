@@ -1101,7 +1101,7 @@ static void SetDisplayMonData(void *pokemon, u8 mode)
     }
     else
     {
-        if (gStorage->displayMonSpecies == SPECIES_NIDORAN_F || gStorage->displayMonSpecies == SPECIES_NIDORAN_M)
+        if (gStorage->displayMonSpecies == SPECIES_SHANGHAI || gStorage->displayMonSpecies == SPECIES_HOURAI)
             gender = MON_GENDERLESS;
 
         // Buffer nickname

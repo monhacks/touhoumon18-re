@@ -1611,18 +1611,18 @@ enum
 u8 CastformDataTypeChange(u8 battler)
 {
     u8 formChange = 0;
-    if (gBattleMons[battler].species != SPECIES_CASTFORM || gBattleMons[battler].ability != ABILITY_FORECAST || gBattleMons[battler].hp == 0)
+    if (gBattleMons[battler].species != SPECIES_FAIRY || gBattleMons[battler].ability != ABILITY_FORECAST || gBattleMons[battler].hp == 0)
         return CASTFORM_NO_CHANGE;
-    if (!WEATHER_HAS_EFFECT && !IS_BATTLER_OF_TYPE(battler, TYPE_NORMAL))
+    if (!WEATHER_HAS_EFFECT && !IS_BATTLER_OF_TYPE(battler, TYPE_ILLUSION))
     {
-        SET_BATTLER_TYPE(battler, TYPE_NORMAL);
+        SET_BATTLER_TYPE(battler, TYPE_ILLUSION);
         return CASTFORM_TO_NORMAL;
     }
     if (!WEATHER_HAS_EFFECT)
         return CASTFORM_NO_CHANGE;
-    if (!(gBattleWeather & (B_WEATHER_RAIN | B_WEATHER_SUN | B_WEATHER_HAIL)) && !IS_BATTLER_OF_TYPE(battler, TYPE_NORMAL))
+    if (!(gBattleWeather & (B_WEATHER_RAIN | B_WEATHER_SUN | B_WEATHER_HAIL)) && !IS_BATTLER_OF_TYPE(battler, TYPE_ILLUSION))
     {
-        SET_BATTLER_TYPE(battler, TYPE_NORMAL);
+        SET_BATTLER_TYPE(battler, TYPE_ILLUSION);
         formChange = CASTFORM_TO_NORMAL;
     }
     if (gBattleWeather & B_WEATHER_SUN && !IS_BATTLER_OF_TYPE(battler, TYPE_FIRE))
@@ -1894,7 +1894,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u8 ability, u8 special, u16 moveA
                 switch (gLastUsedAbility)
                 {
                 case ABILITY_VOLT_ABSORB:
-                    if (moveType == TYPE_ELECTRIC && gBattleMoves[move].power != 0)
+                    if (moveType == TYPE_WIND && gBattleMoves[move].power != 0)
                     {
                         if (gProtectStructs[gBattlerAttacker].notFirstStrike)
                             gBattlescriptCurrInstr = BattleScript_MoveHPDrain;
@@ -3075,7 +3075,7 @@ u8 GetMoveTarget(u16 move, u8 setTarget)
             {
                 targetBattler = Random() % gBattlersCount;
             } while (targetBattler == gBattlerAttacker || side == GetBattlerSide(targetBattler) || gAbsentBattlerFlags & gBitTable[targetBattler]);
-            if (gBattleMoves[move].type == TYPE_ELECTRIC
+            if (gBattleMoves[move].type == TYPE_WIND
                 && AbilityBattleEffects(ABILITYEFFECT_COUNT_OTHER_SIDE, gBattlerAttacker, ABILITY_LIGHTNING_ROD, 0, 0)
                 && gBattleMons[targetBattler].ability != ABILITY_LIGHTNING_ROD)
             {
@@ -3134,8 +3134,8 @@ static bool32 IsBattlerModernFatefulEncounter(u8 battlerId)
 {
     if (GetBattlerSide(battlerId) == B_SIDE_OPPONENT)
         return TRUE;
-    if (GetMonData(&gPlayerParty[gBattlerPartyIndexes[battlerId]], MON_DATA_SPECIES, NULL) != SPECIES_DEOXYS
-        && GetMonData(&gPlayerParty[gBattlerPartyIndexes[battlerId]], MON_DATA_SPECIES, NULL) != SPECIES_MEW)
+    if (GetMonData(&gPlayerParty[gBattlerPartyIndexes[battlerId]], MON_DATA_SPECIES, NULL) != SPECIES_AYAKASHI
+        && GetMonData(&gPlayerParty[gBattlerPartyIndexes[battlerId]], MON_DATA_SPECIES, NULL) != SPECIES_SATSUKI)
             return TRUE;
     return GetMonData(&gPlayerParty[gBattlerPartyIndexes[battlerId]], MON_DATA_MODERN_FATEFUL_ENCOUNTER, NULL);
 }

@@ -21,9 +21,9 @@ ThreeIsland_BerryForest_EventScript_Lostelle::
 	msgbox ThreeIsland_BerryForest_Text_HereItComesAgain
 	goto_if_questlog EventScript_ReleaseEnd
 	waitse
-	playmoncry SPECIES_HYPNO, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_SAKUYA, CRY_MODE_ENCOUNTER
 	waitmoncry
-	setwildbattle SPECIES_HYPNO, 30
+	setwildbattle SPECIES_SAKUYA, 30
 	dowildbattle
 	special QuestLog_CutRecording
 	applymovement LOCALID_LOSTELLE, Common_Movement_FacePlayer

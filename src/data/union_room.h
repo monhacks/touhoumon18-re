@@ -248,23 +248,23 @@ static const struct WindowTemplate sWindowTemplate_TypeNames = {
 };
 
 static const struct ListMenuItem sListMenuItems_TypeNames[NUMBER_OF_MON_TYPES] = {
-    { gTypeNames[TYPE_NORMAL],   TYPE_NORMAL         },
+    { gTypeNames[TYPE_ILLUSION],   TYPE_ILLUSION         },
     { gTypeNames[TYPE_FIRE],     TYPE_FIRE           },
     { gTypeNames[TYPE_WATER],    TYPE_WATER          },
-    { gTypeNames[TYPE_ELECTRIC], TYPE_ELECTRIC       },
-    { gTypeNames[TYPE_GRASS],    TYPE_GRASS          },
+    { gTypeNames[TYPE_WIND], TYPE_WIND       },
+    { gTypeNames[TYPE_NATIVE],    TYPE_NATIVE          },
     { gTypeNames[TYPE_ICE],      TYPE_ICE            },
-    { gTypeNames[TYPE_GROUND],   TYPE_GROUND         },
-    { gTypeNames[TYPE_ROCK],     TYPE_ROCK           },
+    { gTypeNames[TYPE_EARTH],   TYPE_EARTH         },
+    { gTypeNames[TYPE_BEAST],     TYPE_BEAST           },
     { gTypeNames[TYPE_FLYING],   TYPE_FLYING         },
-    { gTypeNames[TYPE_PSYCHIC],  TYPE_PSYCHIC        },
-    { gTypeNames[TYPE_FIGHTING], TYPE_FIGHTING       },
-    { gTypeNames[TYPE_POISON],   TYPE_POISON         },
-    { gTypeNames[TYPE_BUG],      TYPE_BUG            },
+    { gTypeNames[TYPE_REASON],  TYPE_REASON        },
+    { gTypeNames[TYPE_DARK2], TYPE_DARK2       },
+    { gTypeNames[TYPE_MIASMA],   TYPE_MIASMA         },
+    { gTypeNames[TYPE_DREAM],      TYPE_DREAM            },
     { gTypeNames[TYPE_GHOST],    TYPE_GHOST          },
-    { gTypeNames[TYPE_DRAGON],   TYPE_DRAGON         },
+    { gTypeNames[TYPE_FAITH],   TYPE_FAITH         },
     { gTypeNames[TYPE_STEEL],    TYPE_STEEL          },
-    { gTypeNames[TYPE_DARK],     TYPE_DARK           },
+    { gTypeNames[TYPE_HEART],     TYPE_HEART           },
     { gText_UR_Exit,             NUMBER_OF_MON_TYPES }
 };
 

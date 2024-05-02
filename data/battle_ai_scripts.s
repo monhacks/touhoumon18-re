@@ -67,7 +67,7 @@ AI_CBM_CheckIfNegatesType::
 
 CheckIfVoltAbsorbCancelsElectric::
 	get_curr_move_type
-	if_equal_ TYPE_ELECTRIC, Score_Minus12
+	if_equal_ TYPE_WIND, Score_Minus12
 	goto AI_CheckBadMove_CheckSoundproof
 
 CheckIfWaterAbsorbCancelsWater::
@@ -86,7 +86,7 @@ CheckIfWonderGuardCancelsMove::
 
 CheckIfLevitateCancelsGroundMove::
 	get_curr_move_type
-	if_equal_ TYPE_GROUND, Score_Minus10
+	if_equal_ TYPE_EARTH, Score_Minus10
 
 AI_CheckBadMove_CheckSoundproof::
 	get_ability AI_TARGET
@@ -344,10 +344,10 @@ AI_CBM_Roar::
 AI_CBM_Poison::
 	get_target_type1
 	if_equal TYPE_STEEL, Score_Minus10
-	if_equal TYPE_POISON, Score_Minus10
+	if_equal TYPE_MIASMA, Score_Minus10
 	get_target_type2
 	if_equal TYPE_STEEL, Score_Minus10
-	if_equal TYPE_POISON, Score_Minus10
+	if_equal TYPE_MIASMA, Score_Minus10
 	get_ability AI_TARGET
 	if_equal ABILITY_IMMUNITY, Score_Minus10
 	if_status AI_TARGET, STATUS1_ANY, Score_Minus10
@@ -414,9 +414,9 @@ AI_CBM_Substitute::
 AI_CBM_LeechSeed::
 	if_status3 AI_TARGET, STATUS3_LEECHSEED, Score_Minus10
 	get_target_type1
-	if_equal TYPE_GRASS, Score_Minus10
+	if_equal TYPE_NATIVE, Score_Minus10
 	get_target_type2
-	if_equal TYPE_GRASS, Score_Minus10
+	if_equal TYPE_NATIVE, Score_Minus10
 	end
 
 AI_CBM_Disable::
@@ -959,13 +959,13 @@ AI_CV_DefenseUp_End::
 	end
 
 AI_CV_DefenseUp_PhysicalTypes::
-	.byte TYPE_NORMAL
-	.byte TYPE_FIGHTING
-	.byte TYPE_POISON
-	.byte TYPE_GROUND
+	.byte TYPE_ILLUSION
+	.byte TYPE_DARK2
+	.byte TYPE_MIASMA
+	.byte TYPE_EARTH
 	.byte TYPE_FLYING
-	.byte TYPE_ROCK
-	.byte TYPE_BUG
+	.byte TYPE_BEAST
+	.byte TYPE_DREAM
 	.byte TYPE_GHOST
 	.byte TYPE_STEEL
 	.byte -1
@@ -1039,13 +1039,13 @@ AI_CV_SpDefUp_End::
 	end
 
 AI_CV_SpDefUp_PhysicalTypes::
-	.byte TYPE_NORMAL
-	.byte TYPE_FIGHTING
-	.byte TYPE_POISON
-	.byte TYPE_GROUND
+	.byte TYPE_ILLUSION
+	.byte TYPE_DARK2
+	.byte TYPE_MIASMA
+	.byte TYPE_EARTH
 	.byte TYPE_FLYING
-	.byte TYPE_ROCK
-	.byte TYPE_BUG
+	.byte TYPE_BEAST
+	.byte TYPE_DREAM
 	.byte TYPE_GHOST
 	.byte TYPE_STEEL
 	.byte -1
@@ -1154,11 +1154,11 @@ AI_CV_AttackDown_End::
 
 @ Missing Poison, Flying, and Ghost for unknown reason
 AI_CV_AttackDown_PhysicalTypeList::
-	.byte TYPE_NORMAL
-	.byte TYPE_FIGHTING
-	.byte TYPE_GROUND
-	.byte TYPE_ROCK
-	.byte TYPE_BUG
+	.byte TYPE_ILLUSION
+	.byte TYPE_DARK2
+	.byte TYPE_EARTH
+	.byte TYPE_BEAST
+	.byte TYPE_DREAM
 	.byte TYPE_STEEL
 	.byte -1
 
@@ -1224,12 +1224,12 @@ AI_CV_SpAtkDown_End::
 AI_CV_SpAtkDown_SpecialTypeList::
 	.byte TYPE_FIRE
 	.byte TYPE_WATER
-	.byte TYPE_GRASS
-	.byte TYPE_ELECTRIC
-	.byte TYPE_PSYCHIC
+	.byte TYPE_NATIVE
+	.byte TYPE_WIND
+	.byte TYPE_REASON
 	.byte TYPE_ICE
-	.byte TYPE_DRAGON
-	.byte TYPE_DARK
+	.byte TYPE_FAITH
+	.byte TYPE_HEART
 	.byte -1
 
 AI_CV_SpDefDown::
@@ -1465,12 +1465,12 @@ AI_CV_LightScreen_End::
 AI_CV_LightScreen_SpecialTypeList::
 	.byte TYPE_FIRE
 	.byte TYPE_WATER
-	.byte TYPE_GRASS
-	.byte TYPE_ELECTRIC
-	.byte TYPE_PSYCHIC
+	.byte TYPE_NATIVE
+	.byte TYPE_WIND
+	.byte TYPE_REASON
 	.byte TYPE_ICE
-	.byte TYPE_DRAGON
-	.byte TYPE_DARK
+	.byte TYPE_FAITH
+	.byte TYPE_HEART
 	.byte -1
 
 AI_CV_Rest::
@@ -1598,13 +1598,13 @@ AI_CV_Reflect_End::
 	end
 
 AI_CV_Reflect_PhysicalTypeList::
-	.byte TYPE_NORMAL
-	.byte TYPE_FIGHTING
+	.byte TYPE_ILLUSION
+	.byte TYPE_DARK2
 	.byte TYPE_FLYING
-	.byte TYPE_POISON
-	.byte TYPE_GROUND
-	.byte TYPE_ROCK
-	.byte TYPE_BUG
+	.byte TYPE_MIASMA
+	.byte TYPE_EARTH
+	.byte TYPE_BEAST
+	.byte TYPE_DREAM
 	.byte TYPE_GHOST
 	.byte TYPE_STEEL
 	.byte -1
@@ -1779,13 +1779,13 @@ AI_CV_Counter_End::
 	end
 
 AI_CV_Counter_PhysicalTypeList::
-	.byte TYPE_NORMAL
-	.byte TYPE_FIGHTING
+	.byte TYPE_ILLUSION
+	.byte TYPE_DARK2
 	.byte TYPE_FLYING
-	.byte TYPE_POISON
-	.byte TYPE_GROUND
-	.byte TYPE_ROCK
-	.byte TYPE_BUG
+	.byte TYPE_MIASMA
+	.byte TYPE_EARTH
+	.byte TYPE_BEAST
+	.byte TYPE_DREAM
 	.byte TYPE_GHOST
 	.byte TYPE_STEEL
 	.byte -1
@@ -2142,11 +2142,11 @@ AI_CV_Pursuit::
 	get_target_type1
 	if_equal TYPE_GHOST, AI_CV_Pursuit2
 	get_target_type1
-	if_equal TYPE_PSYCHIC, AI_CV_Pursuit2
+	if_equal TYPE_REASON, AI_CV_Pursuit2
 	get_target_type2
 	if_equal TYPE_GHOST, AI_CV_Pursuit2
 	get_target_type2
-	if_equal TYPE_PSYCHIC, AI_CV_Pursuit2
+	if_equal TYPE_REASON, AI_CV_Pursuit2
 	goto AI_CV_Pursuit_End
 
 AI_CV_Pursuit2::
@@ -2299,12 +2299,12 @@ AI_CV_MirrorCoat_End::
 AI_CV_MirrorCoat_SpecialTypeList::
 	.byte TYPE_FIRE
 	.byte TYPE_WATER
-	.byte TYPE_GRASS
-	.byte TYPE_ELECTRIC
-	.byte TYPE_PSYCHIC
+	.byte TYPE_NATIVE
+	.byte TYPE_WIND
+	.byte TYPE_REASON
 	.byte TYPE_ICE
-	.byte TYPE_DRAGON
-	.byte TYPE_DARK
+	.byte TYPE_FAITH
+	.byte TYPE_HEART
 	.byte -1
 
 AI_CV_ChargeUpMove::
@@ -2366,8 +2366,8 @@ AI_CV_SemiInvulnerable_End::
 	end
 
 AI_CV_SandstormResistantTypes::
-	.byte TYPE_GROUND
-	.byte TYPE_ROCK
+	.byte TYPE_EARTH
+	.byte TYPE_BEAST
 	.byte TYPE_STEEL
 	.byte -1
 
@@ -2701,9 +2701,9 @@ AI_CV_Snatch_End::
 AI_CV_MudSport::
 	if_hp_less_than AI_USER, 50, AI_CV_MudSport_ScoreDown1
 	get_target_type1
-	if_equal TYPE_ELECTRIC, AI_CV_MudSport2
+	if_equal TYPE_WIND, AI_CV_MudSport2
 	get_target_type2
-	if_equal TYPE_ELECTRIC, AI_CV_MudSport2
+	if_equal TYPE_WIND, AI_CV_MudSport2
 	goto AI_CV_MudSport_ScoreDown1
 
 AI_CV_MudSport2::

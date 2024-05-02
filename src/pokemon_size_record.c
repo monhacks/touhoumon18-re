@@ -161,14 +161,14 @@ void GetHeracrossSizeRecordInfo(void)
 {
     u16 *sizeRecord = GetVarPointer(VAR_HERACROSS_SIZE_RECORD);
 
-    GetMonSizeRecordInfo(SPECIES_HERACROSS, sizeRecord);
+    GetMonSizeRecordInfo(SPECIES_TECHNICAL_REISEN, sizeRecord);
 }
 
 void CompareHeracrossSize(void)
 {
     u16 *sizeRecord = GetVarPointer(VAR_HERACROSS_SIZE_RECORD);
 
-    gSpecialVar_Result = CompareMonSize(SPECIES_HERACROSS, sizeRecord);
+    gSpecialVar_Result = CompareMonSize(SPECIES_TECHNICAL_REISEN, sizeRecord);
 }
 
 void InitMagikarpSizeRecord(void)
@@ -180,14 +180,14 @@ void GetMagikarpSizeRecordInfo(void)
 {
     u16 *sizeRecord = GetVarPointer(VAR_MAGIKARP_SIZE_RECORD);
 
-    GetMonSizeRecordInfo(SPECIES_MAGIKARP, sizeRecord);
+    GetMonSizeRecordInfo(SPECIES_WRIGGLE, sizeRecord);
 }
 
 void CompareMagikarpSize(void)
 {
     u16 *sizeRecord = GetVarPointer(VAR_MAGIKARP_SIZE_RECORD);
 
-    gSpecialVar_Result = CompareMonSize(SPECIES_MAGIKARP, sizeRecord);
+    gSpecialVar_Result = CompareMonSize(SPECIES_WRIGGLE, sizeRecord);
 }
 
 void GiveGiftRibbonToParty(u8 index, u8 ribbonId)

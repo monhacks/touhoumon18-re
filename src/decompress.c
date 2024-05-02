@@ -107,7 +107,7 @@ void LoadSpecialPokePic(const struct CompressedSpriteSheet *src, void *dest, s32
 
 static void DuplicateDeoxysTiles(void *pointer, s32 species)
 {
-    if (species == SPECIES_DEOXYS)
+    if (species == SPECIES_AYAKASHI)
         CpuCopy32(pointer + 0x800, pointer, 0x800);
 }
 

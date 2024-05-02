@@ -1798,7 +1798,7 @@ static bool16 IsMonAllowedInPokemonJump(struct Pokemon *mon)
 
 static bool16 IsMonAllowedInDodrioBerryPicking(struct Pokemon *mon)
 {
-    if (GetMonData(mon, MON_DATA_IS_EGG) != TRUE && GetMonData(mon, MON_DATA_SPECIES) == SPECIES_DODRIO)
+    if (GetMonData(mon, MON_DATA_IS_EGG) != TRUE && GetMonData(mon, MON_DATA_SPECIES) == SPECIES_DAIYOUSEI)
         return TRUE;
     return FALSE;
 }
@@ -1907,17 +1907,17 @@ static bool8 CanLearnTutorMove(u16 species, u8 tutor)
     switch (tutor)
     {
     case TUTOR_MOVE_FRENZY_PLANT:
-        if (species == SPECIES_VENUSAUR)
+        if (species == SPECIES_CHIBI_ALICE)
             return TRUE;
         else
             return FALSE;
     case TUTOR_MOVE_BLAST_BURN:
-        if (species == SPECIES_CHARIZARD)
+        if (species == SPECIES_REISEN)
             return TRUE;
         else
             return FALSE;
     case TUTOR_MOVE_HYDRO_CANNON:
-        if (species == SPECIES_BLASTOISE)
+        if (species == SPECIES_CHIBI_LILY_BLACK)
             return TRUE;
         else
             return FALSE;
@@ -2351,7 +2351,7 @@ static void DisplayPartyPokemonGender(u8 gender, u16 species, u8 *nickname, stru
 
     if (species == SPECIES_NONE)
         return;
-    if ((species == SPECIES_NIDORAN_M || species == SPECIES_NIDORAN_F) && StringCompare(nickname, gSpeciesNames[species]) == 0)
+    if ((species == SPECIES_HOURAI || species == SPECIES_SHANGHAI) && StringCompare(nickname, gSpeciesNames[species]) == 0)
         return;
     switch (gender)
     {
@@ -4402,7 +4402,7 @@ static void GetMedicineItemEffectMessage(u16 item)
 
 static bool8 NotUsingHPEVItemOnShedinja(struct Pokemon *mon, u16 item)
 {
-    if (GetItemEffectType(item) == ITEM_EFFECT_HP_EV && GetMonData(mon, MON_DATA_SPECIES) == SPECIES_SHEDINJA)
+    if (GetItemEffectType(item) == ITEM_EFFECT_HP_EV && GetMonData(mon, MON_DATA_SPECIES) == SPECIES_ZOMBIE_FAIRY)
         return FALSE;
     return TRUE;
 }

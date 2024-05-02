@@ -1375,24 +1375,24 @@ static const u8 sText_PlayerBattledToDrawTrainer1[] = _("Player battled to a dra
 
 static const u8 *const sATypeMove_Table[NUMBER_OF_MON_TYPES] =
 {
-    [TYPE_NORMAL]   = gText_ANormalMove,
-    [TYPE_FIGHTING] = gText_AFightingMove,
+    [TYPE_ILLUSION]   = gText_ANormalMove,
+    [TYPE_DARK2] = gText_AFightingMove,
     [TYPE_FLYING]   = gText_AFlyingMove,
-    [TYPE_POISON]   = gText_APoisonMove,
-    [TYPE_GROUND]   = gText_AGroundMove,
-    [TYPE_ROCK]     = gText_ARockMove,
-    [TYPE_BUG]      = gText_ABugMove,
+    [TYPE_MIASMA]   = gText_APoisonMove,
+    [TYPE_EARTH]   = gText_AGroundMove,
+    [TYPE_BEAST]     = gText_ARockMove,
+    [TYPE_DREAM]      = gText_ABugMove,
     [TYPE_GHOST]    = gText_AGhostMove,
     [TYPE_STEEL]    = gText_ASteelMove,
     [TYPE_MYSTERY]  = gText_AMysteryMove,
     [TYPE_FIRE]     = gText_AFireMove,
     [TYPE_WATER]    = gText_AWaterMove,
-    [TYPE_GRASS]    = gText_AGrassMove,
-    [TYPE_ELECTRIC] = gText_AnElectricMove,
-    [TYPE_PSYCHIC]  = gText_APsychicMove,
+    [TYPE_NATIVE]    = gText_AGrassMove,
+    [TYPE_WIND] = gText_AnElectricMove,
+    [TYPE_REASON]  = gText_APsychicMove,
     [TYPE_ICE]      = gText_AnIceMove,
-    [TYPE_DRAGON]   = gText_ADragonMove,
-    [TYPE_DARK]     = gText_ADarkMove
+    [TYPE_FAITH]   = gText_ADragonMove,
+    [TYPE_HEART]     = gText_ADarkMove
 };
 
 static const u16 sGrammarMoveUsedTable[] =
