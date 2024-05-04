@@ -621,7 +621,7 @@ static const u16 sDexCategory_MountainPkmn_Page11[] = {
 static const u16 sDexCategory_MountainPkmn_Page12[] = {
     SPECIES_ATTACK_UTSUHO,
     SPECIES_SPEED_UTSUHO,
-    SPECIES_DEFENSE_MOMJI,
+    SPECIES_DEFENSE_MOMIJI,
 };
 
 static const u16 sDexCategory_MountainPkmn_Page13[] = {

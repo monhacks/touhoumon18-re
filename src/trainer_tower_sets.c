@@ -3970,7 +3970,7 @@ static const struct TrainerTowerFloor sTrainerTowerFloor_Knockout_8 = {
 					.friendship = 255
 				},
 				{
-					.species = SPECIES_DEFENSE_MOMJI,
+					.species = SPECIES_DEFENSE_MOMIJI,
 					.heldItem = ITEM_SALAC_BERRY,
 					.moves = {MOVE_EARTHQUAKE, MOVE_CRUNCH, MOVE_THUNDER, MOVE_FIRE_BLAST},
 					.hpEV = 255,

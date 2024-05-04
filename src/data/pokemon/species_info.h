@@ -7198,7 +7198,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
-    [SPECIES_DEFENSE_MOMJI] =
+    [SPECIES_DEFENSE_MOMIJI] =
     {
         .baseHP = 100,
         .baseAttack = 134,

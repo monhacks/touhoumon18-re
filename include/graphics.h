@@ -2437,10 +2437,10 @@ extern const u32 gMonPalette_CircledQuestionMark[];
 extern const u32 gMonShinyPalette_CircledQuestionMark[];
 extern const u8 gMonIcon_QuestionMark[];
 extern const u8 gMonFootprint_QuestionMark[];
-extern const u32 gMonFrontPic_DoubleQuestionMark[];
-extern const u32 gMonBackPic_DoubleQuestionMark[];
-extern const u32 gMonPalette_DoubleQuestionMark[];
-extern const u32 gMonShinyPalette_DoubleQuestionMark[];
+extern const u32 gMonFrontPic_Dummy[];
+extern const u32 gMonBackPic_Dummy[];
+extern const u32 gMonPalette_Dummy[];
+extern const u32 gMonShinyPalette_Dummy[];
 
 // trainer sprites
 extern const u32 gTrainerFrontPic_AquaLeaderArchie[];
