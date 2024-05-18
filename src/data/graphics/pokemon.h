@@ -2804,23 +2804,12 @@ const u32 gMonShinyPalette_TensokuG[] = INCBIN_U32("graphics/pokemon/tensokug/sh
 const u8 gMonIcon_TensokuG[] = INCBIN_U8("graphics/pokemon/tensokug/icon.4bpp");
 const u8 gMonFootprint_TensokuG[] = INCBIN_U8("graphics/pokemon/tensokug/footprint.1bpp");
 
-//#ifdef FIRERED
 const u32 gMonFrontPic_Ayakashi[] = INCBIN_U32("graphics/pokemon/ayakashi/front.4bpp.lz");
 const u32 gMonPalette_Ayakashi[] = INCBIN_U32("graphics/pokemon/ayakashi/normal.gbapal.lz");
 const u32 gMonBackPic_Ayakashi[] = INCBIN_U32("graphics/pokemon/ayakashi/back.4bpp.lz");
 const u32 gMonShinyPalette_Ayakashi[] = INCBIN_U32("graphics/pokemon/ayakashi/shiny.gbapal.lz");
 const u8 gMonIcon_Ayakashi[] = INCBIN_U8("graphics/pokemon/ayakashi/icon.4bpp");
 const u8 gMonFootprint_Ayakashi[] = INCBIN_U8("graphics/pokemon/ayakashi/footprint.1bpp");
-//#endif
-
-//#ifdef LEAFGREEN
-//const u32 gMonFrontPic_Deoxys[] = INCBIN_U32("graphics/pokemon/deoxys/front_def.4bpp.lz");
-//const u32 gMonPalette_Deoxys[] = INCBIN_U32("graphics/pokemon/deoxys/normal.gbapal.lz");
-//const u32 gMonBackPic_Deoxys[] = INCBIN_U32("graphics/pokemon/deoxys/back_def.4bpp.lz");
-//const u32 gMonShinyPalette_Deoxys[] = INCBIN_U32("graphics/pokemon/deoxys/shiny.gbapal.lz");
-//const u8 gMonIcon_Deoxys[] = INCBIN_U8("graphics/pokemon/deoxys/icon.4bpp", "graphics/pokemon/deoxys/icon_defense.4bpp");
-//const u8 gMonFootprint_Deoxys[] = INCBIN_U8("graphics/pokemon/deoxys/footprint.1bpp");
-//#endif
 
 const u32 gMonFrontPic_ChibiVIVIT[] = INCBIN_U32("graphics/pokemon/cvivit/front.4bpp.lz");
 const u32 gMonPalette_ChibiVIVIT[] = INCBIN_U32("graphics/pokemon/cvivit/normal.gbapal.lz");
